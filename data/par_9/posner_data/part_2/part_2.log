@@ -1,0 +1,3816 @@
+27.5213 	WARNING 	User requested fullscreen with size [600 600], but screen is actually [1920, 1080]. Using actual size
+28.3393 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F6B7C979E8>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001F6B7D4D208>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+28.3393 	EXP 	window1: recordFrameIntervals = False
+28.5055 	EXP 	window1: recordFrameIntervals = True
+28.6890 	EXP 	window1: recordFrameIntervals = False
+29.0693 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Start', units='height', win=Window(...), wrapWidth=1)
+29.0698 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+29.0732 	EXP 	Created fixation_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation_1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+29.0749 	EXP 	Created fixation_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+29.0864 	EXP 	Created cue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/arrow-left.png', interpolate=True, mask=None, maskParams=None, name='cue', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([0.1, 0.1]), texRes=128, units='height', win=Window(...))
+29.0882 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='images/circle_red.png', interpolate=True, mask=None, maskParams=None, name='target', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), texRes=128, units='height', win=Window(...))
+29.1128 	EXP 	Created break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='break_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Please take a 60 second break.', units='height', win=Window(...), wrapWidth=1)
+29.1131 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+29.3434 	EXP 	New trial (rep=0, index=0): None
+30.3730 	EXP 	text_2: autoDraw = True
+32.1400 	EXP 	text_2: autoDraw = False
+32.2565 	EXP 	text: autoDraw = True
+32.3532 	EXP 	Imported conditions.csv as conditions, 8 conditions, 6 params
+32.3535 	EXP 	Created sequence: random, trialTypes=8, nReps=11, seed=None
+32.5787 	EXP 	New trial (rep=0, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+32.5889 	EXP 	text: autoDraw = False
+32.5889 	EXP 	cue: ori = 0.0
+32.5889 	EXP 	target: pos = array([-0.5,  0. ])
+32.5889 	EXP 	fixation_1: autoDraw = True
+33.0902 	EXP 	fixation_1: autoDraw = False
+33.1069 	EXP 	cue: autoDraw = True
+33.7906 	EXP 	cue: autoDraw = False
+33.8070 	EXP 	fixation_2: autoDraw = True
+34.3073 	EXP 	target: autoDraw = True
+34.7909 	EXP 	target: autoDraw = False
+35.0265 	EXP 	New trial (rep=0, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+35.0408 	EXP 	fixation_1: autoDraw = False
+35.0408 	EXP 	fixation_2: autoDraw = False
+35.0408 	EXP 	cue: autoDraw = False
+35.0408 	EXP 	target: autoDraw = False
+35.0408 	EXP 	cue: ori = 180.0
+35.0408 	EXP 	target: pos = array([0.5, 0. ])
+35.0408 	EXP 	fixation_1: autoDraw = True
+35.0602 	DATA 	Keypress: left
+35.5411 	EXP 	fixation_1: autoDraw = False
+35.5575 	EXP 	cue: autoDraw = True
+36.2413 	EXP 	cue: autoDraw = False
+36.2577 	EXP 	fixation_2: autoDraw = True
+36.7578 	EXP 	target: autoDraw = True
+37.2139 	EXP 	New trial (rep=0, index=2): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+37.2167 	DATA 	Keypress: right
+37.2254 	EXP 	fixation_1: autoDraw = False
+37.2254 	EXP 	fixation_2: autoDraw = False
+37.2254 	EXP 	cue: autoDraw = False
+37.2254 	EXP 	target: autoDraw = False
+37.2254 	EXP 	cue: ori = 180.0
+37.2254 	EXP 	target: pos = array([0.5, 0. ])
+37.2254 	EXP 	fixation_1: autoDraw = True
+37.7251 	EXP 	fixation_1: autoDraw = False
+37.7416 	EXP 	cue: autoDraw = True
+38.4254 	EXP 	cue: autoDraw = False
+38.4421 	EXP 	fixation_2: autoDraw = True
+38.9421 	EXP 	target: autoDraw = True
+39.3138 	DATA 	Keypress: right
+39.3311 	EXP 	New trial (rep=0, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+39.3428 	EXP 	fixation_1: autoDraw = False
+39.3428 	EXP 	fixation_2: autoDraw = False
+39.3428 	EXP 	cue: autoDraw = False
+39.3428 	EXP 	target: autoDraw = False
+39.3428 	EXP 	cue: ori = 180.0
+39.3428 	EXP 	target: pos = array([0.5, 0. ])
+39.3428 	EXP 	fixation_1: autoDraw = True
+39.8423 	EXP 	fixation_1: autoDraw = False
+39.8588 	EXP 	cue: autoDraw = True
+40.5424 	EXP 	cue: autoDraw = False
+40.5591 	EXP 	fixation_2: autoDraw = True
+41.0593 	EXP 	target: autoDraw = True
+41.3986 	EXP 	New trial (rep=0, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+41.4017 	DATA 	Keypress: left
+41.4107 	EXP 	fixation_1: autoDraw = False
+41.4107 	EXP 	fixation_2: autoDraw = False
+41.4107 	EXP 	cue: autoDraw = False
+41.4107 	EXP 	target: autoDraw = False
+41.4107 	EXP 	cue: ori = 0.0
+41.4107 	EXP 	target: pos = array([0.5, 0. ])
+41.4107 	EXP 	fixation_1: autoDraw = True
+41.9095 	EXP 	fixation_1: autoDraw = False
+41.9263 	EXP 	cue: autoDraw = True
+42.6099 	EXP 	cue: autoDraw = False
+42.6265 	EXP 	fixation_2: autoDraw = True
+43.1266 	EXP 	target: autoDraw = True
+43.5323 	EXP 	New trial (rep=0, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+43.5353 	DATA 	Keypress: right
+43.5441 	EXP 	fixation_1: autoDraw = False
+43.5441 	EXP 	fixation_2: autoDraw = False
+43.5441 	EXP 	cue: autoDraw = False
+43.5441 	EXP 	target: autoDraw = False
+43.5441 	EXP 	cue: ori = 180.0
+43.5441 	EXP 	target: pos = array([-0.5,  0. ])
+43.5441 	EXP 	fixation_1: autoDraw = True
+44.0437 	EXP 	fixation_1: autoDraw = False
+44.0603 	EXP 	cue: autoDraw = True
+44.7438 	EXP 	cue: autoDraw = False
+44.7606 	EXP 	fixation_2: autoDraw = True
+45.2607 	EXP 	target: autoDraw = True
+45.6668 	EXP 	New trial (rep=0, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+45.6701 	DATA 	Keypress: left
+45.6791 	EXP 	fixation_1: autoDraw = False
+45.6791 	EXP 	fixation_2: autoDraw = False
+45.6791 	EXP 	cue: autoDraw = False
+45.6791 	EXP 	target: autoDraw = False
+45.6791 	EXP 	cue: ori = 0.0
+45.6791 	EXP 	target: pos = array([-0.5,  0. ])
+45.6791 	EXP 	fixation_1: autoDraw = True
+46.1775 	EXP 	fixation_1: autoDraw = False
+46.1945 	EXP 	cue: autoDraw = True
+46.8777 	EXP 	cue: autoDraw = False
+46.8947 	EXP 	fixation_2: autoDraw = True
+47.3948 	EXP 	target: autoDraw = True
+47.8172 	EXP 	New trial (rep=0, index=7): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+47.8204 	DATA 	Keypress: left
+47.8291 	EXP 	fixation_1: autoDraw = False
+47.8291 	EXP 	fixation_2: autoDraw = False
+47.8291 	EXP 	cue: autoDraw = False
+47.8291 	EXP 	target: autoDraw = False
+47.8291 	EXP 	cue: ori = 0.0
+47.8291 	EXP 	target: pos = array([-0.5,  0. ])
+47.8291 	EXP 	fixation_1: autoDraw = True
+48.3282 	EXP 	fixation_1: autoDraw = False
+48.3451 	EXP 	cue: autoDraw = True
+49.0284 	EXP 	cue: autoDraw = False
+49.0454 	EXP 	fixation_2: autoDraw = True
+49.5454 	EXP 	target: autoDraw = True
+49.9178 	EXP 	New trial (rep=1, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+49.9209 	DATA 	Keypress: left
+49.9299 	EXP 	fixation_1: autoDraw = False
+49.9299 	EXP 	fixation_2: autoDraw = False
+49.9299 	EXP 	cue: autoDraw = False
+49.9299 	EXP 	target: autoDraw = False
+49.9299 	EXP 	cue: ori = 180.0
+49.9299 	EXP 	target: pos = array([0.5, 0. ])
+49.9299 	EXP 	fixation_1: autoDraw = True
+50.4288 	EXP 	fixation_1: autoDraw = False
+50.4457 	EXP 	cue: autoDraw = True
+51.1291 	EXP 	cue: autoDraw = False
+51.1460 	EXP 	fixation_2: autoDraw = True
+51.6462 	EXP 	target: autoDraw = True
+51.9851 	EXP 	New trial (rep=1, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+51.9881 	DATA 	Keypress: right
+51.9972 	EXP 	fixation_1: autoDraw = False
+51.9972 	EXP 	fixation_2: autoDraw = False
+51.9972 	EXP 	cue: autoDraw = False
+51.9972 	EXP 	target: autoDraw = False
+51.9972 	EXP 	cue: ori = 0.0
+51.9972 	EXP 	target: pos = array([-0.5,  0. ])
+51.9972 	EXP 	fixation_1: autoDraw = True
+52.4961 	EXP 	fixation_1: autoDraw = False
+52.5131 	EXP 	cue: autoDraw = True
+53.1964 	EXP 	cue: autoDraw = False
+53.2130 	EXP 	fixation_2: autoDraw = True
+53.7133 	EXP 	target: autoDraw = True
+54.0506 	DATA 	Keypress: left
+54.0685 	EXP 	New trial (rep=1, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+54.0803 	EXP 	fixation_1: autoDraw = False
+54.0803 	EXP 	fixation_2: autoDraw = False
+54.0803 	EXP 	cue: autoDraw = False
+54.0803 	EXP 	target: autoDraw = False
+54.0803 	EXP 	cue: ori = 0.0
+54.0803 	EXP 	target: pos = array([-0.5,  0. ])
+54.0803 	EXP 	fixation_1: autoDraw = True
+54.5803 	EXP 	fixation_1: autoDraw = False
+54.5969 	EXP 	cue: autoDraw = True
+55.2803 	EXP 	cue: autoDraw = False
+55.2969 	EXP 	fixation_2: autoDraw = True
+55.7972 	EXP 	target: autoDraw = True
+56.1699 	EXP 	New trial (rep=1, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+56.1729 	DATA 	Keypress: left
+56.1817 	EXP 	fixation_1: autoDraw = False
+56.1817 	EXP 	fixation_2: autoDraw = False
+56.1817 	EXP 	cue: autoDraw = False
+56.1817 	EXP 	target: autoDraw = False
+56.1817 	EXP 	cue: ori = 0.0
+56.1817 	EXP 	target: pos = array([-0.5,  0. ])
+56.1817 	EXP 	fixation_1: autoDraw = True
+56.6807 	EXP 	fixation_1: autoDraw = False
+56.6974 	EXP 	cue: autoDraw = True
+57.3811 	EXP 	cue: autoDraw = False
+57.3976 	EXP 	fixation_2: autoDraw = True
+57.8978 	EXP 	target: autoDraw = True
+58.3816 	EXP 	target: autoDraw = False
+58.3873 	EXP 	New trial (rep=1, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+58.3902 	DATA 	Keypress: left
+58.3989 	EXP 	fixation_1: autoDraw = False
+58.3989 	EXP 	fixation_2: autoDraw = False
+58.3989 	EXP 	cue: autoDraw = False
+58.3989 	EXP 	target: autoDraw = False
+58.3989 	EXP 	cue: ori = 180.0
+58.3989 	EXP 	target: pos = array([0.5, 0. ])
+58.3989 	EXP 	fixation_1: autoDraw = True
+58.8981 	EXP 	fixation_1: autoDraw = False
+58.9148 	EXP 	cue: autoDraw = True
+59.5984 	EXP 	cue: autoDraw = False
+59.6150 	EXP 	fixation_2: autoDraw = True
+60.1153 	EXP 	target: autoDraw = True
+60.5545 	EXP 	New trial (rep=1, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+60.5575 	DATA 	Keypress: right
+60.5665 	EXP 	fixation_1: autoDraw = False
+60.5665 	EXP 	fixation_2: autoDraw = False
+60.5665 	EXP 	cue: autoDraw = False
+60.5665 	EXP 	target: autoDraw = False
+60.5665 	EXP 	cue: ori = 180.0
+60.5665 	EXP 	target: pos = array([0.5, 0. ])
+60.5665 	EXP 	fixation_1: autoDraw = True
+61.0655 	EXP 	fixation_1: autoDraw = False
+61.0822 	EXP 	cue: autoDraw = True
+61.7657 	EXP 	cue: autoDraw = False
+61.7825 	EXP 	fixation_2: autoDraw = True
+62.2826 	EXP 	target: autoDraw = True
+62.6213 	EXP 	New trial (rep=1, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+62.6243 	DATA 	Keypress: right
+62.6330 	EXP 	fixation_1: autoDraw = False
+62.6330 	EXP 	fixation_2: autoDraw = False
+62.6330 	EXP 	cue: autoDraw = False
+62.6330 	EXP 	target: autoDraw = False
+62.6330 	EXP 	cue: ori = 180.0
+62.6330 	EXP 	target: pos = array([-0.5,  0. ])
+62.6330 	EXP 	fixation_1: autoDraw = True
+63.1329 	EXP 	fixation_1: autoDraw = False
+63.1494 	EXP 	cue: autoDraw = True
+63.8332 	EXP 	cue: autoDraw = False
+63.8498 	EXP 	fixation_2: autoDraw = True
+64.3499 	EXP 	target: autoDraw = True
+64.8333 	EXP 	target: autoDraw = False
+64.8558 	EXP 	New trial (rep=1, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+64.8588 	DATA 	Keypress: left
+64.8677 	EXP 	fixation_1: autoDraw = False
+64.8677 	EXP 	fixation_2: autoDraw = False
+64.8677 	EXP 	cue: autoDraw = False
+64.8677 	EXP 	target: autoDraw = False
+64.8677 	EXP 	cue: ori = 0.0
+64.8677 	EXP 	target: pos = array([0.5, 0. ])
+64.8677 	EXP 	fixation_1: autoDraw = True
+65.3667 	EXP 	fixation_1: autoDraw = False
+65.3836 	EXP 	cue: autoDraw = True
+66.0670 	EXP 	cue: autoDraw = False
+66.0838 	EXP 	fixation_2: autoDraw = True
+66.5840 	EXP 	target: autoDraw = True
+67.0231 	EXP 	New trial (rep=2, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+67.0261 	DATA 	Keypress: right
+67.0351 	EXP 	fixation_1: autoDraw = False
+67.0351 	EXP 	fixation_2: autoDraw = False
+67.0351 	EXP 	cue: autoDraw = False
+67.0351 	EXP 	target: autoDraw = False
+67.0351 	EXP 	cue: ori = 0.0
+67.0351 	EXP 	target: pos = array([0.5, 0. ])
+67.0351 	EXP 	fixation_1: autoDraw = True
+67.5343 	EXP 	fixation_1: autoDraw = False
+67.5508 	EXP 	cue: autoDraw = True
+68.2344 	EXP 	cue: autoDraw = False
+68.2511 	EXP 	fixation_2: autoDraw = True
+68.7514 	EXP 	target: autoDraw = True
+69.2347 	EXP 	target: autoDraw = False
+69.2562 	DATA 	Keypress: right
+69.2737 	EXP 	New trial (rep=2, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+69.2854 	EXP 	fixation_1: autoDraw = False
+69.2854 	EXP 	fixation_2: autoDraw = False
+69.2854 	EXP 	cue: autoDraw = False
+69.2854 	EXP 	target: autoDraw = False
+69.2854 	EXP 	cue: ori = 180.0
+69.2854 	EXP 	target: pos = array([0.5, 0. ])
+69.2854 	EXP 	fixation_1: autoDraw = True
+69.7850 	EXP 	fixation_1: autoDraw = False
+69.8016 	EXP 	cue: autoDraw = True
+70.4852 	EXP 	cue: autoDraw = False
+70.5019 	EXP 	fixation_2: autoDraw = True
+71.0019 	EXP 	target: autoDraw = True
+71.3744 	EXP 	New trial (rep=2, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+71.3774 	DATA 	Keypress: right
+71.3861 	EXP 	fixation_1: autoDraw = False
+71.3861 	EXP 	fixation_2: autoDraw = False
+71.3861 	EXP 	cue: autoDraw = False
+71.3861 	EXP 	target: autoDraw = False
+71.3861 	EXP 	cue: ori = 0.0
+71.3861 	EXP 	target: pos = array([-0.5,  0. ])
+71.3861 	EXP 	fixation_1: autoDraw = True
+71.8856 	EXP 	fixation_1: autoDraw = False
+71.9022 	EXP 	cue: autoDraw = True
+72.5859 	EXP 	cue: autoDraw = False
+72.6024 	EXP 	fixation_2: autoDraw = True
+73.1026 	EXP 	target: autoDraw = True
+73.4921 	EXP 	New trial (rep=2, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+73.4951 	DATA 	Keypress: left
+73.5040 	EXP 	fixation_1: autoDraw = False
+73.5040 	EXP 	fixation_2: autoDraw = False
+73.5040 	EXP 	cue: autoDraw = False
+73.5040 	EXP 	target: autoDraw = False
+73.5040 	EXP 	cue: ori = 0.0
+73.5040 	EXP 	target: pos = array([-0.5,  0. ])
+73.5040 	EXP 	fixation_1: autoDraw = True
+74.0029 	EXP 	fixation_1: autoDraw = False
+74.0195 	EXP 	cue: autoDraw = True
+74.7032 	EXP 	cue: autoDraw = False
+74.7197 	EXP 	fixation_2: autoDraw = True
+75.2200 	EXP 	target: autoDraw = True
+75.6082 	DATA 	Keypress: left
+75.6256 	EXP 	New trial (rep=2, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+75.6372 	EXP 	fixation_1: autoDraw = False
+75.6372 	EXP 	fixation_2: autoDraw = False
+75.6372 	EXP 	cue: autoDraw = False
+75.6372 	EXP 	target: autoDraw = False
+75.6372 	EXP 	cue: ori = 180.0
+75.6372 	EXP 	target: pos = array([-0.5,  0. ])
+75.6372 	EXP 	fixation_1: autoDraw = True
+76.1368 	EXP 	fixation_1: autoDraw = False
+76.1538 	EXP 	cue: autoDraw = True
+76.8370 	EXP 	cue: autoDraw = False
+76.8537 	EXP 	fixation_2: autoDraw = True
+77.3540 	EXP 	target: autoDraw = True
+77.8373 	EXP 	target: autoDraw = False
+77.8929 	EXP 	New trial (rep=2, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+77.8960 	DATA 	Keypress: left
+77.9049 	EXP 	fixation_1: autoDraw = False
+77.9049 	EXP 	fixation_2: autoDraw = False
+77.9049 	EXP 	cue: autoDraw = False
+77.9049 	EXP 	target: autoDraw = False
+77.9049 	EXP 	cue: ori = 0.0
+77.9049 	EXP 	target: pos = array([-0.5,  0. ])
+77.9049 	EXP 	fixation_1: autoDraw = True
+78.4044 	EXP 	fixation_1: autoDraw = False
+78.4207 	EXP 	cue: autoDraw = True
+79.1044 	EXP 	cue: autoDraw = False
+79.1212 	EXP 	fixation_2: autoDraw = True
+79.6213 	EXP 	target: autoDraw = True
+80.0438 	EXP 	New trial (rep=2, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+80.0467 	DATA 	Keypress: left
+80.0557 	EXP 	fixation_1: autoDraw = False
+80.0557 	EXP 	fixation_2: autoDraw = False
+80.0557 	EXP 	cue: autoDraw = False
+80.0557 	EXP 	target: autoDraw = False
+80.0557 	EXP 	cue: ori = 180.0
+80.0557 	EXP 	target: pos = array([0.5, 0. ])
+80.0557 	EXP 	fixation_1: autoDraw = True
+80.5549 	EXP 	fixation_1: autoDraw = False
+80.5716 	EXP 	cue: autoDraw = True
+81.2552 	EXP 	cue: autoDraw = False
+81.2720 	EXP 	fixation_2: autoDraw = True
+81.7719 	EXP 	target: autoDraw = True
+82.1931 	DATA 	Keypress: right
+82.2112 	EXP 	New trial (rep=2, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+82.2228 	EXP 	fixation_1: autoDraw = False
+82.2228 	EXP 	fixation_2: autoDraw = False
+82.2228 	EXP 	cue: autoDraw = False
+82.2228 	EXP 	target: autoDraw = False
+82.2228 	EXP 	cue: ori = 180.0
+82.2228 	EXP 	target: pos = array([0.5, 0. ])
+82.2228 	EXP 	fixation_1: autoDraw = True
+82.7224 	EXP 	fixation_1: autoDraw = False
+82.7389 	EXP 	cue: autoDraw = True
+83.4225 	EXP 	cue: autoDraw = False
+83.4390 	EXP 	fixation_2: autoDraw = True
+83.9395 	EXP 	target: autoDraw = True
+84.4228 	EXP 	target: autoDraw = False
+84.4285 	EXP 	New trial (rep=3, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+84.4316 	DATA 	Keypress: right
+84.4406 	EXP 	fixation_1: autoDraw = False
+84.4406 	EXP 	fixation_2: autoDraw = False
+84.4406 	EXP 	cue: autoDraw = False
+84.4406 	EXP 	target: autoDraw = False
+84.4406 	EXP 	cue: ori = 180.0
+84.4406 	EXP 	target: pos = array([0.5, 0. ])
+84.4406 	EXP 	fixation_1: autoDraw = True
+84.9397 	EXP 	fixation_1: autoDraw = False
+84.9563 	EXP 	cue: autoDraw = True
+85.6400 	EXP 	cue: autoDraw = False
+85.6564 	EXP 	fixation_2: autoDraw = True
+86.1565 	EXP 	target: autoDraw = True
+86.6401 	EXP 	target: autoDraw = False
+86.6460 	EXP 	New trial (rep=3, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+86.6489 	DATA 	Keypress: right
+86.6578 	EXP 	fixation_1: autoDraw = False
+86.6578 	EXP 	fixation_2: autoDraw = False
+86.6578 	EXP 	cue: autoDraw = False
+86.6578 	EXP 	target: autoDraw = False
+86.6578 	EXP 	cue: ori = 180.0
+86.6578 	EXP 	target: pos = array([0.5, 0. ])
+86.6578 	EXP 	fixation_1: autoDraw = True
+87.1571 	EXP 	fixation_1: autoDraw = False
+87.1738 	EXP 	cue: autoDraw = True
+87.8570 	EXP 	cue: autoDraw = False
+87.8739 	EXP 	fixation_2: autoDraw = True
+88.3741 	EXP 	target: autoDraw = True
+88.8575 	EXP 	target: autoDraw = False
+88.8632 	EXP 	New trial (rep=3, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+88.8662 	DATA 	Keypress: right
+88.8752 	EXP 	fixation_1: autoDraw = False
+88.8752 	EXP 	fixation_2: autoDraw = False
+88.8752 	EXP 	cue: autoDraw = False
+88.8752 	EXP 	target: autoDraw = False
+88.8752 	EXP 	cue: ori = 180.0
+88.8752 	EXP 	target: pos = array([-0.5,  0. ])
+88.8752 	EXP 	fixation_1: autoDraw = True
+89.3743 	EXP 	fixation_1: autoDraw = False
+89.3910 	EXP 	cue: autoDraw = True
+90.0745 	EXP 	cue: autoDraw = False
+90.0912 	EXP 	fixation_2: autoDraw = True
+90.5915 	EXP 	target: autoDraw = True
+91.0471 	EXP 	New trial (rep=3, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+91.0504 	DATA 	Keypress: left
+91.0593 	EXP 	fixation_1: autoDraw = False
+91.0593 	EXP 	fixation_2: autoDraw = False
+91.0593 	EXP 	cue: autoDraw = False
+91.0593 	EXP 	target: autoDraw = False
+91.0593 	EXP 	cue: ori = 180.0
+91.0593 	EXP 	target: pos = array([0.5, 0. ])
+91.0593 	EXP 	fixation_1: autoDraw = True
+91.5583 	EXP 	fixation_1: autoDraw = False
+91.5750 	EXP 	cue: autoDraw = True
+92.2584 	EXP 	cue: autoDraw = False
+92.2752 	EXP 	fixation_2: autoDraw = True
+92.7753 	EXP 	target: autoDraw = True
+93.2478 	EXP 	New trial (rep=3, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+93.2507 	DATA 	Keypress: right
+93.2598 	EXP 	target: autoDraw = False
+93.2598 	EXP 	fixation_1: autoDraw = False
+93.2598 	EXP 	fixation_2: autoDraw = False
+93.2598 	EXP 	cue: autoDraw = False
+93.2598 	EXP 	target: autoDraw = False
+93.2598 	EXP 	cue: ori = 0.0
+93.2598 	EXP 	target: pos = array([-0.5,  0. ])
+93.2598 	EXP 	fixation_1: autoDraw = True
+93.7590 	EXP 	fixation_1: autoDraw = False
+93.7758 	EXP 	cue: autoDraw = True
+94.4593 	EXP 	cue: autoDraw = False
+94.4758 	EXP 	fixation_2: autoDraw = True
+94.9761 	EXP 	target: autoDraw = True
+95.3653 	EXP 	New trial (rep=3, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+95.3682 	DATA 	Keypress: left
+95.3771 	EXP 	fixation_1: autoDraw = False
+95.3771 	EXP 	fixation_2: autoDraw = False
+95.3771 	EXP 	cue: autoDraw = False
+95.3771 	EXP 	target: autoDraw = False
+95.3771 	EXP 	cue: ori = 0.0
+95.3771 	EXP 	target: pos = array([-0.5,  0. ])
+95.3771 	EXP 	fixation_1: autoDraw = True
+95.8764 	EXP 	fixation_1: autoDraw = False
+95.8930 	EXP 	cue: autoDraw = True
+96.5766 	EXP 	cue: autoDraw = False
+96.5932 	EXP 	fixation_2: autoDraw = True
+97.0934 	EXP 	target: autoDraw = True
+97.4994 	EXP 	New trial (rep=3, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+97.5025 	DATA 	Keypress: left
+97.5112 	EXP 	fixation_1: autoDraw = False
+97.5112 	EXP 	fixation_2: autoDraw = False
+97.5112 	EXP 	cue: autoDraw = False
+97.5112 	EXP 	target: autoDraw = False
+97.5112 	EXP 	cue: ori = 0.0
+97.5112 	EXP 	target: pos = array([-0.5,  0. ])
+97.5112 	EXP 	fixation_1: autoDraw = True
+98.0103 	EXP 	fixation_1: autoDraw = False
+98.0269 	EXP 	cue: autoDraw = True
+98.7106 	EXP 	cue: autoDraw = False
+98.7271 	EXP 	fixation_2: autoDraw = True
+99.2272 	EXP 	target: autoDraw = True
+99.6332 	EXP 	New trial (rep=3, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+99.6361 	DATA 	Keypress: left
+99.6452 	EXP 	fixation_1: autoDraw = False
+99.6452 	EXP 	fixation_2: autoDraw = False
+99.6452 	EXP 	cue: autoDraw = False
+99.6452 	EXP 	target: autoDraw = False
+99.6452 	EXP 	cue: ori = 0.0
+99.6452 	EXP 	target: pos = array([0.5, 0. ])
+99.6452 	EXP 	fixation_1: autoDraw = True
+100.1443 	EXP 	fixation_1: autoDraw = False
+100.1610 	EXP 	cue: autoDraw = True
+100.8444 	EXP 	cue: autoDraw = False
+100.8612 	EXP 	fixation_2: autoDraw = True
+101.3614 	EXP 	target: autoDraw = True
+101.8448 	EXP 	target: autoDraw = False
+101.8498 	DATA 	Keypress: right
+101.8670 	EXP 	New trial (rep=4, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+101.8784 	EXP 	fixation_1: autoDraw = False
+101.8784 	EXP 	fixation_2: autoDraw = False
+101.8784 	EXP 	cue: autoDraw = False
+101.8784 	EXP 	target: autoDraw = False
+101.8784 	EXP 	cue: ori = 180.0
+101.8784 	EXP 	target: pos = array([0.5, 0. ])
+101.8784 	EXP 	fixation_1: autoDraw = True
+102.3783 	EXP 	fixation_1: autoDraw = False
+102.3950 	EXP 	cue: autoDraw = True
+103.0785 	EXP 	cue: autoDraw = False
+103.0953 	EXP 	fixation_2: autoDraw = True
+103.5955 	EXP 	target: autoDraw = True
+103.9177 	EXP 	New trial (rep=4, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+103.9208 	DATA 	Keypress: right
+103.9296 	EXP 	fixation_1: autoDraw = False
+103.9296 	EXP 	fixation_2: autoDraw = False
+103.9296 	EXP 	cue: autoDraw = False
+103.9296 	EXP 	target: autoDraw = False
+103.9296 	EXP 	cue: ori = 180.0
+103.9296 	EXP 	target: pos = array([-0.5,  0. ])
+103.9296 	EXP 	fixation_1: autoDraw = True
+104.4289 	EXP 	fixation_1: autoDraw = False
+104.4456 	EXP 	cue: autoDraw = True
+105.1291 	EXP 	cue: autoDraw = False
+105.1460 	EXP 	fixation_2: autoDraw = True
+105.6461 	EXP 	target: autoDraw = True
+106.0851 	EXP 	New trial (rep=4, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+106.0882 	DATA 	Keypress: left
+106.0971 	EXP 	fixation_1: autoDraw = False
+106.0971 	EXP 	fixation_2: autoDraw = False
+106.0971 	EXP 	cue: autoDraw = False
+106.0971 	EXP 	target: autoDraw = False
+106.0971 	EXP 	cue: ori = 0.0
+106.0971 	EXP 	target: pos = array([-0.5,  0. ])
+106.0971 	EXP 	fixation_1: autoDraw = True
+106.5962 	EXP 	fixation_1: autoDraw = False
+106.6131 	EXP 	cue: autoDraw = True
+107.2964 	EXP 	cue: autoDraw = False
+107.3132 	EXP 	fixation_2: autoDraw = True
+107.8135 	EXP 	target: autoDraw = True
+108.2016 	DATA 	Keypress: left
+108.2192 	EXP 	New trial (rep=4, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+108.2310 	EXP 	fixation_1: autoDraw = False
+108.2310 	EXP 	fixation_2: autoDraw = False
+108.2310 	EXP 	cue: autoDraw = False
+108.2310 	EXP 	target: autoDraw = False
+108.2310 	EXP 	cue: ori = 180.0
+108.2310 	EXP 	target: pos = array([0.5, 0. ])
+108.2310 	EXP 	fixation_1: autoDraw = True
+108.7304 	EXP 	fixation_1: autoDraw = False
+108.7469 	EXP 	cue: autoDraw = True
+109.4306 	EXP 	cue: autoDraw = False
+109.4471 	EXP 	fixation_2: autoDraw = True
+109.9472 	EXP 	target: autoDraw = True
+110.3867 	EXP 	New trial (rep=4, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+110.3897 	DATA 	Keypress: right
+110.3985 	EXP 	fixation_1: autoDraw = False
+110.3985 	EXP 	fixation_2: autoDraw = False
+110.3985 	EXP 	cue: autoDraw = False
+110.3985 	EXP 	target: autoDraw = False
+110.3985 	EXP 	cue: ori = 180.0
+110.3985 	EXP 	target: pos = array([0.5, 0. ])
+110.3985 	EXP 	fixation_1: autoDraw = True
+110.8975 	EXP 	fixation_1: autoDraw = False
+110.9143 	EXP 	cue: autoDraw = True
+111.5980 	EXP 	cue: autoDraw = False
+111.6145 	EXP 	fixation_2: autoDraw = True
+112.1146 	EXP 	target: autoDraw = True
+112.5529 	DATA 	Keypress: right
+112.5706 	EXP 	New trial (rep=4, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+112.5821 	EXP 	fixation_1: autoDraw = False
+112.5821 	EXP 	fixation_2: autoDraw = False
+112.5821 	EXP 	cue: autoDraw = False
+112.5821 	EXP 	target: autoDraw = False
+112.5821 	EXP 	cue: ori = 0.0
+112.5821 	EXP 	target: pos = array([0.5, 0. ])
+112.5821 	EXP 	fixation_1: autoDraw = True
+113.0816 	EXP 	fixation_1: autoDraw = False
+113.0982 	EXP 	cue: autoDraw = True
+113.7820 	EXP 	cue: autoDraw = False
+113.7984 	EXP 	fixation_2: autoDraw = True
+114.2985 	EXP 	target: autoDraw = True
+114.7823 	EXP 	target: autoDraw = False
+114.8712 	EXP 	New trial (rep=4, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+114.8743 	DATA 	Keypress: right
+114.8833 	EXP 	fixation_1: autoDraw = False
+114.8833 	EXP 	fixation_2: autoDraw = False
+114.8833 	EXP 	cue: autoDraw = False
+114.8833 	EXP 	target: autoDraw = False
+114.8833 	EXP 	cue: ori = 0.0
+114.8833 	EXP 	target: pos = array([-0.5,  0. ])
+114.8833 	EXP 	fixation_1: autoDraw = True
+115.3823 	EXP 	fixation_1: autoDraw = False
+115.3989 	EXP 	cue: autoDraw = True
+116.0825 	EXP 	cue: autoDraw = False
+116.0993 	EXP 	fixation_2: autoDraw = True
+116.5994 	EXP 	target: autoDraw = True
+117.0217 	EXP 	New trial (rep=4, index=7): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+117.0245 	DATA 	Keypress: left
+117.0334 	EXP 	fixation_1: autoDraw = False
+117.0334 	EXP 	fixation_2: autoDraw = False
+117.0334 	EXP 	cue: autoDraw = False
+117.0334 	EXP 	target: autoDraw = False
+117.0334 	EXP 	cue: ori = 0.0
+117.0334 	EXP 	target: pos = array([-0.5,  0. ])
+117.0334 	EXP 	fixation_1: autoDraw = True
+117.5330 	EXP 	fixation_1: autoDraw = False
+117.5495 	EXP 	cue: autoDraw = True
+118.2333 	EXP 	cue: autoDraw = False
+118.2500 	EXP 	fixation_2: autoDraw = True
+118.7501 	EXP 	target: autoDraw = True
+119.2061 	EXP 	New trial (rep=5, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+119.2091 	DATA 	Keypress: left
+119.2179 	EXP 	fixation_1: autoDraw = False
+119.2179 	EXP 	fixation_2: autoDraw = False
+119.2179 	EXP 	cue: autoDraw = False
+119.2179 	EXP 	target: autoDraw = False
+119.2179 	EXP 	cue: ori = 180.0
+119.2179 	EXP 	target: pos = array([-0.5,  0. ])
+119.2179 	EXP 	fixation_1: autoDraw = True
+119.7171 	EXP 	fixation_1: autoDraw = False
+119.7336 	EXP 	cue: autoDraw = True
+120.4172 	EXP 	cue: autoDraw = False
+120.4339 	EXP 	fixation_2: autoDraw = True
+120.9341 	EXP 	target: autoDraw = True
+121.3899 	EXP 	New trial (rep=5, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+121.3929 	DATA 	Keypress: left
+121.4017 	EXP 	fixation_1: autoDraw = False
+121.4017 	EXP 	fixation_2: autoDraw = False
+121.4017 	EXP 	cue: autoDraw = False
+121.4017 	EXP 	target: autoDraw = False
+121.4017 	EXP 	cue: ori = 0.0
+121.4017 	EXP 	target: pos = array([-0.5,  0. ])
+121.4017 	EXP 	fixation_1: autoDraw = True
+121.9009 	EXP 	fixation_1: autoDraw = False
+121.9176 	EXP 	cue: autoDraw = True
+122.6013 	EXP 	cue: autoDraw = False
+122.6179 	EXP 	fixation_2: autoDraw = True
+123.1179 	EXP 	target: autoDraw = True
+123.4739 	EXP 	New trial (rep=5, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+123.4768 	DATA 	Keypress: left
+123.4858 	EXP 	fixation_1: autoDraw = False
+123.4858 	EXP 	fixation_2: autoDraw = False
+123.4858 	EXP 	cue: autoDraw = False
+123.4858 	EXP 	target: autoDraw = False
+123.4858 	EXP 	cue: ori = 0.0
+123.4858 	EXP 	target: pos = array([-0.5,  0. ])
+123.4858 	EXP 	fixation_1: autoDraw = True
+123.9851 	EXP 	fixation_1: autoDraw = False
+124.0018 	EXP 	cue: autoDraw = True
+124.6851 	EXP 	cue: autoDraw = False
+124.7018 	EXP 	fixation_2: autoDraw = True
+125.2021 	EXP 	target: autoDraw = True
+125.5745 	EXP 	New trial (rep=5, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+125.5774 	DATA 	Keypress: left
+125.5864 	EXP 	fixation_1: autoDraw = False
+125.5864 	EXP 	fixation_2: autoDraw = False
+125.5864 	EXP 	cue: autoDraw = False
+125.5864 	EXP 	target: autoDraw = False
+125.5864 	EXP 	cue: ori = 0.0
+125.5864 	EXP 	target: pos = array([0.5, 0. ])
+125.5864 	EXP 	fixation_1: autoDraw = True
+126.0857 	EXP 	fixation_1: autoDraw = False
+126.1024 	EXP 	cue: autoDraw = True
+126.7858 	EXP 	cue: autoDraw = False
+126.8027 	EXP 	fixation_2: autoDraw = True
+127.3027 	EXP 	target: autoDraw = True
+127.7421 	EXP 	New trial (rep=5, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+127.7448 	DATA 	Keypress: right
+127.7540 	EXP 	fixation_1: autoDraw = False
+127.7540 	EXP 	fixation_2: autoDraw = False
+127.7540 	EXP 	cue: autoDraw = False
+127.7540 	EXP 	target: autoDraw = False
+127.7540 	EXP 	cue: ori = 180.0
+127.7540 	EXP 	target: pos = array([0.5, 0. ])
+127.7540 	EXP 	fixation_1: autoDraw = True
+128.2530 	EXP 	fixation_1: autoDraw = False
+128.2698 	EXP 	cue: autoDraw = True
+128.9533 	EXP 	cue: autoDraw = False
+128.9701 	EXP 	fixation_2: autoDraw = True
+129.4702 	EXP 	target: autoDraw = True
+129.8584 	EXP 	New trial (rep=5, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+129.8616 	DATA 	Keypress: right
+129.8704 	EXP 	fixation_1: autoDraw = False
+129.8704 	EXP 	fixation_2: autoDraw = False
+129.8704 	EXP 	cue: autoDraw = False
+129.8704 	EXP 	target: autoDraw = False
+129.8704 	EXP 	cue: ori = 0.0
+129.8704 	EXP 	target: pos = array([-0.5,  0. ])
+129.8704 	EXP 	fixation_1: autoDraw = True
+130.3706 	EXP 	fixation_1: autoDraw = False
+130.3869 	EXP 	cue: autoDraw = True
+131.0704 	EXP 	cue: autoDraw = False
+131.0871 	EXP 	fixation_2: autoDraw = True
+131.5872 	EXP 	target: autoDraw = True
+131.9761 	EXP 	New trial (rep=5, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+131.9790 	DATA 	Keypress: left
+131.9877 	EXP 	fixation_1: autoDraw = False
+131.9877 	EXP 	fixation_2: autoDraw = False
+131.9877 	EXP 	cue: autoDraw = False
+131.9877 	EXP 	target: autoDraw = False
+131.9877 	EXP 	cue: ori = 180.0
+131.9877 	EXP 	target: pos = array([0.5, 0. ])
+131.9877 	EXP 	fixation_1: autoDraw = True
+132.4875 	EXP 	fixation_1: autoDraw = False
+132.5046 	EXP 	cue: autoDraw = True
+133.1878 	EXP 	cue: autoDraw = False
+133.2046 	EXP 	fixation_2: autoDraw = True
+133.7047 	EXP 	target: autoDraw = True
+134.0440 	EXP 	New trial (rep=5, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+134.0470 	DATA 	Keypress: right
+134.0558 	EXP 	fixation_1: autoDraw = False
+134.0558 	EXP 	fixation_2: autoDraw = False
+134.0558 	EXP 	cue: autoDraw = False
+134.0558 	EXP 	target: autoDraw = False
+134.0558 	EXP 	cue: ori = 180.0
+134.0558 	EXP 	target: pos = array([0.5, 0. ])
+134.0558 	EXP 	fixation_1: autoDraw = True
+134.5550 	EXP 	fixation_1: autoDraw = False
+134.5717 	EXP 	cue: autoDraw = True
+135.2552 	EXP 	cue: autoDraw = False
+135.2719 	EXP 	fixation_2: autoDraw = True
+135.7720 	EXP 	target: autoDraw = True
+136.2554 	EXP 	target: autoDraw = False
+136.3440 	EXP 	New trial (rep=6, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+136.3470 	DATA 	Keypress: right
+136.3557 	EXP 	fixation_1: autoDraw = False
+136.3557 	EXP 	fixation_2: autoDraw = False
+136.3557 	EXP 	cue: autoDraw = False
+136.3557 	EXP 	target: autoDraw = False
+136.3557 	EXP 	cue: ori = 0.0
+136.3557 	EXP 	target: pos = array([0.5, 0. ])
+136.3557 	EXP 	fixation_1: autoDraw = True
+136.8556 	EXP 	fixation_1: autoDraw = False
+136.8724 	EXP 	cue: autoDraw = True
+137.5557 	EXP 	cue: autoDraw = False
+137.5725 	EXP 	fixation_2: autoDraw = True
+138.0729 	EXP 	target: autoDraw = True
+138.5450 	EXP 	New trial (rep=6, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+138.5480 	DATA 	Keypress: right
+138.5567 	EXP 	target: autoDraw = False
+138.5567 	EXP 	fixation_1: autoDraw = False
+138.5567 	EXP 	fixation_2: autoDraw = False
+138.5567 	EXP 	cue: autoDraw = False
+138.5567 	EXP 	target: autoDraw = False
+138.5567 	EXP 	cue: ori = 0.0
+138.5567 	EXP 	target: pos = array([-0.5,  0. ])
+138.5567 	EXP 	fixation_1: autoDraw = True
+139.0562 	EXP 	fixation_1: autoDraw = False
+139.0731 	EXP 	cue: autoDraw = True
+139.7566 	EXP 	cue: autoDraw = False
+139.7734 	EXP 	fixation_2: autoDraw = True
+140.2734 	EXP 	target: autoDraw = True
+140.6625 	EXP 	New trial (rep=6, index=2): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+140.6655 	DATA 	Keypress: left
+140.6745 	EXP 	fixation_1: autoDraw = False
+140.6745 	EXP 	fixation_2: autoDraw = False
+140.6745 	EXP 	cue: autoDraw = False
+140.6745 	EXP 	target: autoDraw = False
+140.6745 	EXP 	cue: ori = 180.0
+140.6745 	EXP 	target: pos = array([0.5, 0. ])
+140.6745 	EXP 	fixation_1: autoDraw = True
+141.1737 	EXP 	fixation_1: autoDraw = False
+141.1904 	EXP 	cue: autoDraw = True
+141.8740 	EXP 	cue: autoDraw = False
+141.8906 	EXP 	fixation_2: autoDraw = True
+142.3907 	EXP 	target: autoDraw = True
+142.6965 	EXP 	New trial (rep=6, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+142.6997 	DATA 	Keypress: right
+142.7085 	EXP 	fixation_1: autoDraw = False
+142.7085 	EXP 	fixation_2: autoDraw = False
+142.7085 	EXP 	cue: autoDraw = False
+142.7085 	EXP 	target: autoDraw = False
+142.7085 	EXP 	cue: ori = 180.0
+142.7085 	EXP 	target: pos = array([0.5, 0. ])
+142.7085 	EXP 	fixation_1: autoDraw = True
+143.2075 	EXP 	fixation_1: autoDraw = False
+143.2245 	EXP 	cue: autoDraw = True
+143.9080 	EXP 	cue: autoDraw = False
+143.9246 	EXP 	fixation_2: autoDraw = True
+144.4246 	EXP 	target: autoDraw = True
+144.7461 	DATA 	Keypress: right
+144.7635 	EXP 	New trial (rep=6, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+144.7751 	EXP 	fixation_1: autoDraw = False
+144.7751 	EXP 	fixation_2: autoDraw = False
+144.7751 	EXP 	cue: autoDraw = False
+144.7751 	EXP 	target: autoDraw = False
+144.7751 	EXP 	cue: ori = 180.0
+144.7751 	EXP 	target: pos = array([-0.5,  0. ])
+144.7751 	EXP 	fixation_1: autoDraw = True
+145.2750 	EXP 	fixation_1: autoDraw = False
+145.2916 	EXP 	cue: autoDraw = True
+145.9753 	EXP 	cue: autoDraw = False
+145.9919 	EXP 	fixation_2: autoDraw = True
+146.4919 	EXP 	target: autoDraw = True
+146.9755 	EXP 	target: autoDraw = False
+147.0648 	EXP 	New trial (rep=6, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+147.0675 	DATA 	Keypress: left
+147.0765 	EXP 	fixation_1: autoDraw = False
+147.0765 	EXP 	fixation_2: autoDraw = False
+147.0765 	EXP 	cue: autoDraw = False
+147.0765 	EXP 	target: autoDraw = False
+147.0765 	EXP 	cue: ori = 0.0
+147.0765 	EXP 	target: pos = array([-0.5,  0. ])
+147.0765 	EXP 	fixation_1: autoDraw = True
+147.5757 	EXP 	fixation_1: autoDraw = False
+147.5923 	EXP 	cue: autoDraw = True
+148.2758 	EXP 	cue: autoDraw = False
+148.2926 	EXP 	fixation_2: autoDraw = True
+148.7927 	EXP 	target: autoDraw = True
+149.2487 	EXP 	New trial (rep=6, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+149.2518 	DATA 	Keypress: left
+149.2607 	EXP 	fixation_1: autoDraw = False
+149.2607 	EXP 	fixation_2: autoDraw = False
+149.2607 	EXP 	cue: autoDraw = False
+149.2607 	EXP 	target: autoDraw = False
+149.2607 	EXP 	cue: ori = 0.0
+149.2607 	EXP 	target: pos = array([-0.5,  0. ])
+149.2607 	EXP 	fixation_1: autoDraw = True
+149.7597 	EXP 	fixation_1: autoDraw = False
+149.7762 	EXP 	cue: autoDraw = True
+150.4599 	EXP 	cue: autoDraw = False
+150.4765 	EXP 	fixation_2: autoDraw = True
+150.9766 	EXP 	target: autoDraw = True
+151.3323 	EXP 	New trial (rep=6, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+151.3344 	DATA 	Keypress: left
+151.3437 	EXP 	fixation_1: autoDraw = False
+151.3437 	EXP 	fixation_2: autoDraw = False
+151.3437 	EXP 	cue: autoDraw = False
+151.3437 	EXP 	target: autoDraw = False
+151.3437 	EXP 	cue: ori = 180.0
+151.3437 	EXP 	target: pos = array([0.5, 0. ])
+151.3437 	EXP 	fixation_1: autoDraw = True
+151.8437 	EXP 	fixation_1: autoDraw = False
+151.8604 	EXP 	cue: autoDraw = True
+152.5440 	EXP 	cue: autoDraw = False
+152.5607 	EXP 	fixation_2: autoDraw = True
+153.0608 	EXP 	target: autoDraw = True
+153.3831 	EXP 	New trial (rep=7, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+153.3861 	DATA 	Keypress: right
+153.3949 	EXP 	fixation_1: autoDraw = False
+153.3949 	EXP 	fixation_2: autoDraw = False
+153.3949 	EXP 	cue: autoDraw = False
+153.3949 	EXP 	target: autoDraw = False
+153.3949 	EXP 	cue: ori = 0.0
+153.3949 	EXP 	target: pos = array([-0.5,  0. ])
+153.3949 	EXP 	fixation_1: autoDraw = True
+153.8944 	EXP 	fixation_1: autoDraw = False
+153.9109 	EXP 	cue: autoDraw = True
+154.5947 	EXP 	cue: autoDraw = False
+154.6111 	EXP 	fixation_2: autoDraw = True
+155.1115 	EXP 	target: autoDraw = True
+155.5949 	EXP 	target: autoDraw = False
+155.8499 	DATA 	Keypress: left
+155.8672 	EXP 	New trial (rep=7, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+155.8787 	EXP 	fixation_1: autoDraw = False
+155.8787 	EXP 	fixation_2: autoDraw = False
+155.8787 	EXP 	cue: autoDraw = False
+155.8787 	EXP 	target: autoDraw = False
+155.8787 	EXP 	cue: ori = 180.0
+155.8787 	EXP 	target: pos = array([0.5, 0. ])
+155.8787 	EXP 	fixation_1: autoDraw = True
+156.3784 	EXP 	fixation_1: autoDraw = False
+156.3952 	EXP 	cue: autoDraw = True
+157.0787 	EXP 	cue: autoDraw = False
+157.0953 	EXP 	fixation_2: autoDraw = True
+157.5956 	EXP 	target: autoDraw = True
+157.9346 	EXP 	New trial (rep=7, index=2): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+157.9376 	DATA 	Keypress: right
+157.9465 	EXP 	fixation_1: autoDraw = False
+157.9465 	EXP 	fixation_2: autoDraw = False
+157.9465 	EXP 	cue: autoDraw = False
+157.9465 	EXP 	target: autoDraw = False
+157.9465 	EXP 	cue: ori = 180.0
+157.9465 	EXP 	target: pos = array([0.5, 0. ])
+157.9465 	EXP 	fixation_1: autoDraw = True
+158.4456 	EXP 	fixation_1: autoDraw = False
+158.4624 	EXP 	cue: autoDraw = True
+159.1460 	EXP 	cue: autoDraw = False
+159.1627 	EXP 	fixation_2: autoDraw = True
+159.6626 	EXP 	target: autoDraw = True
+160.0175 	DATA 	Keypress: right
+160.0351 	EXP 	New trial (rep=7, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+160.0467 	EXP 	fixation_1: autoDraw = False
+160.0467 	EXP 	fixation_2: autoDraw = False
+160.0467 	EXP 	cue: autoDraw = False
+160.0467 	EXP 	target: autoDraw = False
+160.0467 	EXP 	cue: ori = 0.0
+160.0467 	EXP 	target: pos = array([-0.5,  0. ])
+160.0467 	EXP 	fixation_1: autoDraw = True
+160.5462 	EXP 	fixation_1: autoDraw = False
+160.5630 	EXP 	cue: autoDraw = True
+161.2464 	EXP 	cue: autoDraw = False
+161.2635 	EXP 	fixation_2: autoDraw = True
+161.7639 	EXP 	target: autoDraw = True
+162.2027 	EXP 	New trial (rep=7, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+162.2056 	DATA 	Keypress: left
+162.2145 	EXP 	fixation_1: autoDraw = False
+162.2145 	EXP 	fixation_2: autoDraw = False
+162.2145 	EXP 	cue: autoDraw = False
+162.2145 	EXP 	target: autoDraw = False
+162.2145 	EXP 	cue: ori = 0.0
+162.2145 	EXP 	target: pos = array([-0.5,  0. ])
+162.2145 	EXP 	fixation_1: autoDraw = True
+162.7137 	EXP 	fixation_1: autoDraw = False
+162.7304 	EXP 	cue: autoDraw = True
+163.4140 	EXP 	cue: autoDraw = False
+163.4305 	EXP 	fixation_2: autoDraw = True
+163.9307 	EXP 	target: autoDraw = True
+164.3033 	EXP 	New trial (rep=7, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+164.3064 	DATA 	Keypress: left
+164.3152 	EXP 	fixation_1: autoDraw = False
+164.3152 	EXP 	fixation_2: autoDraw = False
+164.3152 	EXP 	cue: autoDraw = False
+164.3152 	EXP 	target: autoDraw = False
+164.3152 	EXP 	cue: ori = 180.0
+164.3152 	EXP 	target: pos = array([-0.5,  0. ])
+164.3152 	EXP 	fixation_1: autoDraw = True
+164.8143 	EXP 	fixation_1: autoDraw = False
+164.8310 	EXP 	cue: autoDraw = True
+165.5145 	EXP 	cue: autoDraw = False
+165.5310 	EXP 	fixation_2: autoDraw = True
+166.0313 	EXP 	target: autoDraw = True
+166.4036 	EXP 	New trial (rep=7, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+166.4066 	DATA 	Keypress: left
+166.4154 	EXP 	fixation_1: autoDraw = False
+166.4154 	EXP 	fixation_2: autoDraw = False
+166.4154 	EXP 	cue: autoDraw = False
+166.4154 	EXP 	target: autoDraw = False
+166.4154 	EXP 	cue: ori = 180.0
+166.4154 	EXP 	target: pos = array([0.5, 0. ])
+166.4154 	EXP 	fixation_1: autoDraw = True
+166.9149 	EXP 	fixation_1: autoDraw = False
+166.9317 	EXP 	cue: autoDraw = True
+167.6151 	EXP 	cue: autoDraw = False
+167.6318 	EXP 	fixation_2: autoDraw = True
+168.1320 	EXP 	target: autoDraw = True
+168.5039 	DATA 	Keypress: right
+168.5213 	EXP 	New trial (rep=7, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+168.5331 	EXP 	fixation_1: autoDraw = False
+168.5331 	EXP 	fixation_2: autoDraw = False
+168.5331 	EXP 	cue: autoDraw = False
+168.5331 	EXP 	target: autoDraw = False
+168.5331 	EXP 	cue: ori = 0.0
+168.5331 	EXP 	target: pos = array([0.5, 0. ])
+168.5331 	EXP 	fixation_1: autoDraw = True
+169.0323 	EXP 	fixation_1: autoDraw = False
+169.0489 	EXP 	cue: autoDraw = True
+169.7324 	EXP 	cue: autoDraw = False
+169.7493 	EXP 	fixation_2: autoDraw = True
+170.2494 	EXP 	target: autoDraw = True
+170.6885 	EXP 	New trial (rep=8, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+170.6914 	DATA 	Keypress: right
+170.7003 	EXP 	fixation_1: autoDraw = False
+170.7003 	EXP 	fixation_2: autoDraw = False
+170.7003 	EXP 	cue: autoDraw = False
+170.7003 	EXP 	target: autoDraw = False
+170.7003 	EXP 	cue: ori = 180.0
+170.7003 	EXP 	target: pos = array([0.5, 0. ])
+170.7003 	EXP 	fixation_1: autoDraw = True
+171.1996 	EXP 	fixation_1: autoDraw = False
+171.2161 	EXP 	cue: autoDraw = True
+171.8998 	EXP 	cue: autoDraw = False
+171.9164 	EXP 	fixation_2: autoDraw = True
+172.4166 	EXP 	target: autoDraw = True
+172.8062 	EXP 	New trial (rep=8, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+172.8092 	DATA 	Keypress: right
+172.8180 	EXP 	fixation_1: autoDraw = False
+172.8180 	EXP 	fixation_2: autoDraw = False
+172.8180 	EXP 	cue: autoDraw = False
+172.8180 	EXP 	target: autoDraw = False
+172.8180 	EXP 	cue: ori = 0.0
+172.8180 	EXP 	target: pos = array([-0.5,  0. ])
+172.8180 	EXP 	fixation_1: autoDraw = True
+173.3169 	EXP 	fixation_1: autoDraw = False
+173.3335 	EXP 	cue: autoDraw = True
+174.0171 	EXP 	cue: autoDraw = False
+174.0339 	EXP 	fixation_2: autoDraw = True
+174.5341 	EXP 	target: autoDraw = True
+174.8566 	EXP 	New trial (rep=8, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+174.8597 	DATA 	Keypress: left
+174.8684 	EXP 	fixation_1: autoDraw = False
+174.8684 	EXP 	fixation_2: autoDraw = False
+174.8684 	EXP 	cue: autoDraw = False
+174.8684 	EXP 	target: autoDraw = False
+174.8684 	EXP 	cue: ori = 0.0
+174.8684 	EXP 	target: pos = array([-0.5,  0. ])
+174.8684 	EXP 	fixation_1: autoDraw = True
+175.3677 	EXP 	fixation_1: autoDraw = False
+175.3843 	EXP 	cue: autoDraw = True
+176.0677 	EXP 	cue: autoDraw = False
+176.0845 	EXP 	fixation_2: autoDraw = True
+176.5846 	EXP 	target: autoDraw = True
+176.7906 	EXP 	New trial (rep=8, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+176.7935 	DATA 	Keypress: left
+176.8023 	EXP 	fixation_1: autoDraw = False
+176.8023 	EXP 	fixation_2: autoDraw = False
+176.8023 	EXP 	cue: autoDraw = False
+176.8023 	EXP 	target: autoDraw = False
+176.8023 	EXP 	cue: ori = 180.0
+176.8023 	EXP 	target: pos = array([0.5, 0. ])
+176.8023 	EXP 	fixation_1: autoDraw = True
+177.3015 	EXP 	fixation_1: autoDraw = False
+177.3182 	EXP 	cue: autoDraw = True
+178.0019 	EXP 	cue: autoDraw = False
+178.0183 	EXP 	fixation_2: autoDraw = True
+178.5185 	EXP 	target: autoDraw = True
+178.8410 	EXP 	New trial (rep=8, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+178.8441 	DATA 	Keypress: right
+178.8530 	EXP 	fixation_1: autoDraw = False
+178.8530 	EXP 	fixation_2: autoDraw = False
+178.8530 	EXP 	cue: autoDraw = False
+178.8530 	EXP 	target: autoDraw = False
+178.8530 	EXP 	cue: ori = 0.0
+178.8530 	EXP 	target: pos = array([-0.5,  0. ])
+178.8530 	EXP 	fixation_1: autoDraw = True
+179.3521 	EXP 	fixation_1: autoDraw = False
+179.3687 	EXP 	cue: autoDraw = True
+180.0522 	EXP 	cue: autoDraw = False
+180.0690 	EXP 	fixation_2: autoDraw = True
+180.5692 	EXP 	target: autoDraw = True
+180.8408 	DATA 	Keypress: left
+180.8583 	EXP 	New trial (rep=8, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+180.8701 	EXP 	fixation_1: autoDraw = False
+180.8701 	EXP 	fixation_2: autoDraw = False
+180.8701 	EXP 	cue: autoDraw = False
+180.8701 	EXP 	target: autoDraw = False
+180.8701 	EXP 	cue: ori = 180.0
+180.8701 	EXP 	target: pos = array([-0.5,  0. ])
+180.8701 	EXP 	fixation_1: autoDraw = True
+181.3695 	EXP 	fixation_1: autoDraw = False
+181.3861 	EXP 	cue: autoDraw = True
+182.0697 	EXP 	cue: autoDraw = False
+182.0864 	EXP 	fixation_2: autoDraw = True
+182.5863 	EXP 	target: autoDraw = True
+182.9582 	EXP 	New trial (rep=8, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+182.9614 	DATA 	Keypress: left
+182.9704 	EXP 	fixation_1: autoDraw = False
+182.9704 	EXP 	fixation_2: autoDraw = False
+182.9704 	EXP 	cue: autoDraw = False
+182.9704 	EXP 	target: autoDraw = False
+182.9704 	EXP 	cue: ori = 180.0
+182.9704 	EXP 	target: pos = array([0.5, 0. ])
+182.9704 	EXP 	fixation_1: autoDraw = True
+183.4702 	EXP 	fixation_1: autoDraw = False
+183.4866 	EXP 	cue: autoDraw = True
+184.1702 	EXP 	cue: autoDraw = False
+184.1869 	EXP 	fixation_2: autoDraw = True
+184.6870 	EXP 	target: autoDraw = True
+185.0601 	EXP 	New trial (rep=8, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+185.0630 	DATA 	Keypress: right
+185.0719 	EXP 	fixation_1: autoDraw = False
+185.0719 	EXP 	fixation_2: autoDraw = False
+185.0719 	EXP 	cue: autoDraw = False
+185.0719 	EXP 	target: autoDraw = False
+185.0719 	EXP 	cue: ori = 0.0
+185.0719 	EXP 	target: pos = array([0.5, 0. ])
+185.0719 	EXP 	fixation_1: autoDraw = True
+185.5708 	EXP 	fixation_1: autoDraw = False
+185.5873 	EXP 	cue: autoDraw = True
+186.2709 	EXP 	cue: autoDraw = False
+186.2876 	EXP 	fixation_2: autoDraw = True
+186.7878 	EXP 	target: autoDraw = True
+187.2714 	EXP 	target: autoDraw = False
+187.2769 	EXP 	New trial (rep=9, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+187.2793 	DATA 	Keypress: right
+187.2882 	EXP 	fixation_1: autoDraw = False
+187.2882 	EXP 	fixation_2: autoDraw = False
+187.2882 	EXP 	cue: autoDraw = False
+187.2882 	EXP 	target: autoDraw = False
+187.2882 	EXP 	cue: ori = 0.0
+187.2882 	EXP 	target: pos = array([-0.5,  0. ])
+187.2882 	EXP 	fixation_1: autoDraw = True
+187.7881 	EXP 	fixation_1: autoDraw = False
+187.8047 	EXP 	cue: autoDraw = True
+188.4884 	EXP 	cue: autoDraw = False
+188.5050 	EXP 	fixation_2: autoDraw = True
+189.0053 	EXP 	target: autoDraw = True
+189.3612 	EXP 	New trial (rep=9, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+189.3639 	DATA 	Keypress: left
+189.3728 	EXP 	fixation_1: autoDraw = False
+189.3728 	EXP 	fixation_2: autoDraw = False
+189.3728 	EXP 	cue: autoDraw = False
+189.3728 	EXP 	target: autoDraw = False
+189.3728 	EXP 	cue: ori = 180.0
+189.3728 	EXP 	target: pos = array([0.5, 0. ])
+189.3728 	EXP 	fixation_1: autoDraw = True
+189.8723 	EXP 	fixation_1: autoDraw = False
+189.8886 	EXP 	cue: autoDraw = True
+190.5723 	EXP 	cue: autoDraw = False
+190.5888 	EXP 	fixation_2: autoDraw = True
+191.0891 	EXP 	target: autoDraw = True
+191.4450 	EXP 	New trial (rep=9, index=2): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+191.4479 	DATA 	Keypress: right
+191.4568 	EXP 	fixation_1: autoDraw = False
+191.4568 	EXP 	fixation_2: autoDraw = False
+191.4568 	EXP 	cue: autoDraw = False
+191.4568 	EXP 	target: autoDraw = False
+191.4568 	EXP 	cue: ori = 0.0
+191.4568 	EXP 	target: pos = array([0.5, 0. ])
+191.4568 	EXP 	fixation_1: autoDraw = True
+191.9558 	EXP 	fixation_1: autoDraw = False
+191.9726 	EXP 	cue: autoDraw = True
+192.6561 	EXP 	cue: autoDraw = False
+192.6730 	EXP 	fixation_2: autoDraw = True
+193.1731 	EXP 	target: autoDraw = True
+193.5949 	EXP 	New trial (rep=9, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+193.5979 	DATA 	Keypress: right
+193.6067 	EXP 	fixation_1: autoDraw = False
+193.6067 	EXP 	fixation_2: autoDraw = False
+193.6067 	EXP 	cue: autoDraw = False
+193.6067 	EXP 	target: autoDraw = False
+193.6067 	EXP 	cue: ori = 0.0
+193.6067 	EXP 	target: pos = array([-0.5,  0. ])
+193.6067 	EXP 	fixation_1: autoDraw = True
+194.1067 	EXP 	fixation_1: autoDraw = False
+194.1234 	EXP 	cue: autoDraw = True
+194.8068 	EXP 	cue: autoDraw = False
+194.8237 	EXP 	fixation_2: autoDraw = True
+195.3239 	EXP 	target: autoDraw = True
+195.6963 	EXP 	New trial (rep=9, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+195.6992 	DATA 	Keypress: left
+195.7081 	EXP 	fixation_1: autoDraw = False
+195.7081 	EXP 	fixation_2: autoDraw = False
+195.7081 	EXP 	cue: autoDraw = False
+195.7081 	EXP 	target: autoDraw = False
+195.7081 	EXP 	cue: ori = 0.0
+195.7081 	EXP 	target: pos = array([-0.5,  0. ])
+195.7081 	EXP 	fixation_1: autoDraw = True
+196.2074 	EXP 	fixation_1: autoDraw = False
+196.2242 	EXP 	cue: autoDraw = True
+196.9075 	EXP 	cue: autoDraw = False
+196.9243 	EXP 	fixation_2: autoDraw = True
+197.4244 	EXP 	target: autoDraw = True
+197.7469 	EXP 	New trial (rep=9, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+197.7501 	DATA 	Keypress: left
+197.7590 	EXP 	fixation_1: autoDraw = False
+197.7590 	EXP 	fixation_2: autoDraw = False
+197.7590 	EXP 	cue: autoDraw = False
+197.7590 	EXP 	target: autoDraw = False
+197.7590 	EXP 	cue: ori = 180.0
+197.7590 	EXP 	target: pos = array([0.5, 0. ])
+197.7590 	EXP 	fixation_1: autoDraw = True
+198.2581 	EXP 	fixation_1: autoDraw = False
+198.2746 	EXP 	cue: autoDraw = True
+198.9581 	EXP 	cue: autoDraw = False
+198.9751 	EXP 	fixation_2: autoDraw = True
+199.4751 	EXP 	target: autoDraw = True
+199.7475 	EXP 	New trial (rep=9, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+199.7508 	DATA 	Keypress: right
+199.7596 	EXP 	fixation_1: autoDraw = False
+199.7596 	EXP 	fixation_2: autoDraw = False
+199.7596 	EXP 	cue: autoDraw = False
+199.7596 	EXP 	target: autoDraw = False
+199.7596 	EXP 	cue: ori = 180.0
+199.7596 	EXP 	target: pos = array([-0.5,  0. ])
+199.7596 	EXP 	fixation_1: autoDraw = True
+200.2585 	EXP 	fixation_1: autoDraw = False
+200.2753 	EXP 	cue: autoDraw = True
+200.9589 	EXP 	cue: autoDraw = False
+200.9757 	EXP 	fixation_2: autoDraw = True
+201.4755 	EXP 	target: autoDraw = True
+201.7981 	EXP 	New trial (rep=9, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+201.8012 	DATA 	Keypress: left
+201.8101 	EXP 	fixation_1: autoDraw = False
+201.8101 	EXP 	fixation_2: autoDraw = False
+201.8101 	EXP 	cue: autoDraw = False
+201.8101 	EXP 	target: autoDraw = False
+201.8101 	EXP 	cue: ori = 180.0
+201.8101 	EXP 	target: pos = array([0.5, 0. ])
+201.8101 	EXP 	fixation_1: autoDraw = True
+202.3092 	EXP 	fixation_1: autoDraw = False
+202.3259 	EXP 	cue: autoDraw = True
+203.0095 	EXP 	cue: autoDraw = False
+203.0260 	EXP 	fixation_2: autoDraw = True
+203.5261 	EXP 	target: autoDraw = True
+203.8657 	EXP 	New trial (rep=10, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+203.8677 	DATA 	Keypress: right
+203.8767 	EXP 	fixation_1: autoDraw = False
+203.8767 	EXP 	fixation_2: autoDraw = False
+203.8767 	EXP 	cue: autoDraw = False
+203.8767 	EXP 	target: autoDraw = False
+203.8767 	EXP 	cue: ori = 0.0
+203.8767 	EXP 	target: pos = array([0.5, 0. ])
+203.8767 	EXP 	fixation_1: autoDraw = True
+204.3765 	EXP 	fixation_1: autoDraw = False
+204.3933 	EXP 	cue: autoDraw = True
+205.0767 	EXP 	cue: autoDraw = False
+205.0937 	EXP 	fixation_2: autoDraw = True
+205.5936 	EXP 	target: autoDraw = True
+206.0770 	EXP 	target: autoDraw = False
+206.1162 	EXP 	New trial (rep=10, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+206.1193 	DATA 	Keypress: right
+206.1280 	EXP 	fixation_1: autoDraw = False
+206.1280 	EXP 	fixation_2: autoDraw = False
+206.1280 	EXP 	cue: autoDraw = False
+206.1280 	EXP 	target: autoDraw = False
+206.1280 	EXP 	cue: ori = 0.0
+206.1280 	EXP 	target: pos = array([-0.5,  0. ])
+206.1280 	EXP 	fixation_1: autoDraw = True
+206.6273 	EXP 	fixation_1: autoDraw = False
+206.6441 	EXP 	cue: autoDraw = True
+207.3274 	EXP 	cue: autoDraw = False
+207.3443 	EXP 	fixation_2: autoDraw = True
+207.8443 	EXP 	target: autoDraw = True
+208.2002 	EXP 	New trial (rep=10, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+208.2030 	DATA 	Keypress: left
+208.2121 	EXP 	fixation_1: autoDraw = False
+208.2121 	EXP 	fixation_2: autoDraw = False
+208.2121 	EXP 	cue: autoDraw = False
+208.2121 	EXP 	target: autoDraw = False
+208.2121 	EXP 	cue: ori = 0.0
+208.2121 	EXP 	target: pos = array([-0.5,  0. ])
+208.2121 	EXP 	fixation_1: autoDraw = True
+208.7111 	EXP 	fixation_1: autoDraw = False
+208.7277 	EXP 	cue: autoDraw = True
+209.4113 	EXP 	cue: autoDraw = False
+209.4281 	EXP 	fixation_2: autoDraw = True
+209.9282 	EXP 	target: autoDraw = True
+210.3345 	EXP 	New trial (rep=10, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+210.3374 	DATA 	Keypress: left
+210.3464 	EXP 	fixation_1: autoDraw = False
+210.3464 	EXP 	fixation_2: autoDraw = False
+210.3464 	EXP 	cue: autoDraw = False
+210.3464 	EXP 	target: autoDraw = False
+210.3464 	EXP 	cue: ori = 180.0
+210.3464 	EXP 	target: pos = array([0.5, 0. ])
+210.3464 	EXP 	fixation_1: autoDraw = True
+210.8453 	EXP 	fixation_1: autoDraw = False
+210.8618 	EXP 	cue: autoDraw = True
+211.5454 	EXP 	cue: autoDraw = False
+211.5621 	EXP 	fixation_2: autoDraw = True
+212.0623 	EXP 	target: autoDraw = True
+212.3848 	EXP 	New trial (rep=10, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+212.3877 	DATA 	Keypress: right
+212.3969 	EXP 	fixation_1: autoDraw = False
+212.3969 	EXP 	fixation_2: autoDraw = False
+212.3969 	EXP 	cue: autoDraw = False
+212.3969 	EXP 	target: autoDraw = False
+212.3969 	EXP 	cue: ori = 0.0
+212.3969 	EXP 	target: pos = array([-0.5,  0. ])
+212.3969 	EXP 	fixation_1: autoDraw = True
+212.8958 	EXP 	fixation_1: autoDraw = False
+212.9126 	EXP 	cue: autoDraw = True
+213.5960 	EXP 	cue: autoDraw = False
+213.6128 	EXP 	fixation_2: autoDraw = True
+214.1129 	EXP 	target: autoDraw = True
+214.4680 	EXP 	New trial (rep=10, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+214.4711 	DATA 	Keypress: left
+214.4800 	EXP 	fixation_1: autoDraw = False
+214.4800 	EXP 	fixation_2: autoDraw = False
+214.4800 	EXP 	cue: autoDraw = False
+214.4800 	EXP 	target: autoDraw = False
+214.4800 	EXP 	cue: ori = 180.0
+214.4800 	EXP 	target: pos = array([0.5, 0. ])
+214.4800 	EXP 	fixation_1: autoDraw = True
+214.9797 	EXP 	fixation_1: autoDraw = False
+214.9964 	EXP 	cue: autoDraw = True
+215.6801 	EXP 	cue: autoDraw = False
+215.6966 	EXP 	fixation_2: autoDraw = True
+216.1968 	EXP 	target: autoDraw = True
+216.5028 	EXP 	New trial (rep=10, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+216.5057 	DATA 	Keypress: right
+216.5147 	EXP 	fixation_1: autoDraw = False
+216.5147 	EXP 	fixation_2: autoDraw = False
+216.5147 	EXP 	cue: autoDraw = False
+216.5147 	EXP 	target: autoDraw = False
+216.5147 	EXP 	cue: ori = 180.0
+216.5147 	EXP 	target: pos = array([0.5, 0. ])
+216.5147 	EXP 	fixation_1: autoDraw = True
+217.0138 	EXP 	fixation_1: autoDraw = False
+217.0305 	EXP 	cue: autoDraw = True
+217.7140 	EXP 	cue: autoDraw = False
+217.7307 	EXP 	fixation_2: autoDraw = True
+218.2307 	EXP 	target: autoDraw = True
+218.5704 	EXP 	New trial (rep=10, index=7): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+218.5733 	DATA 	Keypress: right
+218.5824 	EXP 	fixation_1: autoDraw = False
+218.5824 	EXP 	fixation_2: autoDraw = False
+218.5824 	EXP 	cue: autoDraw = False
+218.5824 	EXP 	target: autoDraw = False
+218.5824 	EXP 	cue: ori = 180.0
+218.5824 	EXP 	target: pos = array([-0.5,  0. ])
+218.5824 	EXP 	fixation_1: autoDraw = True
+219.0811 	EXP 	fixation_1: autoDraw = False
+219.0978 	EXP 	cue: autoDraw = True
+219.7813 	EXP 	cue: autoDraw = False
+219.7980 	EXP 	fixation_2: autoDraw = True
+220.2981 	EXP 	target: autoDraw = True
+220.7817 	EXP 	target: autoDraw = False
+221.2237 	DATA 	Keypress: left
+221.2329 	EXP 	fixation_1: autoDraw = False
+221.2329 	EXP 	fixation_2: autoDraw = False
+221.2329 	EXP 	cue: autoDraw = False
+221.2329 	EXP 	target: autoDraw = False
+221.2329 	EXP 	break_text: autoDraw = True
+281.2197 	EXP 	New trial (rep=1, index=0): None
+281.2338 	EXP 	break_text: autoDraw = False
+281.2338 	EXP 	break_text: autoDraw = False
+282.2508 	EXP 	text_2: autoDraw = True
+284.2346 	EXP 	text_2: autoDraw = False
+284.2346 	EXP 	text_2: autoDraw = False
+284.3513 	EXP 	text: autoDraw = True
+284.4244 	EXP 	Imported conditions.csv as conditions, 8 conditions, 6 params
+284.4247 	EXP 	Created sequence: random, trialTypes=8, nReps=11, seed=None
+284.6172 	EXP 	New trial (rep=0, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+284.6268 	EXP 	text: autoDraw = False
+284.6268 	EXP 	text: autoDraw = False
+284.6268 	EXP 	cue: ori = 0.0
+284.6268 	EXP 	target: pos = array([-0.5,  0. ])
+284.6268 	EXP 	fixation_1: autoDraw = True
+285.1348 	EXP 	fixation_1: autoDraw = False
+285.1348 	EXP 	cue: autoDraw = True
+285.8353 	EXP 	fixation_2: autoDraw = True
+285.8353 	EXP 	cue: autoDraw = False
+285.8401 	DATA 	Keypress: left
+286.3353 	EXP 	target: autoDraw = True
+286.8353 	EXP 	target: autoDraw = False
+286.9751 	EXP 	New trial (rep=0, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+286.9783 	DATA 	Keypress: left
+286.9872 	EXP 	fixation_1: autoDraw = False
+286.9872 	EXP 	fixation_2: autoDraw = False
+286.9872 	EXP 	cue: autoDraw = False
+286.9872 	EXP 	target: autoDraw = False
+286.9872 	EXP 	cue: ori = 0.0
+286.9872 	EXP 	target: pos = array([-0.5,  0. ])
+286.9872 	EXP 	fixation_1: autoDraw = True
+287.4859 	EXP 	fixation_1: autoDraw = False
+287.5024 	EXP 	cue: autoDraw = True
+288.0905 	DATA 	Keypress: left
+288.1858 	EXP 	cue: autoDraw = False
+288.2025 	EXP 	fixation_2: autoDraw = True
+288.7027 	EXP 	target: autoDraw = True
+289.0920 	EXP 	New trial (rep=0, index=2): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+289.0949 	DATA 	Keypress: left
+289.1038 	EXP 	fixation_1: autoDraw = False
+289.1038 	EXP 	fixation_2: autoDraw = False
+289.1038 	EXP 	cue: autoDraw = False
+289.1038 	EXP 	target: autoDraw = False
+289.1038 	EXP 	cue: ori = 180.0
+289.1038 	EXP 	target: pos = array([0.5, 0. ])
+289.1038 	EXP 	fixation_1: autoDraw = True
+289.6030 	EXP 	fixation_1: autoDraw = False
+289.6195 	EXP 	cue: autoDraw = True
+290.3031 	EXP 	cue: autoDraw = False
+290.3200 	EXP 	fixation_2: autoDraw = True
+290.8201 	EXP 	target: autoDraw = True
+291.0593 	EXP 	New trial (rep=0, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+291.0622 	DATA 	Keypress: right
+291.0710 	EXP 	fixation_1: autoDraw = False
+291.0710 	EXP 	fixation_2: autoDraw = False
+291.0710 	EXP 	cue: autoDraw = False
+291.0710 	EXP 	target: autoDraw = False
+291.0710 	EXP 	cue: ori = 0.0
+291.0710 	EXP 	target: pos = array([-0.5,  0. ])
+291.0710 	EXP 	fixation_1: autoDraw = True
+291.5701 	EXP 	fixation_1: autoDraw = False
+291.5868 	EXP 	cue: autoDraw = True
+292.2705 	EXP 	cue: autoDraw = False
+292.2871 	EXP 	fixation_2: autoDraw = True
+292.7872 	EXP 	target: autoDraw = True
+293.1600 	EXP 	New trial (rep=0, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+293.1630 	DATA 	Keypress: left
+293.1719 	EXP 	fixation_1: autoDraw = False
+293.1719 	EXP 	fixation_2: autoDraw = False
+293.1719 	EXP 	cue: autoDraw = False
+293.1719 	EXP 	target: autoDraw = False
+293.1719 	EXP 	cue: ori = 180.0
+293.1719 	EXP 	target: pos = array([-0.5,  0. ])
+293.1719 	EXP 	fixation_1: autoDraw = True
+293.6710 	EXP 	fixation_1: autoDraw = False
+293.6875 	EXP 	cue: autoDraw = True
+294.3711 	EXP 	cue: autoDraw = False
+294.3877 	EXP 	fixation_2: autoDraw = True
+294.8879 	EXP 	target: autoDraw = True
+294.9927 	DATA 	Keypress: right
+295.0098 	EXP 	New trial (rep=0, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+295.0215 	EXP 	fixation_1: autoDraw = False
+295.0215 	EXP 	fixation_2: autoDraw = False
+295.0215 	EXP 	cue: autoDraw = False
+295.0215 	EXP 	target: autoDraw = False
+295.0215 	EXP 	cue: ori = 0.0
+295.0215 	EXP 	target: pos = array([0.5, 0. ])
+295.0215 	EXP 	fixation_1: autoDraw = True
+295.5216 	EXP 	fixation_1: autoDraw = False
+295.5380 	EXP 	cue: autoDraw = True
+296.2216 	EXP 	cue: autoDraw = False
+296.2383 	EXP 	fixation_2: autoDraw = True
+296.7385 	EXP 	target: autoDraw = True
+297.1941 	EXP 	New trial (rep=0, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+297.1971 	DATA 	Keypress: right
+297.2061 	EXP 	fixation_1: autoDraw = False
+297.2061 	EXP 	fixation_2: autoDraw = False
+297.2061 	EXP 	cue: autoDraw = False
+297.2061 	EXP 	target: autoDraw = False
+297.2061 	EXP 	cue: ori = 180.0
+297.2061 	EXP 	target: pos = array([0.5, 0. ])
+297.2061 	EXP 	fixation_1: autoDraw = True
+297.7054 	EXP 	fixation_1: autoDraw = False
+297.7221 	EXP 	cue: autoDraw = True
+298.4055 	EXP 	cue: autoDraw = False
+298.4224 	EXP 	fixation_2: autoDraw = True
+298.9224 	EXP 	target: autoDraw = True
+299.1787 	EXP 	New trial (rep=0, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+299.1817 	DATA 	Keypress: right
+299.1907 	EXP 	fixation_1: autoDraw = False
+299.1907 	EXP 	fixation_2: autoDraw = False
+299.1907 	EXP 	cue: autoDraw = False
+299.1907 	EXP 	target: autoDraw = False
+299.1907 	EXP 	cue: ori = 180.0
+299.1907 	EXP 	target: pos = array([0.5, 0. ])
+299.1907 	EXP 	fixation_1: autoDraw = True
+299.6895 	EXP 	fixation_1: autoDraw = False
+299.7059 	EXP 	cue: autoDraw = True
+300.3897 	EXP 	cue: autoDraw = False
+300.4062 	EXP 	fixation_2: autoDraw = True
+300.9063 	EXP 	target: autoDraw = True
+301.3290 	EXP 	New trial (rep=1, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+301.3310 	DATA 	Keypress: right
+301.3400 	EXP 	fixation_1: autoDraw = False
+301.3400 	EXP 	fixation_2: autoDraw = False
+301.3400 	EXP 	cue: autoDraw = False
+301.3400 	EXP 	target: autoDraw = False
+301.3400 	EXP 	cue: ori = 180.0
+301.3400 	EXP 	target: pos = array([-0.5,  0. ])
+301.3400 	EXP 	fixation_1: autoDraw = True
+301.8401 	EXP 	fixation_1: autoDraw = False
+301.8568 	EXP 	cue: autoDraw = True
+302.5404 	EXP 	cue: autoDraw = False
+302.5570 	EXP 	fixation_2: autoDraw = True
+303.0571 	EXP 	target: autoDraw = True
+303.4463 	EXP 	New trial (rep=1, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+303.4492 	DATA 	Keypress: left
+303.4581 	EXP 	fixation_1: autoDraw = False
+303.4581 	EXP 	fixation_2: autoDraw = False
+303.4581 	EXP 	cue: autoDraw = False
+303.4581 	EXP 	target: autoDraw = False
+303.4581 	EXP 	cue: ori = 0.0
+303.4581 	EXP 	target: pos = array([-0.5,  0. ])
+303.4581 	EXP 	fixation_1: autoDraw = True
+303.9572 	EXP 	fixation_1: autoDraw = False
+303.9740 	EXP 	cue: autoDraw = True
+304.6576 	EXP 	cue: autoDraw = False
+304.6743 	EXP 	fixation_2: autoDraw = True
+305.1743 	EXP 	target: autoDraw = True
+305.5472 	EXP 	New trial (rep=1, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+305.5502 	DATA 	Keypress: left
+305.5591 	EXP 	fixation_1: autoDraw = False
+305.5591 	EXP 	fixation_2: autoDraw = False
+305.5591 	EXP 	cue: autoDraw = False
+305.5591 	EXP 	target: autoDraw = False
+305.5591 	EXP 	cue: ori = 0.0
+305.5591 	EXP 	target: pos = array([-0.5,  0. ])
+305.5591 	EXP 	fixation_1: autoDraw = True
+306.0583 	EXP 	fixation_1: autoDraw = False
+306.0746 	EXP 	cue: autoDraw = True
+306.7583 	EXP 	cue: autoDraw = False
+306.7749 	EXP 	fixation_2: autoDraw = True
+307.2751 	EXP 	target: autoDraw = True
+307.6477 	EXP 	New trial (rep=1, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+307.6509 	DATA 	Keypress: left
+307.6599 	EXP 	fixation_1: autoDraw = False
+307.6599 	EXP 	fixation_2: autoDraw = False
+307.6599 	EXP 	cue: autoDraw = False
+307.6599 	EXP 	target: autoDraw = False
+307.6599 	EXP 	cue: ori = 0.0
+307.6599 	EXP 	target: pos = array([-0.5,  0. ])
+307.6599 	EXP 	fixation_1: autoDraw = True
+308.1587 	EXP 	fixation_1: autoDraw = False
+308.1755 	EXP 	cue: autoDraw = True
+308.8588 	EXP 	cue: autoDraw = False
+308.8756 	EXP 	fixation_2: autoDraw = True
+309.3758 	EXP 	target: autoDraw = True
+309.7814 	EXP 	New trial (rep=1, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+309.7844 	DATA 	Keypress: left
+309.7934 	EXP 	fixation_1: autoDraw = False
+309.7934 	EXP 	fixation_2: autoDraw = False
+309.7934 	EXP 	cue: autoDraw = False
+309.7934 	EXP 	target: autoDraw = False
+309.7934 	EXP 	cue: ori = 180.0
+309.7934 	EXP 	target: pos = array([0.5, 0. ])
+309.7934 	EXP 	fixation_1: autoDraw = True
+310.2927 	EXP 	fixation_1: autoDraw = False
+310.3094 	EXP 	cue: autoDraw = True
+310.9929 	EXP 	cue: autoDraw = False
+311.0095 	EXP 	fixation_2: autoDraw = True
+311.5099 	EXP 	target: autoDraw = True
+311.9823 	EXP 	New trial (rep=1, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+311.9852 	DATA 	Keypress: right
+311.9942 	EXP 	target: autoDraw = False
+311.9942 	EXP 	fixation_1: autoDraw = False
+311.9942 	EXP 	fixation_2: autoDraw = False
+311.9942 	EXP 	cue: autoDraw = False
+311.9942 	EXP 	target: autoDraw = False
+311.9942 	EXP 	cue: ori = 0.0
+311.9942 	EXP 	target: pos = array([0.5, 0. ])
+311.9942 	EXP 	fixation_1: autoDraw = True
+312.4927 	EXP 	fixation_1: autoDraw = False
+312.5098 	EXP 	cue: autoDraw = True
+313.1937 	EXP 	cue: autoDraw = False
+313.2102 	EXP 	fixation_2: autoDraw = True
+313.7105 	EXP 	target: autoDraw = True
+314.1326 	EXP 	New trial (rep=1, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+314.1346 	DATA 	Keypress: right
+314.1439 	EXP 	fixation_1: autoDraw = False
+314.1439 	EXP 	fixation_2: autoDraw = False
+314.1439 	EXP 	cue: autoDraw = False
+314.1439 	EXP 	target: autoDraw = False
+314.1439 	EXP 	cue: ori = 180.0
+314.1439 	EXP 	target: pos = array([0.5, 0. ])
+314.1439 	EXP 	fixation_1: autoDraw = True
+314.6440 	EXP 	fixation_1: autoDraw = False
+314.6607 	EXP 	cue: autoDraw = True
+315.3443 	EXP 	cue: autoDraw = False
+315.3608 	EXP 	fixation_2: autoDraw = True
+315.8609 	EXP 	target: autoDraw = True
+316.2171 	EXP 	New trial (rep=1, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+316.2200 	DATA 	Keypress: right
+316.2289 	EXP 	fixation_1: autoDraw = False
+316.2289 	EXP 	fixation_2: autoDraw = False
+316.2289 	EXP 	cue: autoDraw = False
+316.2289 	EXP 	target: autoDraw = False
+316.2289 	EXP 	cue: ori = 180.0
+316.2289 	EXP 	target: pos = array([0.5, 0. ])
+316.2289 	EXP 	fixation_1: autoDraw = True
+316.7279 	EXP 	fixation_1: autoDraw = False
+316.7448 	EXP 	cue: autoDraw = True
+317.4282 	EXP 	cue: autoDraw = False
+317.4449 	EXP 	fixation_2: autoDraw = True
+317.9452 	EXP 	target: autoDraw = True
+318.3341 	EXP 	New trial (rep=2, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+318.3371 	DATA 	Keypress: right
+318.3458 	EXP 	fixation_1: autoDraw = False
+318.3458 	EXP 	fixation_2: autoDraw = False
+318.3458 	EXP 	cue: autoDraw = False
+318.3458 	EXP 	target: autoDraw = False
+318.3458 	EXP 	cue: ori = 0.0
+318.3458 	EXP 	target: pos = array([-0.5,  0. ])
+318.3458 	EXP 	fixation_1: autoDraw = True
+318.8455 	EXP 	fixation_1: autoDraw = False
+318.8619 	EXP 	cue: autoDraw = True
+319.5456 	EXP 	cue: autoDraw = False
+319.5621 	EXP 	fixation_2: autoDraw = True
+320.0624 	EXP 	target: autoDraw = True
+320.4338 	DATA 	Keypress: left
+320.4515 	EXP 	New trial (rep=2, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+320.4631 	EXP 	fixation_1: autoDraw = False
+320.4631 	EXP 	fixation_2: autoDraw = False
+320.4631 	EXP 	cue: autoDraw = False
+320.4631 	EXP 	target: autoDraw = False
+320.4631 	EXP 	cue: ori = 0.0
+320.4631 	EXP 	target: pos = array([-0.5,  0. ])
+320.4631 	EXP 	fixation_1: autoDraw = True
+320.9627 	EXP 	fixation_1: autoDraw = False
+320.9792 	EXP 	cue: autoDraw = True
+321.6628 	EXP 	cue: autoDraw = False
+321.6796 	EXP 	fixation_2: autoDraw = True
+322.1797 	EXP 	target: autoDraw = True
+322.5358 	EXP 	New trial (rep=2, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+322.5392 	DATA 	Keypress: left
+322.5481 	EXP 	fixation_1: autoDraw = False
+322.5481 	EXP 	fixation_2: autoDraw = False
+322.5481 	EXP 	cue: autoDraw = False
+322.5481 	EXP 	target: autoDraw = False
+322.5481 	EXP 	cue: ori = 0.0
+322.5481 	EXP 	target: pos = array([-0.5,  0. ])
+322.5481 	EXP 	fixation_1: autoDraw = True
+323.0465 	EXP 	fixation_1: autoDraw = False
+323.0634 	EXP 	cue: autoDraw = True
+323.7467 	EXP 	cue: autoDraw = False
+323.7637 	EXP 	fixation_2: autoDraw = True
+324.2641 	EXP 	target: autoDraw = True
+324.6696 	EXP 	New trial (rep=2, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+324.6723 	DATA 	Keypress: left
+324.6812 	EXP 	fixation_1: autoDraw = False
+324.6812 	EXP 	fixation_2: autoDraw = False
+324.6812 	EXP 	cue: autoDraw = False
+324.6812 	EXP 	target: autoDraw = False
+324.6812 	EXP 	cue: ori = 180.0
+324.6812 	EXP 	target: pos = array([0.5, 0. ])
+324.6812 	EXP 	fixation_1: autoDraw = True
+325.1806 	EXP 	fixation_1: autoDraw = False
+325.1972 	EXP 	cue: autoDraw = True
+325.8808 	EXP 	cue: autoDraw = False
+325.8974 	EXP 	fixation_2: autoDraw = True
+326.3976 	EXP 	target: autoDraw = True
+326.8813 	EXP 	target: autoDraw = False
+326.9536 	EXP 	New trial (rep=2, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+326.9566 	DATA 	Keypress: right
+326.9653 	EXP 	fixation_1: autoDraw = False
+326.9653 	EXP 	fixation_2: autoDraw = False
+326.9653 	EXP 	cue: autoDraw = False
+326.9653 	EXP 	target: autoDraw = False
+326.9653 	EXP 	cue: ori = 180.0
+326.9653 	EXP 	target: pos = array([0.5, 0. ])
+326.9653 	EXP 	fixation_1: autoDraw = True
+327.4646 	EXP 	fixation_1: autoDraw = False
+327.4813 	EXP 	cue: autoDraw = True
+328.1649 	EXP 	cue: autoDraw = False
+328.1814 	EXP 	fixation_2: autoDraw = True
+328.6818 	EXP 	target: autoDraw = True
+328.9715 	EXP 	New trial (rep=2, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+328.9742 	DATA 	Keypress: right
+328.9831 	EXP 	fixation_1: autoDraw = False
+328.9831 	EXP 	fixation_2: autoDraw = False
+328.9831 	EXP 	cue: autoDraw = False
+328.9831 	EXP 	target: autoDraw = False
+328.9831 	EXP 	cue: ori = 180.0
+328.9831 	EXP 	target: pos = array([0.5, 0. ])
+328.9831 	EXP 	fixation_1: autoDraw = True
+329.4820 	EXP 	fixation_1: autoDraw = False
+329.4986 	EXP 	cue: autoDraw = True
+330.1820 	EXP 	cue: autoDraw = False
+330.1990 	EXP 	fixation_2: autoDraw = True
+330.6989 	EXP 	target: autoDraw = True
+331.1046 	EXP 	New trial (rep=2, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+331.1076 	DATA 	Keypress: right
+331.1165 	EXP 	fixation_1: autoDraw = False
+331.1165 	EXP 	fixation_2: autoDraw = False
+331.1165 	EXP 	cue: autoDraw = False
+331.1165 	EXP 	target: autoDraw = False
+331.1165 	EXP 	cue: ori = 180.0
+331.1165 	EXP 	target: pos = array([-0.5,  0. ])
+331.1165 	EXP 	fixation_1: autoDraw = True
+331.6158 	EXP 	fixation_1: autoDraw = False
+331.6326 	EXP 	cue: autoDraw = True
+332.3161 	EXP 	cue: autoDraw = False
+332.3329 	EXP 	fixation_2: autoDraw = True
+332.8330 	EXP 	target: autoDraw = True
+333.3043 	DATA 	Keypress: left
+333.3164 	EXP 	target: autoDraw = False
+333.3221 	EXP 	New trial (rep=2, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+333.3336 	EXP 	fixation_1: autoDraw = False
+333.3336 	EXP 	fixation_2: autoDraw = False
+333.3336 	EXP 	cue: autoDraw = False
+333.3336 	EXP 	target: autoDraw = False
+333.3336 	EXP 	cue: ori = 0.0
+333.3336 	EXP 	target: pos = array([0.5, 0. ])
+333.3336 	EXP 	fixation_1: autoDraw = True
+333.8334 	EXP 	fixation_1: autoDraw = False
+333.8499 	EXP 	cue: autoDraw = True
+334.5336 	EXP 	cue: autoDraw = False
+334.5502 	EXP 	fixation_2: autoDraw = True
+335.0502 	EXP 	target: autoDraw = True
+335.4729 	EXP 	New trial (rep=3, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+335.4757 	DATA 	Keypress: right
+335.4846 	EXP 	fixation_1: autoDraw = False
+335.4846 	EXP 	fixation_2: autoDraw = False
+335.4846 	EXP 	cue: autoDraw = False
+335.4846 	EXP 	target: autoDraw = False
+335.4846 	EXP 	cue: ori = 0.0
+335.4846 	EXP 	target: pos = array([-0.5,  0. ])
+335.4846 	EXP 	fixation_1: autoDraw = True
+335.9840 	EXP 	fixation_1: autoDraw = False
+336.0006 	EXP 	cue: autoDraw = True
+336.6843 	EXP 	cue: autoDraw = False
+336.7009 	EXP 	fixation_2: autoDraw = True
+337.2011 	EXP 	target: autoDraw = True
+337.5903 	EXP 	New trial (rep=3, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+337.5931 	DATA 	Keypress: left
+337.6019 	EXP 	fixation_1: autoDraw = False
+337.6019 	EXP 	fixation_2: autoDraw = False
+337.6019 	EXP 	cue: autoDraw = False
+337.6019 	EXP 	target: autoDraw = False
+337.6019 	EXP 	cue: ori = 180.0
+337.6019 	EXP 	target: pos = array([-0.5,  0. ])
+337.6019 	EXP 	fixation_1: autoDraw = True
+338.1014 	EXP 	fixation_1: autoDraw = False
+338.1179 	EXP 	cue: autoDraw = True
+338.8014 	EXP 	cue: autoDraw = False
+338.8181 	EXP 	fixation_2: autoDraw = True
+339.3183 	EXP 	target: autoDraw = True
+339.8019 	EXP 	target: autoDraw = False
+339.8241 	EXP 	New trial (rep=3, index=2): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+339.8271 	DATA 	Keypress: left
+339.8357 	EXP 	fixation_1: autoDraw = False
+339.8357 	EXP 	fixation_2: autoDraw = False
+339.8357 	EXP 	cue: autoDraw = False
+339.8357 	EXP 	target: autoDraw = False
+339.8357 	EXP 	cue: ori = 180.0
+339.8357 	EXP 	target: pos = array([0.5, 0. ])
+339.8357 	EXP 	fixation_1: autoDraw = True
+340.3353 	EXP 	fixation_1: autoDraw = False
+340.3521 	EXP 	cue: autoDraw = True
+341.0356 	EXP 	cue: autoDraw = False
+341.0521 	EXP 	fixation_2: autoDraw = True
+341.5525 	EXP 	target: autoDraw = True
+341.9580 	EXP 	New trial (rep=3, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+341.9612 	DATA 	Keypress: right
+341.9702 	EXP 	fixation_1: autoDraw = False
+341.9702 	EXP 	fixation_2: autoDraw = False
+341.9702 	EXP 	cue: autoDraw = False
+341.9702 	EXP 	target: autoDraw = False
+341.9702 	EXP 	cue: ori = 0.0
+341.9702 	EXP 	target: pos = array([-0.5,  0. ])
+341.9702 	EXP 	fixation_1: autoDraw = True
+342.4696 	EXP 	fixation_1: autoDraw = False
+342.4859 	EXP 	cue: autoDraw = True
+343.1695 	EXP 	cue: autoDraw = False
+343.1862 	EXP 	fixation_2: autoDraw = True
+343.6864 	EXP 	target: autoDraw = True
+344.1698 	EXP 	target: autoDraw = False
+344.2417 	EXP 	New trial (rep=3, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+344.2446 	DATA 	Keypress: left
+344.2535 	EXP 	fixation_1: autoDraw = False
+344.2535 	EXP 	fixation_2: autoDraw = False
+344.2535 	EXP 	cue: autoDraw = False
+344.2535 	EXP 	target: autoDraw = False
+344.2535 	EXP 	cue: ori = 0.0
+344.2535 	EXP 	target: pos = array([0.5, 0. ])
+344.2535 	EXP 	fixation_1: autoDraw = True
+344.7534 	EXP 	fixation_1: autoDraw = False
+344.7701 	EXP 	cue: autoDraw = True
+345.4536 	EXP 	cue: autoDraw = False
+345.4702 	EXP 	fixation_2: autoDraw = True
+345.9703 	EXP 	target: autoDraw = True
+346.2761 	EXP 	New trial (rep=3, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+346.2793 	DATA 	Keypress: right
+346.2881 	EXP 	fixation_1: autoDraw = False
+346.2881 	EXP 	fixation_2: autoDraw = False
+346.2881 	EXP 	cue: autoDraw = False
+346.2881 	EXP 	target: autoDraw = False
+346.2881 	EXP 	cue: ori = 180.0
+346.2881 	EXP 	target: pos = array([0.5, 0. ])
+346.2881 	EXP 	fixation_1: autoDraw = True
+346.7872 	EXP 	fixation_1: autoDraw = False
+346.8039 	EXP 	cue: autoDraw = True
+347.4874 	EXP 	cue: autoDraw = False
+347.5043 	EXP 	fixation_2: autoDraw = True
+348.0045 	EXP 	target: autoDraw = True
+348.3596 	DATA 	Keypress: right
+348.3768 	EXP 	New trial (rep=3, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+348.3883 	EXP 	fixation_1: autoDraw = False
+348.3883 	EXP 	fixation_2: autoDraw = False
+348.3883 	EXP 	cue: autoDraw = False
+348.3883 	EXP 	target: autoDraw = False
+348.3883 	EXP 	cue: ori = 0.0
+348.3883 	EXP 	target: pos = array([-0.5,  0. ])
+348.3883 	EXP 	fixation_1: autoDraw = True
+348.8879 	EXP 	fixation_1: autoDraw = False
+348.9045 	EXP 	cue: autoDraw = True
+349.5882 	EXP 	cue: autoDraw = False
+349.6047 	EXP 	fixation_2: autoDraw = True
+350.1051 	EXP 	target: autoDraw = True
+350.4771 	EXP 	New trial (rep=3, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+350.4803 	DATA 	Keypress: left
+350.4892 	EXP 	fixation_1: autoDraw = False
+350.4892 	EXP 	fixation_2: autoDraw = False
+350.4892 	EXP 	cue: autoDraw = False
+350.4892 	EXP 	target: autoDraw = False
+350.4892 	EXP 	cue: ori = 180.0
+350.4892 	EXP 	target: pos = array([0.5, 0. ])
+350.4892 	EXP 	fixation_1: autoDraw = True
+350.9885 	EXP 	fixation_1: autoDraw = False
+351.0054 	EXP 	cue: autoDraw = True
+351.6888 	EXP 	cue: autoDraw = False
+351.7054 	EXP 	fixation_2: autoDraw = True
+352.2056 	EXP 	target: autoDraw = True
+352.6893 	EXP 	target: autoDraw = False
+352.8948 	EXP 	New trial (rep=4, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+352.8968 	DATA 	Keypress: right
+352.9059 	EXP 	fixation_1: autoDraw = False
+352.9059 	EXP 	fixation_2: autoDraw = False
+352.9059 	EXP 	cue: autoDraw = False
+352.9059 	EXP 	target: autoDraw = False
+352.9059 	EXP 	cue: ori = 180.0
+352.9059 	EXP 	target: pos = array([0.5, 0. ])
+352.9059 	EXP 	fixation_1: autoDraw = True
+353.4059 	EXP 	fixation_1: autoDraw = False
+353.4228 	EXP 	cue: autoDraw = True
+354.1061 	EXP 	cue: autoDraw = False
+354.1230 	EXP 	fixation_2: autoDraw = True
+354.6231 	EXP 	target: autoDraw = True
+354.9955 	EXP 	New trial (rep=4, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+354.9974 	DATA 	Keypress: right
+355.0065 	EXP 	fixation_1: autoDraw = False
+355.0065 	EXP 	fixation_2: autoDraw = False
+355.0065 	EXP 	cue: autoDraw = False
+355.0065 	EXP 	target: autoDraw = False
+355.0065 	EXP 	cue: ori = 0.0
+355.0065 	EXP 	target: pos = array([-0.5,  0. ])
+355.0065 	EXP 	fixation_1: autoDraw = True
+355.5067 	EXP 	fixation_1: autoDraw = False
+355.5234 	EXP 	cue: autoDraw = True
+356.2069 	EXP 	cue: autoDraw = False
+356.2237 	EXP 	fixation_2: autoDraw = True
+356.7237 	EXP 	target: autoDraw = True
+357.2071 	EXP 	target: autoDraw = False
+357.2966 	EXP 	New trial (rep=4, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+357.2997 	DATA 	Keypress: left
+357.3085 	EXP 	fixation_1: autoDraw = False
+357.3085 	EXP 	fixation_2: autoDraw = False
+357.3085 	EXP 	cue: autoDraw = False
+357.3085 	EXP 	target: autoDraw = False
+357.3085 	EXP 	cue: ori = 0.0
+357.3085 	EXP 	target: pos = array([-0.5,  0. ])
+357.3085 	EXP 	fixation_1: autoDraw = True
+357.8073 	EXP 	fixation_1: autoDraw = False
+357.8241 	EXP 	cue: autoDraw = True
+358.5075 	EXP 	cue: autoDraw = False
+358.5244 	EXP 	fixation_2: autoDraw = True
+359.0245 	EXP 	target: autoDraw = True
+359.4970 	EXP 	New trial (rep=4, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+359.5002 	DATA 	Keypress: left
+359.5090 	EXP 	target: autoDraw = False
+359.5090 	EXP 	fixation_1: autoDraw = False
+359.5090 	EXP 	fixation_2: autoDraw = False
+359.5090 	EXP 	cue: autoDraw = False
+359.5090 	EXP 	target: autoDraw = False
+359.5090 	EXP 	cue: ori = 180.0
+359.5090 	EXP 	target: pos = array([0.5, 0. ])
+359.5090 	EXP 	fixation_1: autoDraw = True
+360.0080 	EXP 	fixation_1: autoDraw = False
+360.0248 	EXP 	cue: autoDraw = True
+360.7083 	EXP 	cue: autoDraw = False
+360.7249 	EXP 	fixation_2: autoDraw = True
+361.2251 	EXP 	target: autoDraw = True
+361.5642 	EXP 	New trial (rep=4, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+361.5672 	DATA 	Keypress: right
+361.5762 	EXP 	fixation_1: autoDraw = False
+361.5762 	EXP 	fixation_2: autoDraw = False
+361.5762 	EXP 	cue: autoDraw = False
+361.5762 	EXP 	target: autoDraw = False
+361.5762 	EXP 	cue: ori = 0.0
+361.5762 	EXP 	target: pos = array([0.5, 0. ])
+361.5762 	EXP 	fixation_1: autoDraw = True
+362.0755 	EXP 	fixation_1: autoDraw = False
+362.0921 	EXP 	cue: autoDraw = True
+362.7756 	EXP 	cue: autoDraw = False
+362.7922 	EXP 	fixation_2: autoDraw = True
+363.2924 	EXP 	target: autoDraw = True
+363.6818 	EXP 	New trial (rep=4, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+363.6849 	DATA 	Keypress: right
+363.6938 	EXP 	fixation_1: autoDraw = False
+363.6938 	EXP 	fixation_2: autoDraw = False
+363.6938 	EXP 	cue: autoDraw = False
+363.6938 	EXP 	target: autoDraw = False
+363.6938 	EXP 	cue: ori = 180.0
+363.6938 	EXP 	target: pos = array([-0.5,  0. ])
+363.6938 	EXP 	fixation_1: autoDraw = True
+364.1928 	EXP 	fixation_1: autoDraw = False
+364.2095 	EXP 	cue: autoDraw = True
+364.8930 	EXP 	cue: autoDraw = False
+364.9095 	EXP 	fixation_2: autoDraw = True
+365.4098 	EXP 	target: autoDraw = True
+365.8655 	EXP 	New trial (rep=4, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+365.8676 	DATA 	Keypress: left
+365.8766 	EXP 	fixation_1: autoDraw = False
+365.8766 	EXP 	fixation_2: autoDraw = False
+365.8766 	EXP 	cue: autoDraw = False
+365.8766 	EXP 	target: autoDraw = False
+365.8766 	EXP 	cue: ori = 0.0
+365.8766 	EXP 	target: pos = array([-0.5,  0. ])
+365.8766 	EXP 	fixation_1: autoDraw = True
+366.3767 	EXP 	fixation_1: autoDraw = False
+366.3935 	EXP 	cue: autoDraw = True
+367.0769 	EXP 	cue: autoDraw = False
+367.0938 	EXP 	fixation_2: autoDraw = True
+367.5939 	EXP 	target: autoDraw = True
+368.0499 	EXP 	New trial (rep=4, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+368.0528 	DATA 	Keypress: left
+368.0616 	EXP 	fixation_1: autoDraw = False
+368.0616 	EXP 	fixation_2: autoDraw = False
+368.0616 	EXP 	cue: autoDraw = False
+368.0616 	EXP 	target: autoDraw = False
+368.0616 	EXP 	cue: ori = 180.0
+368.0616 	EXP 	target: pos = array([0.5, 0. ])
+368.0616 	EXP 	fixation_1: autoDraw = True
+368.5608 	EXP 	fixation_1: autoDraw = False
+368.5773 	EXP 	cue: autoDraw = True
+369.2612 	EXP 	cue: autoDraw = False
+369.2775 	EXP 	fixation_2: autoDraw = True
+369.7778 	EXP 	target: autoDraw = True
+370.2614 	EXP 	target: autoDraw = False
+370.2671 	EXP 	New trial (rep=5, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+370.2703 	DATA 	Keypress: right
+370.2791 	EXP 	fixation_1: autoDraw = False
+370.2791 	EXP 	fixation_2: autoDraw = False
+370.2791 	EXP 	cue: autoDraw = False
+370.2791 	EXP 	target: autoDraw = False
+370.2791 	EXP 	cue: ori = 180.0
+370.2791 	EXP 	target: pos = array([-0.5,  0. ])
+370.2791 	EXP 	fixation_1: autoDraw = True
+370.7783 	EXP 	fixation_1: autoDraw = False
+370.7949 	EXP 	cue: autoDraw = True
+371.4782 	EXP 	cue: autoDraw = False
+371.4950 	EXP 	fixation_2: autoDraw = True
+371.9950 	EXP 	target: autoDraw = True
+372.4787 	EXP 	target: autoDraw = False
+372.4839 	EXP 	New trial (rep=5, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+372.4869 	DATA 	Keypress: left
+372.4958 	EXP 	fixation_1: autoDraw = False
+372.4958 	EXP 	fixation_2: autoDraw = False
+372.4958 	EXP 	cue: autoDraw = False
+372.4958 	EXP 	target: autoDraw = False
+372.4958 	EXP 	cue: ori = 0.0
+372.4958 	EXP 	target: pos = array([0.5, 0. ])
+372.4958 	EXP 	fixation_1: autoDraw = True
+372.9954 	EXP 	fixation_1: autoDraw = False
+373.0122 	EXP 	cue: autoDraw = True
+373.6957 	EXP 	cue: autoDraw = False
+373.7123 	EXP 	fixation_2: autoDraw = True
+374.2124 	EXP 	target: autoDraw = True
+374.6516 	EXP 	New trial (rep=5, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+374.6546 	DATA 	Keypress: right
+374.6632 	EXP 	fixation_1: autoDraw = False
+374.6632 	EXP 	fixation_2: autoDraw = False
+374.6632 	EXP 	cue: autoDraw = False
+374.6632 	EXP 	target: autoDraw = False
+374.6632 	EXP 	cue: ori = 0.0
+374.6632 	EXP 	target: pos = array([-0.5,  0. ])
+374.6632 	EXP 	fixation_1: autoDraw = True
+375.1629 	EXP 	fixation_1: autoDraw = False
+375.1797 	EXP 	cue: autoDraw = True
+375.8631 	EXP 	cue: autoDraw = False
+375.8796 	EXP 	fixation_2: autoDraw = True
+376.3798 	EXP 	target: autoDraw = True
+376.8635 	EXP 	target: autoDraw = False
+377.0857 	EXP 	New trial (rep=5, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+377.0890 	DATA 	Keypress: left
+377.0978 	EXP 	fixation_1: autoDraw = False
+377.0978 	EXP 	fixation_2: autoDraw = False
+377.0978 	EXP 	cue: autoDraw = False
+377.0978 	EXP 	target: autoDraw = False
+377.0978 	EXP 	cue: ori = 180.0
+377.0978 	EXP 	target: pos = array([0.5, 0. ])
+377.0978 	EXP 	fixation_1: autoDraw = True
+377.5969 	EXP 	fixation_1: autoDraw = False
+377.6136 	EXP 	cue: autoDraw = True
+378.2971 	EXP 	cue: autoDraw = False
+378.3139 	EXP 	fixation_2: autoDraw = True
+378.8139 	EXP 	target: autoDraw = True
+379.0532 	EXP 	New trial (rep=5, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+379.0561 	DATA 	Keypress: right
+379.0651 	EXP 	fixation_1: autoDraw = False
+379.0651 	EXP 	fixation_2: autoDraw = False
+379.0651 	EXP 	cue: autoDraw = False
+379.0651 	EXP 	target: autoDraw = False
+379.0651 	EXP 	cue: ori = 180.0
+379.0651 	EXP 	target: pos = array([0.5, 0. ])
+379.0651 	EXP 	fixation_1: autoDraw = True
+379.5642 	EXP 	fixation_1: autoDraw = False
+379.5807 	EXP 	cue: autoDraw = True
+380.2644 	EXP 	cue: autoDraw = False
+380.2810 	EXP 	fixation_2: autoDraw = True
+380.7811 	EXP 	target: autoDraw = True
+381.2537 	EXP 	New trial (rep=5, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+381.2566 	DATA 	Keypress: right
+381.2658 	EXP 	target: autoDraw = False
+381.2658 	EXP 	fixation_1: autoDraw = False
+381.2658 	EXP 	fixation_2: autoDraw = False
+381.2658 	EXP 	cue: autoDraw = False
+381.2658 	EXP 	target: autoDraw = False
+381.2658 	EXP 	cue: ori = 0.0
+381.2658 	EXP 	target: pos = array([-0.5,  0. ])
+381.2658 	EXP 	fixation_1: autoDraw = True
+381.7648 	EXP 	fixation_1: autoDraw = False
+381.7817 	EXP 	cue: autoDraw = True
+382.4650 	EXP 	cue: autoDraw = False
+382.4817 	EXP 	fixation_2: autoDraw = True
+382.9819 	EXP 	target: autoDraw = True
+383.4654 	EXP 	target: autoDraw = False
+383.6211 	EXP 	New trial (rep=5, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+383.6240 	DATA 	Keypress: left
+383.6329 	EXP 	fixation_1: autoDraw = False
+383.6329 	EXP 	fixation_2: autoDraw = False
+383.6329 	EXP 	cue: autoDraw = False
+383.6329 	EXP 	target: autoDraw = False
+383.6329 	EXP 	cue: ori = 180.0
+383.6329 	EXP 	target: pos = array([0.5, 0. ])
+383.6329 	EXP 	fixation_1: autoDraw = True
+384.1323 	EXP 	fixation_1: autoDraw = False
+384.1491 	EXP 	cue: autoDraw = True
+384.8325 	EXP 	cue: autoDraw = False
+384.8491 	EXP 	fixation_2: autoDraw = True
+385.3493 	EXP 	target: autoDraw = True
+385.8052 	EXP 	New trial (rep=5, index=7): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+385.8081 	DATA 	Keypress: right
+385.8169 	EXP 	fixation_1: autoDraw = False
+385.8169 	EXP 	fixation_2: autoDraw = False
+385.8169 	EXP 	cue: autoDraw = False
+385.8169 	EXP 	target: autoDraw = False
+385.8169 	EXP 	cue: ori = 0.0
+385.8169 	EXP 	target: pos = array([-0.5,  0. ])
+385.8169 	EXP 	fixation_1: autoDraw = True
+386.3162 	EXP 	fixation_1: autoDraw = False
+386.3329 	EXP 	cue: autoDraw = True
+387.0163 	EXP 	cue: autoDraw = False
+387.0332 	EXP 	fixation_2: autoDraw = True
+387.5333 	EXP 	target: autoDraw = True
+388.0167 	EXP 	target: autoDraw = False
+388.0389 	EXP 	New trial (rep=6, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+388.0418 	DATA 	Keypress: left
+388.0506 	EXP 	fixation_1: autoDraw = False
+388.0506 	EXP 	fixation_2: autoDraw = False
+388.0506 	EXP 	cue: autoDraw = False
+388.0506 	EXP 	target: autoDraw = False
+388.0506 	EXP 	cue: ori = 180.0
+388.0506 	EXP 	target: pos = array([0.5, 0. ])
+388.0506 	EXP 	fixation_1: autoDraw = True
+388.5503 	EXP 	fixation_1: autoDraw = False
+388.5668 	EXP 	cue: autoDraw = True
+389.2505 	EXP 	cue: autoDraw = False
+389.2671 	EXP 	fixation_2: autoDraw = True
+389.7673 	EXP 	target: autoDraw = True
+390.2507 	EXP 	target: autoDraw = False
+390.3230 	EXP 	New trial (rep=6, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+390.3259 	DATA 	Keypress: right
+390.3347 	EXP 	fixation_1: autoDraw = False
+390.3347 	EXP 	fixation_2: autoDraw = False
+390.3347 	EXP 	cue: autoDraw = False
+390.3347 	EXP 	target: autoDraw = False
+390.3347 	EXP 	cue: ori = 0.0
+390.3347 	EXP 	target: pos = array([0.5, 0. ])
+390.3347 	EXP 	fixation_1: autoDraw = True
+390.8343 	EXP 	fixation_1: autoDraw = False
+390.8510 	EXP 	cue: autoDraw = True
+391.5346 	EXP 	cue: autoDraw = False
+391.5513 	EXP 	fixation_2: autoDraw = True
+392.0514 	EXP 	target: autoDraw = True
+392.5350 	EXP 	target: autoDraw = False
+392.5405 	EXP 	New trial (rep=6, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+392.5434 	DATA 	Keypress: right
+392.5522 	EXP 	fixation_1: autoDraw = False
+392.5522 	EXP 	fixation_2: autoDraw = False
+392.5522 	EXP 	cue: autoDraw = False
+392.5522 	EXP 	target: autoDraw = False
+392.5522 	EXP 	cue: ori = 0.0
+392.5522 	EXP 	target: pos = array([-0.5,  0. ])
+392.5522 	EXP 	fixation_1: autoDraw = True
+393.0516 	EXP 	fixation_1: autoDraw = False
+393.0682 	EXP 	cue: autoDraw = True
+393.7519 	EXP 	cue: autoDraw = False
+393.7684 	EXP 	fixation_2: autoDraw = True
+394.2686 	EXP 	target: autoDraw = True
+394.6569 	DATA 	Keypress: left
+394.6744 	EXP 	New trial (rep=6, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+394.6860 	EXP 	fixation_1: autoDraw = False
+394.6860 	EXP 	fixation_2: autoDraw = False
+394.6860 	EXP 	cue: autoDraw = False
+394.6860 	EXP 	target: autoDraw = False
+394.6860 	EXP 	cue: ori = 180.0
+394.6860 	EXP 	target: pos = array([0.5, 0. ])
+394.6860 	EXP 	fixation_1: autoDraw = True
+395.1857 	EXP 	fixation_1: autoDraw = False
+395.2023 	EXP 	cue: autoDraw = True
+395.8857 	EXP 	cue: autoDraw = False
+395.9025 	EXP 	fixation_2: autoDraw = True
+396.4026 	EXP 	target: autoDraw = True
+396.8077 	DATA 	Keypress: right
+396.8252 	EXP 	New trial (rep=6, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+396.8368 	EXP 	fixation_1: autoDraw = False
+396.8368 	EXP 	fixation_2: autoDraw = False
+396.8368 	EXP 	cue: autoDraw = False
+396.8368 	EXP 	target: autoDraw = False
+396.8368 	EXP 	cue: ori = 180.0
+396.8368 	EXP 	target: pos = array([0.5, 0. ])
+396.8368 	EXP 	fixation_1: autoDraw = True
+397.3362 	EXP 	fixation_1: autoDraw = False
+397.3529 	EXP 	cue: autoDraw = True
+398.0364 	EXP 	cue: autoDraw = False
+398.0532 	EXP 	fixation_2: autoDraw = True
+398.5533 	EXP 	target: autoDraw = True
+399.0368 	EXP 	target: autoDraw = False
+399.1422 	EXP 	New trial (rep=6, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+399.1452 	DATA 	Keypress: right
+399.1542 	EXP 	fixation_1: autoDraw = False
+399.1542 	EXP 	fixation_2: autoDraw = False
+399.1542 	EXP 	cue: autoDraw = False
+399.1542 	EXP 	target: autoDraw = False
+399.1542 	EXP 	cue: ori = 180.0
+399.1542 	EXP 	target: pos = array([-0.5,  0. ])
+399.1542 	EXP 	fixation_1: autoDraw = True
+399.6536 	EXP 	fixation_1: autoDraw = False
+399.6706 	EXP 	cue: autoDraw = True
+400.3538 	EXP 	cue: autoDraw = False
+400.3707 	EXP 	fixation_2: autoDraw = True
+400.8708 	EXP 	target: autoDraw = True
+401.3541 	EXP 	target: autoDraw = False
+401.3923 	DATA 	Keypress: left
+401.4101 	EXP 	New trial (rep=6, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+401.4216 	EXP 	fixation_1: autoDraw = False
+401.4216 	EXP 	fixation_2: autoDraw = False
+401.4216 	EXP 	cue: autoDraw = False
+401.4216 	EXP 	target: autoDraw = False
+401.4216 	EXP 	cue: ori = 0.0
+401.4216 	EXP 	target: pos = array([-0.5,  0. ])
+401.4216 	EXP 	fixation_1: autoDraw = True
+401.9211 	EXP 	fixation_1: autoDraw = False
+401.9376 	EXP 	cue: autoDraw = True
+402.6213 	EXP 	cue: autoDraw = False
+402.6379 	EXP 	fixation_2: autoDraw = True
+403.1380 	EXP 	target: autoDraw = True
+403.6216 	EXP 	target: autoDraw = False
+403.7931 	DATA 	Keypress: left
+403.8103 	EXP 	New trial (rep=6, index=7): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+403.8219 	EXP 	fixation_1: autoDraw = False
+403.8219 	EXP 	fixation_2: autoDraw = False
+403.8219 	EXP 	cue: autoDraw = False
+403.8219 	EXP 	target: autoDraw = False
+403.8219 	EXP 	cue: ori = 0.0
+403.8219 	EXP 	target: pos = array([-0.5,  0. ])
+403.8219 	EXP 	fixation_1: autoDraw = True
+404.3218 	EXP 	fixation_1: autoDraw = False
+404.3384 	EXP 	cue: autoDraw = True
+405.0220 	EXP 	cue: autoDraw = False
+405.0385 	EXP 	fixation_2: autoDraw = True
+405.5387 	EXP 	target: autoDraw = True
+406.0223 	EXP 	target: autoDraw = False
+406.1614 	EXP 	New trial (rep=7, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+406.1644 	DATA 	Keypress: left
+406.1731 	EXP 	fixation_1: autoDraw = False
+406.1731 	EXP 	fixation_2: autoDraw = False
+406.1731 	EXP 	cue: autoDraw = False
+406.1731 	EXP 	target: autoDraw = False
+406.1731 	EXP 	cue: ori = 180.0
+406.1731 	EXP 	target: pos = array([0.5, 0. ])
+406.1731 	EXP 	fixation_1: autoDraw = True
+406.6726 	EXP 	fixation_1: autoDraw = False
+406.6893 	EXP 	cue: autoDraw = True
+407.3729 	EXP 	cue: autoDraw = False
+407.3894 	EXP 	fixation_2: autoDraw = True
+407.8897 	EXP 	target: autoDraw = True
+408.3609 	DATA 	Keypress: right
+408.3731 	EXP 	target: autoDraw = False
+408.3789 	EXP 	New trial (rep=7, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+408.3907 	EXP 	fixation_1: autoDraw = False
+408.3907 	EXP 	fixation_2: autoDraw = False
+408.3907 	EXP 	cue: autoDraw = False
+408.3907 	EXP 	target: autoDraw = False
+408.3907 	EXP 	cue: ori = 180.0
+408.3907 	EXP 	target: pos = array([0.5, 0. ])
+408.3907 	EXP 	fixation_1: autoDraw = True
+408.8900 	EXP 	fixation_1: autoDraw = False
+408.9065 	EXP 	cue: autoDraw = True
+409.5901 	EXP 	cue: autoDraw = False
+409.6066 	EXP 	fixation_2: autoDraw = True
+410.1068 	EXP 	target: autoDraw = True
+410.5904 	EXP 	target: autoDraw = False
+410.6299 	EXP 	New trial (rep=7, index=2): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+410.6328 	DATA 	Keypress: right
+410.6417 	EXP 	fixation_1: autoDraw = False
+410.6417 	EXP 	fixation_2: autoDraw = False
+410.6417 	EXP 	cue: autoDraw = False
+410.6417 	EXP 	target: autoDraw = False
+410.6417 	EXP 	cue: ori = 180.0
+410.6417 	EXP 	target: pos = array([0.5, 0. ])
+410.6417 	EXP 	fixation_1: autoDraw = True
+411.1407 	EXP 	fixation_1: autoDraw = False
+411.1572 	EXP 	cue: autoDraw = True
+411.8410 	EXP 	cue: autoDraw = False
+411.8575 	EXP 	fixation_2: autoDraw = True
+412.3577 	EXP 	target: autoDraw = True
+412.6958 	DATA 	Keypress: right
+412.7135 	EXP 	New trial (rep=7, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+412.7252 	EXP 	fixation_1: autoDraw = False
+412.7252 	EXP 	fixation_2: autoDraw = False
+412.7252 	EXP 	cue: autoDraw = False
+412.7252 	EXP 	target: autoDraw = False
+412.7252 	EXP 	cue: ori = 0.0
+412.7252 	EXP 	target: pos = array([-0.5,  0. ])
+412.7252 	EXP 	fixation_1: autoDraw = True
+413.2246 	EXP 	fixation_1: autoDraw = False
+413.2412 	EXP 	cue: autoDraw = True
+413.9247 	EXP 	cue: autoDraw = False
+413.9416 	EXP 	fixation_2: autoDraw = True
+414.4417 	EXP 	target: autoDraw = True
+414.7475 	EXP 	New trial (rep=7, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+414.7507 	DATA 	Keypress: left
+414.7595 	EXP 	fixation_1: autoDraw = False
+414.7595 	EXP 	fixation_2: autoDraw = False
+414.7595 	EXP 	cue: autoDraw = False
+414.7595 	EXP 	target: autoDraw = False
+414.7595 	EXP 	cue: ori = 0.0
+414.7595 	EXP 	target: pos = array([-0.5,  0. ])
+414.7595 	EXP 	fixation_1: autoDraw = True
+415.2586 	EXP 	fixation_1: autoDraw = False
+415.2752 	EXP 	cue: autoDraw = True
+415.9587 	EXP 	cue: autoDraw = False
+415.9753 	EXP 	fixation_2: autoDraw = True
+416.4756 	EXP 	target: autoDraw = True
+416.9592 	EXP 	target: autoDraw = False
+417.1482 	EXP 	New trial (rep=7, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+417.1513 	DATA 	Keypress: left
+417.1602 	EXP 	fixation_1: autoDraw = False
+417.1602 	EXP 	fixation_2: autoDraw = False
+417.1602 	EXP 	cue: autoDraw = False
+417.1602 	EXP 	target: autoDraw = False
+417.1602 	EXP 	cue: ori = 180.0
+417.1602 	EXP 	target: pos = array([-0.5,  0. ])
+417.1602 	EXP 	fixation_1: autoDraw = True
+417.6593 	EXP 	fixation_1: autoDraw = False
+417.6758 	EXP 	cue: autoDraw = True
+418.3595 	EXP 	cue: autoDraw = False
+418.3761 	EXP 	fixation_2: autoDraw = True
+418.8762 	EXP 	target: autoDraw = True
+419.2813 	DATA 	Keypress: left
+419.2989 	EXP 	New trial (rep=7, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+419.3105 	EXP 	fixation_1: autoDraw = False
+419.3105 	EXP 	fixation_2: autoDraw = False
+419.3105 	EXP 	cue: autoDraw = False
+419.3105 	EXP 	target: autoDraw = False
+419.3105 	EXP 	cue: ori = 0.0
+419.3105 	EXP 	target: pos = array([0.5, 0. ])
+419.3105 	EXP 	fixation_1: autoDraw = True
+419.8098 	EXP 	fixation_1: autoDraw = False
+419.8267 	EXP 	cue: autoDraw = True
+420.5101 	EXP 	cue: autoDraw = False
+420.5269 	EXP 	fixation_2: autoDraw = True
+421.0269 	EXP 	target: autoDraw = True
+421.4997 	EXP 	New trial (rep=7, index=7): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+421.5026 	DATA 	Keypress: right
+421.5117 	EXP 	target: autoDraw = False
+421.5117 	EXP 	fixation_1: autoDraw = False
+421.5117 	EXP 	fixation_2: autoDraw = False
+421.5117 	EXP 	cue: autoDraw = False
+421.5117 	EXP 	target: autoDraw = False
+421.5117 	EXP 	cue: ori = 0.0
+421.5117 	EXP 	target: pos = array([-0.5,  0. ])
+421.5117 	EXP 	fixation_1: autoDraw = True
+422.0105 	EXP 	fixation_1: autoDraw = False
+422.0271 	EXP 	cue: autoDraw = True
+422.7109 	EXP 	cue: autoDraw = False
+422.7275 	EXP 	fixation_2: autoDraw = True
+423.2275 	EXP 	target: autoDraw = True
+423.6503 	EXP 	New trial (rep=8, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+423.6534 	DATA 	Keypress: left
+423.6622 	EXP 	fixation_1: autoDraw = False
+423.6622 	EXP 	fixation_2: autoDraw = False
+423.6622 	EXP 	cue: autoDraw = False
+423.6622 	EXP 	target: autoDraw = False
+423.6622 	EXP 	cue: ori = 0.0
+423.6622 	EXP 	target: pos = array([-0.5,  0. ])
+423.6622 	EXP 	fixation_1: autoDraw = True
+424.1613 	EXP 	fixation_1: autoDraw = False
+424.1778 	EXP 	cue: autoDraw = True
+424.8615 	EXP 	cue: autoDraw = False
+424.8781 	EXP 	fixation_2: autoDraw = True
+425.3782 	EXP 	target: autoDraw = True
+425.8012 	EXP 	New trial (rep=8, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+425.8040 	DATA 	Keypress: left
+425.8130 	EXP 	fixation_1: autoDraw = False
+425.8130 	EXP 	fixation_2: autoDraw = False
+425.8130 	EXP 	cue: autoDraw = False
+425.8130 	EXP 	target: autoDraw = False
+425.8130 	EXP 	cue: ori = 0.0
+425.8130 	EXP 	target: pos = array([0.5, 0. ])
+425.8130 	EXP 	fixation_1: autoDraw = True
+426.3119 	EXP 	fixation_1: autoDraw = False
+426.3286 	EXP 	cue: autoDraw = True
+427.0121 	EXP 	cue: autoDraw = False
+427.0291 	EXP 	fixation_2: autoDraw = True
+427.5291 	EXP 	target: autoDraw = True
+428.0123 	EXP 	target: autoDraw = False
+428.0515 	EXP 	New trial (rep=8, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+428.0545 	DATA 	Keypress: right
+428.0633 	EXP 	fixation_1: autoDraw = False
+428.0633 	EXP 	fixation_2: autoDraw = False
+428.0633 	EXP 	cue: autoDraw = False
+428.0633 	EXP 	target: autoDraw = False
+428.0633 	EXP 	cue: ori = 180.0
+428.0633 	EXP 	target: pos = array([-0.5,  0. ])
+428.0633 	EXP 	fixation_1: autoDraw = True
+428.5625 	EXP 	fixation_1: autoDraw = False
+428.5793 	EXP 	cue: autoDraw = True
+429.2635 	EXP 	cue: autoDraw = False
+429.2796 	EXP 	fixation_2: autoDraw = True
+429.7796 	EXP 	target: autoDraw = True
+430.1522 	EXP 	New trial (rep=8, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+430.1552 	DATA 	Keypress: left
+430.1641 	EXP 	fixation_1: autoDraw = False
+430.1641 	EXP 	fixation_2: autoDraw = False
+430.1641 	EXP 	cue: autoDraw = False
+430.1641 	EXP 	target: autoDraw = False
+430.1641 	EXP 	cue: ori = 0.0
+430.1641 	EXP 	target: pos = array([-0.5,  0. ])
+430.1641 	EXP 	fixation_1: autoDraw = True
+430.6634 	EXP 	fixation_1: autoDraw = False
+430.6798 	EXP 	cue: autoDraw = True
+431.3634 	EXP 	cue: autoDraw = False
+431.3803 	EXP 	fixation_2: autoDraw = True
+431.8802 	EXP 	target: autoDraw = True
+432.3640 	EXP 	target: autoDraw = False
+432.5196 	EXP 	New trial (rep=8, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+432.5227 	DATA 	Keypress: left
+432.5316 	EXP 	fixation_1: autoDraw = False
+432.5316 	EXP 	fixation_2: autoDraw = False
+432.5316 	EXP 	cue: autoDraw = False
+432.5316 	EXP 	target: autoDraw = False
+432.5316 	EXP 	cue: ori = 180.0
+432.5316 	EXP 	target: pos = array([0.5, 0. ])
+432.5316 	EXP 	fixation_1: autoDraw = True
+433.0302 	EXP 	fixation_1: autoDraw = False
+433.0469 	EXP 	cue: autoDraw = True
+433.7309 	EXP 	cue: autoDraw = False
+433.7474 	EXP 	fixation_2: autoDraw = True
+434.2477 	EXP 	target: autoDraw = True
+434.5201 	EXP 	New trial (rep=8, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+434.5230 	DATA 	Keypress: right
+434.5319 	EXP 	fixation_1: autoDraw = False
+434.5319 	EXP 	fixation_2: autoDraw = False
+434.5319 	EXP 	cue: autoDraw = False
+434.5319 	EXP 	target: autoDraw = False
+434.5319 	EXP 	cue: ori = 0.0
+434.5319 	EXP 	target: pos = array([-0.5,  0. ])
+434.5319 	EXP 	fixation_1: autoDraw = True
+435.0313 	EXP 	fixation_1: autoDraw = False
+435.0479 	EXP 	cue: autoDraw = True
+435.7315 	EXP 	cue: autoDraw = False
+435.7482 	EXP 	fixation_2: autoDraw = True
+436.2484 	EXP 	target: autoDraw = True
+436.6538 	EXP 	New trial (rep=8, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+436.6568 	DATA 	Keypress: left
+436.6655 	EXP 	fixation_1: autoDraw = False
+436.6655 	EXP 	fixation_2: autoDraw = False
+436.6655 	EXP 	cue: autoDraw = False
+436.6655 	EXP 	target: autoDraw = False
+436.6655 	EXP 	cue: ori = 180.0
+436.6655 	EXP 	target: pos = array([0.5, 0. ])
+436.6655 	EXP 	fixation_1: autoDraw = True
+437.1653 	EXP 	fixation_1: autoDraw = False
+437.1819 	EXP 	cue: autoDraw = True
+437.8656 	EXP 	cue: autoDraw = False
+437.8822 	EXP 	fixation_2: autoDraw = True
+438.3824 	EXP 	target: autoDraw = True
+438.8659 	EXP 	target: autoDraw = False
+438.8716 	EXP 	New trial (rep=8, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+438.8746 	DATA 	Keypress: right
+438.8834 	EXP 	fixation_1: autoDraw = False
+438.8834 	EXP 	fixation_2: autoDraw = False
+438.8834 	EXP 	cue: autoDraw = False
+438.8834 	EXP 	target: autoDraw = False
+438.8834 	EXP 	cue: ori = 180.0
+438.8834 	EXP 	target: pos = array([0.5, 0. ])
+438.8834 	EXP 	fixation_1: autoDraw = True
+439.3827 	EXP 	fixation_1: autoDraw = False
+439.3993 	EXP 	cue: autoDraw = True
+440.0828 	EXP 	cue: autoDraw = False
+440.0995 	EXP 	fixation_2: autoDraw = True
+440.5997 	EXP 	target: autoDraw = True
+441.0833 	EXP 	target: autoDraw = False
+441.3046 	DATA 	Keypress: right
+441.3223 	EXP 	New trial (rep=9, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+441.3339 	EXP 	fixation_1: autoDraw = False
+441.3339 	EXP 	fixation_2: autoDraw = False
+441.3339 	EXP 	cue: autoDraw = False
+441.3339 	EXP 	target: autoDraw = False
+441.3339 	EXP 	cue: ori = 0.0
+441.3339 	EXP 	target: pos = array([-0.5,  0. ])
+441.3339 	EXP 	fixation_1: autoDraw = True
+441.8336 	EXP 	fixation_1: autoDraw = False
+441.8502 	EXP 	cue: autoDraw = True
+442.5337 	EXP 	cue: autoDraw = False
+442.5504 	EXP 	fixation_2: autoDraw = True
+443.0505 	EXP 	target: autoDraw = True
+443.5339 	EXP 	target: autoDraw = False
+443.7892 	EXP 	New trial (rep=9, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+443.7921 	DATA 	Keypress: left
+443.8009 	EXP 	fixation_1: autoDraw = False
+443.8009 	EXP 	fixation_2: autoDraw = False
+443.8009 	EXP 	cue: autoDraw = False
+443.8009 	EXP 	target: autoDraw = False
+443.8009 	EXP 	cue: ori = 180.0
+443.8009 	EXP 	target: pos = array([0.5, 0. ])
+443.8009 	EXP 	fixation_1: autoDraw = True
+444.3009 	EXP 	fixation_1: autoDraw = False
+444.3174 	EXP 	cue: autoDraw = True
+445.0010 	EXP 	cue: autoDraw = False
+445.0177 	EXP 	fixation_2: autoDraw = True
+445.5178 	EXP 	target: autoDraw = True
+445.9570 	EXP 	New trial (rep=9, index=2): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+445.9599 	DATA 	Keypress: right
+445.9689 	EXP 	fixation_1: autoDraw = False
+445.9689 	EXP 	fixation_2: autoDraw = False
+445.9689 	EXP 	cue: autoDraw = False
+445.9689 	EXP 	target: autoDraw = False
+445.9689 	EXP 	cue: ori = 180.0
+445.9689 	EXP 	target: pos = array([0.5, 0. ])
+445.9689 	EXP 	fixation_1: autoDraw = True
+446.4680 	EXP 	fixation_1: autoDraw = False
+446.4849 	EXP 	cue: autoDraw = True
+447.1684 	EXP 	cue: autoDraw = False
+447.1849 	EXP 	fixation_2: autoDraw = True
+447.6852 	EXP 	target: autoDraw = True
+448.1689 	EXP 	target: autoDraw = False
+448.1739 	EXP 	New trial (rep=9, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+448.1769 	DATA 	Keypress: right
+448.1856 	EXP 	fixation_1: autoDraw = False
+448.1856 	EXP 	fixation_2: autoDraw = False
+448.1856 	EXP 	cue: autoDraw = False
+448.1856 	EXP 	target: autoDraw = False
+448.1856 	EXP 	cue: ori = 180.0
+448.1856 	EXP 	target: pos = array([0.5, 0. ])
+448.1856 	EXP 	fixation_1: autoDraw = True
+448.6854 	EXP 	fixation_1: autoDraw = False
+448.7022 	EXP 	cue: autoDraw = True
+449.3856 	EXP 	cue: autoDraw = False
+449.4024 	EXP 	fixation_2: autoDraw = True
+449.9026 	EXP 	target: autoDraw = True
+450.3416 	EXP 	New trial (rep=9, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+450.3445 	DATA 	Keypress: right
+450.3535 	EXP 	fixation_1: autoDraw = False
+450.3535 	EXP 	fixation_2: autoDraw = False
+450.3535 	EXP 	cue: autoDraw = False
+450.3535 	EXP 	target: autoDraw = False
+450.3535 	EXP 	cue: ori = 0.0
+450.3535 	EXP 	target: pos = array([-0.5,  0. ])
+450.3535 	EXP 	fixation_1: autoDraw = True
+450.8529 	EXP 	fixation_1: autoDraw = False
+450.8697 	EXP 	cue: autoDraw = True
+451.5532 	EXP 	cue: autoDraw = False
+451.5698 	EXP 	fixation_2: autoDraw = True
+452.0698 	EXP 	target: autoDraw = True
+452.5094 	EXP 	New trial (rep=9, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+452.5123 	DATA 	Keypress: left
+452.5211 	EXP 	fixation_1: autoDraw = False
+452.5211 	EXP 	fixation_2: autoDraw = False
+452.5211 	EXP 	cue: autoDraw = False
+452.5211 	EXP 	target: autoDraw = False
+452.5211 	EXP 	cue: ori = 0.0
+452.5211 	EXP 	target: pos = array([0.5, 0. ])
+452.5211 	EXP 	fixation_1: autoDraw = True
+453.0202 	EXP 	fixation_1: autoDraw = False
+453.0369 	EXP 	cue: autoDraw = True
+453.7206 	EXP 	cue: autoDraw = False
+453.7369 	EXP 	fixation_2: autoDraw = True
+454.2372 	EXP 	target: autoDraw = True
+454.7209 	EXP 	target: autoDraw = False
+454.8598 	EXP 	New trial (rep=9, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+454.8627 	DATA 	Keypress: right
+454.8714 	EXP 	fixation_1: autoDraw = False
+454.8714 	EXP 	fixation_2: autoDraw = False
+454.8714 	EXP 	cue: autoDraw = False
+454.8714 	EXP 	target: autoDraw = False
+454.8714 	EXP 	cue: ori = 0.0
+454.8714 	EXP 	target: pos = array([-0.5,  0. ])
+454.8714 	EXP 	fixation_1: autoDraw = True
+455.3709 	EXP 	fixation_1: autoDraw = False
+455.3874 	EXP 	cue: autoDraw = True
+456.0712 	EXP 	cue: autoDraw = False
+456.0877 	EXP 	fixation_2: autoDraw = True
+456.5879 	EXP 	target: autoDraw = True
+457.0715 	EXP 	target: autoDraw = False
+457.0772 	EXP 	New trial (rep=9, index=7): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+457.0804 	DATA 	Keypress: left
+457.0892 	EXP 	fixation_1: autoDraw = False
+457.0892 	EXP 	fixation_2: autoDraw = False
+457.0892 	EXP 	cue: autoDraw = False
+457.0892 	EXP 	target: autoDraw = False
+457.0892 	EXP 	cue: ori = 180.0
+457.0892 	EXP 	target: pos = array([-0.5,  0. ])
+457.0892 	EXP 	fixation_1: autoDraw = True
+457.5882 	EXP 	fixation_1: autoDraw = False
+457.6048 	EXP 	cue: autoDraw = True
+458.2886 	EXP 	cue: autoDraw = False
+458.3050 	EXP 	fixation_2: autoDraw = True
+458.8052 	EXP 	target: autoDraw = True
+459.2888 	EXP 	target: autoDraw = False
+459.3112 	EXP 	New trial (rep=10, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+459.3142 	DATA 	Keypress: left
+459.3231 	EXP 	fixation_1: autoDraw = False
+459.3231 	EXP 	fixation_2: autoDraw = False
+459.3231 	EXP 	cue: autoDraw = False
+459.3231 	EXP 	target: autoDraw = False
+459.3231 	EXP 	cue: ori = 180.0
+459.3231 	EXP 	target: pos = array([0.5, 0. ])
+459.3231 	EXP 	fixation_1: autoDraw = True
+459.8223 	EXP 	fixation_1: autoDraw = False
+459.8390 	EXP 	cue: autoDraw = True
+460.5226 	EXP 	cue: autoDraw = False
+460.5394 	EXP 	fixation_2: autoDraw = True
+461.0394 	EXP 	target: autoDraw = True
+461.5228 	EXP 	target: autoDraw = False
+461.8117 	EXP 	New trial (rep=10, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+461.8147 	DATA 	Keypress: right
+461.8236 	EXP 	fixation_1: autoDraw = False
+461.8236 	EXP 	fixation_2: autoDraw = False
+461.8236 	EXP 	cue: autoDraw = False
+461.8236 	EXP 	target: autoDraw = False
+461.8236 	EXP 	cue: ori = 0.0
+461.8236 	EXP 	target: pos = array([0.5, 0. ])
+461.8236 	EXP 	fixation_1: autoDraw = True
+462.3232 	EXP 	fixation_1: autoDraw = False
+462.3398 	EXP 	cue: autoDraw = True
+463.0234 	EXP 	cue: autoDraw = False
+463.0398 	EXP 	fixation_2: autoDraw = True
+463.5402 	EXP 	target: autoDraw = True
+463.9794 	EXP 	New trial (rep=10, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+463.9823 	DATA 	Keypress: right
+463.9912 	EXP 	fixation_1: autoDraw = False
+463.9912 	EXP 	fixation_2: autoDraw = False
+463.9912 	EXP 	cue: autoDraw = False
+463.9912 	EXP 	target: autoDraw = False
+463.9912 	EXP 	cue: ori = 0.0
+463.9912 	EXP 	target: pos = array([-0.5,  0. ])
+463.9912 	EXP 	fixation_1: autoDraw = True
+464.4904 	EXP 	fixation_1: autoDraw = False
+464.5070 	EXP 	cue: autoDraw = True
+465.1905 	EXP 	cue: autoDraw = False
+465.2073 	EXP 	fixation_2: autoDraw = True
+465.7075 	EXP 	target: autoDraw = True
+466.0132 	EXP 	New trial (rep=10, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+466.0162 	DATA 	Keypress: left
+466.0250 	EXP 	fixation_1: autoDraw = False
+466.0250 	EXP 	fixation_2: autoDraw = False
+466.0250 	EXP 	cue: autoDraw = False
+466.0250 	EXP 	target: autoDraw = False
+466.0250 	EXP 	cue: ori = 180.0
+466.0250 	EXP 	target: pos = array([-0.5,  0. ])
+466.0250 	EXP 	fixation_1: autoDraw = True
+466.5244 	EXP 	fixation_1: autoDraw = False
+466.5410 	EXP 	cue: autoDraw = True
+467.2245 	EXP 	cue: autoDraw = False
+467.2412 	EXP 	fixation_2: autoDraw = True
+467.7414 	EXP 	target: autoDraw = True
+468.0631 	DATA 	Keypress: left
+468.0806 	EXP 	New trial (rep=10, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+468.0922 	EXP 	fixation_1: autoDraw = False
+468.0922 	EXP 	fixation_2: autoDraw = False
+468.0922 	EXP 	cue: autoDraw = False
+468.0922 	EXP 	target: autoDraw = False
+468.0922 	EXP 	cue: ori = 180.0
+468.0922 	EXP 	target: pos = array([0.5, 0. ])
+468.0922 	EXP 	fixation_1: autoDraw = True
+468.5918 	EXP 	fixation_1: autoDraw = False
+468.6085 	EXP 	cue: autoDraw = True
+469.2920 	EXP 	cue: autoDraw = False
+469.3085 	EXP 	fixation_2: autoDraw = True
+469.8089 	EXP 	target: autoDraw = True
+470.1979 	EXP 	New trial (rep=10, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+470.2002 	DATA 	Keypress: right
+470.2091 	EXP 	fixation_1: autoDraw = False
+470.2091 	EXP 	fixation_2: autoDraw = False
+470.2091 	EXP 	cue: autoDraw = False
+470.2091 	EXP 	target: autoDraw = False
+470.2091 	EXP 	cue: ori = 0.0
+470.2091 	EXP 	target: pos = array([-0.5,  0. ])
+470.2091 	EXP 	fixation_1: autoDraw = True
+470.7091 	EXP 	fixation_1: autoDraw = False
+470.7255 	EXP 	cue: autoDraw = True
+471.4092 	EXP 	cue: autoDraw = False
+471.4259 	EXP 	fixation_2: autoDraw = True
+471.9260 	EXP 	target: autoDraw = True
+472.2819 	EXP 	New trial (rep=10, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+472.2849 	DATA 	Keypress: left
+472.2938 	EXP 	fixation_1: autoDraw = False
+472.2938 	EXP 	fixation_2: autoDraw = False
+472.2938 	EXP 	cue: autoDraw = False
+472.2938 	EXP 	target: autoDraw = False
+472.2938 	EXP 	cue: ori = 180.0
+472.2938 	EXP 	target: pos = array([0.5, 0. ])
+472.2938 	EXP 	fixation_1: autoDraw = True
+472.7931 	EXP 	fixation_1: autoDraw = False
+472.8096 	EXP 	cue: autoDraw = True
+473.4932 	EXP 	cue: autoDraw = False
+473.5099 	EXP 	fixation_2: autoDraw = True
+474.0100 	EXP 	target: autoDraw = True
+474.4484 	DATA 	Keypress: right
+474.4658 	EXP 	New trial (rep=10, index=7): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+474.4776 	EXP 	fixation_1: autoDraw = False
+474.4776 	EXP 	fixation_2: autoDraw = False
+474.4776 	EXP 	cue: autoDraw = False
+474.4776 	EXP 	target: autoDraw = False
+474.4776 	EXP 	cue: ori = 0.0
+474.4776 	EXP 	target: pos = array([-0.5,  0. ])
+474.4776 	EXP 	fixation_1: autoDraw = True
+474.9769 	EXP 	fixation_1: autoDraw = False
+474.9937 	EXP 	cue: autoDraw = True
+475.6773 	EXP 	cue: autoDraw = False
+475.6940 	EXP 	fixation_2: autoDraw = True
+476.1942 	EXP 	target: autoDraw = True
+476.5523 	DATA 	Keypress: left
+476.5615 	EXP 	fixation_1: autoDraw = False
+476.5615 	EXP 	fixation_2: autoDraw = False
+476.5615 	EXP 	cue: autoDraw = False
+476.5615 	EXP 	target: autoDraw = False
+476.5615 	EXP 	break_text: autoDraw = True
+536.5484 	EXP 	New trial (rep=2, index=0): None
+536.5628 	EXP 	break_text: autoDraw = False
+536.5628 	EXP 	break_text: autoDraw = False
+537.5796 	EXP 	text_2: autoDraw = True
+539.5637 	EXP 	text_2: autoDraw = False
+539.5637 	EXP 	text_2: autoDraw = False
+539.6804 	EXP 	text: autoDraw = True
+539.7535 	EXP 	Imported conditions.csv as conditions, 8 conditions, 6 params
+539.7538 	EXP 	Created sequence: random, trialTypes=8, nReps=11, seed=None
+539.9573 	EXP 	New trial (rep=0, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+539.9665 	EXP 	text: autoDraw = False
+539.9665 	EXP 	text: autoDraw = False
+539.9665 	EXP 	cue: ori = 180.0
+539.9665 	EXP 	target: pos = array([-0.5,  0. ])
+539.9665 	EXP 	fixation_1: autoDraw = True
+540.4639 	EXP 	fixation_1: autoDraw = False
+540.4806 	EXP 	cue: autoDraw = True
+541.1642 	EXP 	cue: autoDraw = False
+541.1809 	EXP 	fixation_2: autoDraw = True
+541.6811 	EXP 	target: autoDraw = True
+542.0714 	EXP 	New trial (rep=0, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+542.0743 	DATA 	Keypress: left
+542.0833 	EXP 	fixation_1: autoDraw = False
+542.0833 	EXP 	fixation_2: autoDraw = False
+542.0833 	EXP 	cue: autoDraw = False
+542.0833 	EXP 	target: autoDraw = False
+542.0833 	EXP 	cue: ori = 180.0
+542.0833 	EXP 	target: pos = array([0.5, 0. ])
+542.0833 	EXP 	fixation_1: autoDraw = True
+542.5812 	EXP 	fixation_1: autoDraw = False
+542.5979 	EXP 	cue: autoDraw = True
+543.2814 	EXP 	cue: autoDraw = False
+543.2981 	EXP 	fixation_2: autoDraw = True
+543.7983 	EXP 	target: autoDraw = True
+544.2039 	EXP 	New trial (rep=0, index=2): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+544.2069 	DATA 	Keypress: right
+544.2157 	EXP 	fixation_1: autoDraw = False
+544.2157 	EXP 	fixation_2: autoDraw = False
+544.2157 	EXP 	cue: autoDraw = False
+544.2157 	EXP 	target: autoDraw = False
+544.2157 	EXP 	cue: ori = 0.0
+544.2157 	EXP 	target: pos = array([0.5, 0. ])
+544.2157 	EXP 	fixation_1: autoDraw = True
+544.7153 	EXP 	fixation_1: autoDraw = False
+544.7320 	EXP 	cue: autoDraw = True
+545.4154 	EXP 	cue: autoDraw = False
+545.4320 	EXP 	fixation_2: autoDraw = True
+545.9323 	EXP 	target: autoDraw = True
+546.3206 	DATA 	Keypress: right
+546.3376 	EXP 	New trial (rep=0, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+546.3494 	EXP 	fixation_1: autoDraw = False
+546.3494 	EXP 	fixation_2: autoDraw = False
+546.3494 	EXP 	cue: autoDraw = False
+546.3494 	EXP 	target: autoDraw = False
+546.3494 	EXP 	cue: ori = 180.0
+546.3494 	EXP 	target: pos = array([0.5, 0. ])
+546.3494 	EXP 	fixation_1: autoDraw = True
+546.8492 	EXP 	fixation_1: autoDraw = False
+546.8659 	EXP 	cue: autoDraw = True
+547.5494 	EXP 	cue: autoDraw = False
+547.5662 	EXP 	fixation_2: autoDraw = True
+548.0663 	EXP 	target: autoDraw = True
+548.4391 	EXP 	New trial (rep=0, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+548.4420 	DATA 	Keypress: right
+548.4508 	EXP 	fixation_1: autoDraw = False
+548.4508 	EXP 	fixation_2: autoDraw = False
+548.4508 	EXP 	cue: autoDraw = False
+548.4508 	EXP 	target: autoDraw = False
+548.4508 	EXP 	cue: ori = 0.0
+548.4508 	EXP 	target: pos = array([-0.5,  0. ])
+548.4508 	EXP 	fixation_1: autoDraw = True
+548.9499 	EXP 	fixation_1: autoDraw = False
+548.9665 	EXP 	cue: autoDraw = True
+549.6501 	EXP 	cue: autoDraw = False
+549.6666 	EXP 	fixation_2: autoDraw = True
+550.1668 	EXP 	target: autoDraw = True
+550.5231 	EXP 	New trial (rep=0, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+550.5261 	DATA 	Keypress: left
+550.5351 	EXP 	fixation_1: autoDraw = False
+550.5351 	EXP 	fixation_2: autoDraw = False
+550.5351 	EXP 	cue: autoDraw = False
+550.5351 	EXP 	target: autoDraw = False
+550.5351 	EXP 	cue: ori = 0.0
+550.5351 	EXP 	target: pos = array([-0.5,  0. ])
+550.5351 	EXP 	fixation_1: autoDraw = True
+551.0338 	EXP 	fixation_1: autoDraw = False
+551.0505 	EXP 	cue: autoDraw = True
+551.7340 	EXP 	cue: autoDraw = False
+551.7509 	EXP 	fixation_2: autoDraw = True
+552.2509 	EXP 	target: autoDraw = True
+552.5732 	EXP 	New trial (rep=0, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+552.5761 	DATA 	Keypress: left
+552.5851 	EXP 	fixation_1: autoDraw = False
+552.5851 	EXP 	fixation_2: autoDraw = False
+552.5851 	EXP 	cue: autoDraw = False
+552.5851 	EXP 	target: autoDraw = False
+552.5851 	EXP 	cue: ori = 0.0
+552.5851 	EXP 	target: pos = array([-0.5,  0. ])
+552.5851 	EXP 	fixation_1: autoDraw = True
+553.0844 	EXP 	fixation_1: autoDraw = False
+553.1013 	EXP 	cue: autoDraw = True
+553.7845 	EXP 	cue: autoDraw = False
+553.8014 	EXP 	fixation_2: autoDraw = True
+554.3018 	EXP 	target: autoDraw = True
+554.6229 	DATA 	Keypress: left
+554.6406 	EXP 	New trial (rep=0, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+554.6522 	EXP 	fixation_1: autoDraw = False
+554.6522 	EXP 	fixation_2: autoDraw = False
+554.6522 	EXP 	cue: autoDraw = False
+554.6522 	EXP 	target: autoDraw = False
+554.6522 	EXP 	cue: ori = 180.0
+554.6522 	EXP 	target: pos = array([0.5, 0. ])
+554.6522 	EXP 	fixation_1: autoDraw = True
+555.1518 	EXP 	fixation_1: autoDraw = False
+555.1686 	EXP 	cue: autoDraw = True
+555.8520 	EXP 	cue: autoDraw = False
+555.8688 	EXP 	fixation_2: autoDraw = True
+556.3688 	EXP 	target: autoDraw = True
+556.7082 	EXP 	New trial (rep=1, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+556.7111 	DATA 	Keypress: right
+556.7197 	EXP 	fixation_1: autoDraw = False
+556.7197 	EXP 	fixation_2: autoDraw = False
+556.7197 	EXP 	cue: autoDraw = False
+556.7197 	EXP 	target: autoDraw = False
+556.7197 	EXP 	cue: ori = 0.0
+556.7197 	EXP 	target: pos = array([-0.5,  0. ])
+556.7197 	EXP 	fixation_1: autoDraw = True
+557.2191 	EXP 	fixation_1: autoDraw = False
+557.2357 	EXP 	cue: autoDraw = True
+557.9193 	EXP 	cue: autoDraw = False
+557.9359 	EXP 	fixation_2: autoDraw = True
+558.4361 	EXP 	target: autoDraw = True
+558.8077 	DATA 	Keypress: left
+558.8252 	EXP 	New trial (rep=1, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+558.8370 	EXP 	fixation_1: autoDraw = False
+558.8370 	EXP 	fixation_2: autoDraw = False
+558.8370 	EXP 	cue: autoDraw = False
+558.8370 	EXP 	target: autoDraw = False
+558.8370 	EXP 	cue: ori = 180.0
+558.8370 	EXP 	target: pos = array([0.5, 0. ])
+558.8370 	EXP 	fixation_1: autoDraw = True
+559.3363 	EXP 	fixation_1: autoDraw = False
+559.3532 	EXP 	cue: autoDraw = True
+560.0366 	EXP 	cue: autoDraw = False
+560.0534 	EXP 	fixation_2: autoDraw = True
+560.5535 	EXP 	target: autoDraw = True
+560.8086 	DATA 	Keypress: right
+560.8260 	EXP 	New trial (rep=1, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+560.8377 	EXP 	fixation_1: autoDraw = False
+560.8377 	EXP 	fixation_2: autoDraw = False
+560.8377 	EXP 	cue: autoDraw = False
+560.8377 	EXP 	target: autoDraw = False
+560.8377 	EXP 	cue: ori = 180.0
+560.8377 	EXP 	target: pos = array([-0.5,  0. ])
+560.8377 	EXP 	fixation_1: autoDraw = True
+561.3370 	EXP 	fixation_1: autoDraw = False
+561.3536 	EXP 	cue: autoDraw = True
+562.0372 	EXP 	cue: autoDraw = False
+562.0540 	EXP 	fixation_2: autoDraw = True
+562.5542 	EXP 	target: autoDraw = True
+562.9591 	DATA 	Keypress: left
+562.9767 	EXP 	New trial (rep=1, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+562.9885 	EXP 	fixation_1: autoDraw = False
+562.9885 	EXP 	fixation_2: autoDraw = False
+562.9885 	EXP 	cue: autoDraw = False
+562.9885 	EXP 	target: autoDraw = False
+562.9885 	EXP 	cue: ori = 180.0
+562.9885 	EXP 	target: pos = array([0.5, 0. ])
+562.9885 	EXP 	fixation_1: autoDraw = True
+563.4876 	EXP 	fixation_1: autoDraw = False
+563.5044 	EXP 	cue: autoDraw = True
+564.1881 	EXP 	cue: autoDraw = False
+564.2047 	EXP 	fixation_2: autoDraw = True
+564.7047 	EXP 	target: autoDraw = True
+564.9590 	DATA 	Keypress: right
+564.9773 	EXP 	New trial (rep=1, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+564.9888 	EXP 	fixation_1: autoDraw = False
+564.9888 	EXP 	fixation_2: autoDraw = False
+564.9888 	EXP 	cue: autoDraw = False
+564.9888 	EXP 	target: autoDraw = False
+564.9888 	EXP 	cue: ori = 0.0
+564.9888 	EXP 	target: pos = array([0.5, 0. ])
+564.9888 	EXP 	fixation_1: autoDraw = True
+565.4882 	EXP 	fixation_1: autoDraw = False
+565.5049 	EXP 	cue: autoDraw = True
+566.1887 	EXP 	cue: autoDraw = False
+566.2052 	EXP 	fixation_2: autoDraw = True
+566.7052 	EXP 	target: autoDraw = True
+567.1614 	EXP 	New trial (rep=1, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+567.1644 	DATA 	Keypress: right
+567.1732 	EXP 	fixation_1: autoDraw = False
+567.1732 	EXP 	fixation_2: autoDraw = False
+567.1732 	EXP 	cue: autoDraw = False
+567.1732 	EXP 	target: autoDraw = False
+567.1732 	EXP 	cue: ori = 0.0
+567.1732 	EXP 	target: pos = array([-0.5,  0. ])
+567.1732 	EXP 	fixation_1: autoDraw = True
+567.6724 	EXP 	fixation_1: autoDraw = False
+567.6891 	EXP 	cue: autoDraw = True
+568.3727 	EXP 	cue: autoDraw = False
+568.3892 	EXP 	fixation_2: autoDraw = True
+568.8894 	EXP 	target: autoDraw = True
+569.2790 	EXP 	New trial (rep=1, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+569.2819 	DATA 	Keypress: left
+569.2908 	EXP 	fixation_1: autoDraw = False
+569.2908 	EXP 	fixation_2: autoDraw = False
+569.2908 	EXP 	cue: autoDraw = False
+569.2908 	EXP 	target: autoDraw = False
+569.2908 	EXP 	cue: ori = 0.0
+569.2908 	EXP 	target: pos = array([-0.5,  0. ])
+569.2908 	EXP 	fixation_1: autoDraw = True
+569.7896 	EXP 	fixation_1: autoDraw = False
+569.8062 	EXP 	cue: autoDraw = True
+570.4898 	EXP 	cue: autoDraw = False
+570.5065 	EXP 	fixation_2: autoDraw = True
+571.0068 	EXP 	target: autoDraw = True
+571.4903 	EXP 	target: autoDraw = False
+571.4960 	EXP 	New trial (rep=1, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+571.4991 	DATA 	Keypress: left
+571.5080 	EXP 	fixation_1: autoDraw = False
+571.5080 	EXP 	fixation_2: autoDraw = False
+571.5080 	EXP 	cue: autoDraw = False
+571.5080 	EXP 	target: autoDraw = False
+571.5080 	EXP 	cue: ori = 180.0
+571.5080 	EXP 	target: pos = array([0.5, 0. ])
+571.5080 	EXP 	fixation_1: autoDraw = True
+572.0071 	EXP 	fixation_1: autoDraw = False
+572.0237 	EXP 	cue: autoDraw = True
+572.7073 	EXP 	cue: autoDraw = False
+572.7240 	EXP 	fixation_2: autoDraw = True
+573.2239 	EXP 	target: autoDraw = True
+573.5798 	EXP 	New trial (rep=2, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+573.5828 	DATA 	Keypress: right
+573.5917 	EXP 	fixation_1: autoDraw = False
+573.5917 	EXP 	fixation_2: autoDraw = False
+573.5917 	EXP 	cue: autoDraw = False
+573.5917 	EXP 	target: autoDraw = False
+573.5917 	EXP 	cue: ori = 180.0
+573.5917 	EXP 	target: pos = array([0.5, 0. ])
+573.5917 	EXP 	fixation_1: autoDraw = True
+574.0910 	EXP 	fixation_1: autoDraw = False
+574.1078 	EXP 	cue: autoDraw = True
+574.7912 	EXP 	cue: autoDraw = False
+574.8079 	EXP 	fixation_2: autoDraw = True
+575.3079 	EXP 	target: autoDraw = True
+575.7807 	EXP 	New trial (rep=2, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+575.7836 	DATA 	Keypress: right
+575.7925 	EXP 	target: autoDraw = False
+575.7925 	EXP 	fixation_1: autoDraw = False
+575.7925 	EXP 	fixation_2: autoDraw = False
+575.7925 	EXP 	cue: autoDraw = False
+575.7925 	EXP 	target: autoDraw = False
+575.7925 	EXP 	cue: ori = 0.0
+575.7925 	EXP 	target: pos = array([-0.5,  0. ])
+575.7925 	EXP 	fixation_1: autoDraw = True
+576.2918 	EXP 	fixation_1: autoDraw = False
+576.3083 	EXP 	cue: autoDraw = True
+576.9920 	EXP 	cue: autoDraw = False
+577.0086 	EXP 	fixation_2: autoDraw = True
+577.5087 	EXP 	target: autoDraw = True
+577.9145 	EXP 	New trial (rep=2, index=2): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+577.9163 	DATA 	Keypress: left
+577.9256 	EXP 	fixation_1: autoDraw = False
+577.9256 	EXP 	fixation_2: autoDraw = False
+577.9256 	EXP 	cue: autoDraw = False
+577.9256 	EXP 	target: autoDraw = False
+577.9256 	EXP 	cue: ori = 0.0
+577.9256 	EXP 	target: pos = array([0.5, 0. ])
+577.9256 	EXP 	fixation_1: autoDraw = True
+578.4256 	EXP 	fixation_1: autoDraw = False
+578.4425 	EXP 	cue: autoDraw = True
+579.1258 	EXP 	cue: autoDraw = False
+579.1427 	EXP 	fixation_2: autoDraw = True
+579.6429 	EXP 	target: autoDraw = True
+580.0478 	DATA 	Keypress: right
+580.0652 	EXP 	New trial (rep=2, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+580.0768 	EXP 	fixation_1: autoDraw = False
+580.0768 	EXP 	fixation_2: autoDraw = False
+580.0768 	EXP 	cue: autoDraw = False
+580.0768 	EXP 	target: autoDraw = False
+580.0768 	EXP 	cue: ori = 180.0
+580.0768 	EXP 	target: pos = array([0.5, 0. ])
+580.0768 	EXP 	fixation_1: autoDraw = True
+580.5763 	EXP 	fixation_1: autoDraw = False
+580.5931 	EXP 	cue: autoDraw = True
+581.2764 	EXP 	cue: autoDraw = False
+581.2933 	EXP 	fixation_2: autoDraw = True
+581.7936 	EXP 	target: autoDraw = True
+582.1160 	EXP 	New trial (rep=2, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+582.1191 	DATA 	Keypress: right
+582.1279 	EXP 	fixation_1: autoDraw = False
+582.1279 	EXP 	fixation_2: autoDraw = False
+582.1279 	EXP 	cue: autoDraw = False
+582.1279 	EXP 	target: autoDraw = False
+582.1279 	EXP 	cue: ori = 0.0
+582.1279 	EXP 	target: pos = array([-0.5,  0. ])
+582.1279 	EXP 	fixation_1: autoDraw = True
+582.6269 	EXP 	fixation_1: autoDraw = False
+582.6436 	EXP 	cue: autoDraw = True
+583.3273 	EXP 	cue: autoDraw = False
+583.3440 	EXP 	fixation_2: autoDraw = True
+583.8442 	EXP 	target: autoDraw = True
+584.1333 	EXP 	New trial (rep=2, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+584.1361 	DATA 	Keypress: left
+584.1451 	EXP 	fixation_1: autoDraw = False
+584.1451 	EXP 	fixation_2: autoDraw = False
+584.1451 	EXP 	cue: autoDraw = False
+584.1451 	EXP 	target: autoDraw = False
+584.1451 	EXP 	cue: ori = 0.0
+584.1451 	EXP 	target: pos = array([-0.5,  0. ])
+584.1451 	EXP 	fixation_1: autoDraw = True
+584.6444 	EXP 	fixation_1: autoDraw = False
+584.6610 	EXP 	cue: autoDraw = True
+585.3445 	EXP 	cue: autoDraw = False
+585.3612 	EXP 	fixation_2: autoDraw = True
+585.8613 	EXP 	target: autoDraw = True
+586.3010 	EXP 	New trial (rep=2, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+586.3040 	DATA 	Keypress: left
+586.3129 	EXP 	fixation_1: autoDraw = False
+586.3129 	EXP 	fixation_2: autoDraw = False
+586.3129 	EXP 	cue: autoDraw = False
+586.3129 	EXP 	target: autoDraw = False
+586.3129 	EXP 	cue: ori = 180.0
+586.3129 	EXP 	target: pos = array([0.5, 0. ])
+586.3129 	EXP 	fixation_1: autoDraw = True
+586.8117 	EXP 	fixation_1: autoDraw = False
+586.8282 	EXP 	cue: autoDraw = True
+587.5119 	EXP 	cue: autoDraw = False
+587.5285 	EXP 	fixation_2: autoDraw = True
+588.0287 	EXP 	target: autoDraw = True
+588.3010 	EXP 	New trial (rep=2, index=7): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+588.3040 	DATA 	Keypress: right
+588.3129 	EXP 	fixation_1: autoDraw = False
+588.3129 	EXP 	fixation_2: autoDraw = False
+588.3129 	EXP 	cue: autoDraw = False
+588.3129 	EXP 	target: autoDraw = False
+588.3129 	EXP 	cue: ori = 180.0
+588.3129 	EXP 	target: pos = array([-0.5,  0. ])
+588.3129 	EXP 	fixation_1: autoDraw = True
+588.8122 	EXP 	fixation_1: autoDraw = False
+588.8290 	EXP 	cue: autoDraw = True
+589.5124 	EXP 	cue: autoDraw = False
+589.5292 	EXP 	fixation_2: autoDraw = True
+590.0296 	EXP 	target: autoDraw = True
+590.4852 	EXP 	New trial (rep=3, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+590.4882 	DATA 	Keypress: left
+590.4969 	EXP 	fixation_1: autoDraw = False
+590.4969 	EXP 	fixation_2: autoDraw = False
+590.4969 	EXP 	cue: autoDraw = False
+590.4969 	EXP 	target: autoDraw = False
+590.4969 	EXP 	cue: ori = 0.0
+590.4969 	EXP 	target: pos = array([-0.5,  0. ])
+590.4969 	EXP 	fixation_1: autoDraw = True
+590.9961 	EXP 	fixation_1: autoDraw = False
+591.0130 	EXP 	cue: autoDraw = True
+591.6964 	EXP 	cue: autoDraw = False
+591.7132 	EXP 	fixation_2: autoDraw = True
+592.2133 	EXP 	target: autoDraw = True
+592.6357 	EXP 	New trial (rep=3, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+592.6385 	DATA 	Keypress: left
+592.6474 	EXP 	fixation_1: autoDraw = False
+592.6474 	EXP 	fixation_2: autoDraw = False
+592.6474 	EXP 	cue: autoDraw = False
+592.6474 	EXP 	target: autoDraw = False
+592.6474 	EXP 	cue: ori = 0.0
+592.6474 	EXP 	target: pos = array([0.5, 0. ])
+592.6474 	EXP 	fixation_1: autoDraw = True
+593.1468 	EXP 	fixation_1: autoDraw = False
+593.1636 	EXP 	cue: autoDraw = True
+593.8471 	EXP 	cue: autoDraw = False
+593.8639 	EXP 	fixation_2: autoDraw = True
+594.3640 	EXP 	target: autoDraw = True
+594.7701 	EXP 	New trial (rep=3, index=2): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+594.7731 	DATA 	Keypress: right
+594.7819 	EXP 	fixation_1: autoDraw = False
+594.7819 	EXP 	fixation_2: autoDraw = False
+594.7819 	EXP 	cue: autoDraw = False
+594.7819 	EXP 	target: autoDraw = False
+594.7819 	EXP 	cue: ori = 180.0
+594.7819 	EXP 	target: pos = array([0.5, 0. ])
+594.7819 	EXP 	fixation_1: autoDraw = True
+595.2808 	EXP 	fixation_1: autoDraw = False
+595.2976 	EXP 	cue: autoDraw = True
+595.9811 	EXP 	cue: autoDraw = False
+595.9977 	EXP 	fixation_2: autoDraw = True
+596.4980 	EXP 	target: autoDraw = True
+596.8701 	EXP 	New trial (rep=3, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+596.8731 	DATA 	Keypress: right
+596.8819 	EXP 	fixation_1: autoDraw = False
+596.8819 	EXP 	fixation_2: autoDraw = False
+596.8819 	EXP 	cue: autoDraw = False
+596.8819 	EXP 	target: autoDraw = False
+596.8819 	EXP 	cue: ori = 0.0
+596.8819 	EXP 	target: pos = array([-0.5,  0. ])
+596.8819 	EXP 	fixation_1: autoDraw = True
+597.3816 	EXP 	fixation_1: autoDraw = False
+597.3981 	EXP 	cue: autoDraw = True
+598.0817 	EXP 	cue: autoDraw = False
+598.0984 	EXP 	fixation_2: autoDraw = True
+598.5986 	EXP 	target: autoDraw = True
+598.9030 	DATA 	Keypress: left
+598.9210 	EXP 	New trial (rep=3, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+598.9327 	EXP 	fixation_1: autoDraw = False
+598.9327 	EXP 	fixation_2: autoDraw = False
+598.9327 	EXP 	cue: autoDraw = False
+598.9327 	EXP 	target: autoDraw = False
+598.9327 	EXP 	cue: ori = 180.0
+598.9327 	EXP 	target: pos = array([0.5, 0. ])
+598.9327 	EXP 	fixation_1: autoDraw = True
+599.4322 	EXP 	fixation_1: autoDraw = False
+599.4488 	EXP 	cue: autoDraw = True
+600.1325 	EXP 	cue: autoDraw = False
+600.1490 	EXP 	fixation_2: autoDraw = True
+600.6492 	EXP 	target: autoDraw = True
+601.0718 	EXP 	New trial (rep=3, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+601.0747 	DATA 	Keypress: right
+601.0836 	EXP 	fixation_1: autoDraw = False
+601.0836 	EXP 	fixation_2: autoDraw = False
+601.0836 	EXP 	cue: autoDraw = False
+601.0836 	EXP 	target: autoDraw = False
+601.0836 	EXP 	cue: ori = 180.0
+601.0836 	EXP 	target: pos = array([-0.5,  0. ])
+601.0836 	EXP 	fixation_1: autoDraw = True
+601.5828 	EXP 	fixation_1: autoDraw = False
+601.5996 	EXP 	cue: autoDraw = True
+602.2832 	EXP 	cue: autoDraw = False
+602.2998 	EXP 	fixation_2: autoDraw = True
+602.7999 	EXP 	target: autoDraw = True
+603.2057 	EXP 	New trial (rep=3, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+603.2089 	DATA 	Keypress: left
+603.2178 	EXP 	fixation_1: autoDraw = False
+603.2178 	EXP 	fixation_2: autoDraw = False
+603.2178 	EXP 	cue: autoDraw = False
+603.2178 	EXP 	target: autoDraw = False
+603.2178 	EXP 	cue: ori = 180.0
+603.2178 	EXP 	target: pos = array([0.5, 0. ])
+603.2178 	EXP 	fixation_1: autoDraw = True
+603.7170 	EXP 	fixation_1: autoDraw = False
+603.7334 	EXP 	cue: autoDraw = True
+604.4169 	EXP 	cue: autoDraw = False
+604.4338 	EXP 	fixation_2: autoDraw = True
+604.9338 	EXP 	target: autoDraw = True
+605.2888 	DATA 	Keypress: right
+605.3064 	EXP 	New trial (rep=3, index=7): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+605.3179 	EXP 	fixation_1: autoDraw = False
+605.3179 	EXP 	fixation_2: autoDraw = False
+605.3179 	EXP 	cue: autoDraw = False
+605.3179 	EXP 	target: autoDraw = False
+605.3179 	EXP 	cue: ori = 0.0
+605.3179 	EXP 	target: pos = array([-0.5,  0. ])
+605.3179 	EXP 	fixation_1: autoDraw = True
+605.8175 	EXP 	fixation_1: autoDraw = False
+605.8341 	EXP 	cue: autoDraw = True
+606.5176 	EXP 	cue: autoDraw = False
+606.5344 	EXP 	fixation_2: autoDraw = True
+607.0346 	EXP 	target: autoDraw = True
+607.4572 	EXP 	New trial (rep=4, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+607.4595 	DATA 	Keypress: left
+607.4683 	EXP 	fixation_1: autoDraw = False
+607.4683 	EXP 	fixation_2: autoDraw = False
+607.4683 	EXP 	cue: autoDraw = False
+607.4683 	EXP 	target: autoDraw = False
+607.4683 	EXP 	cue: ori = 180.0
+607.4683 	EXP 	target: pos = array([-0.5,  0. ])
+607.4683 	EXP 	fixation_1: autoDraw = True
+607.9682 	EXP 	fixation_1: autoDraw = False
+607.9849 	EXP 	cue: autoDraw = True
+608.6684 	EXP 	cue: autoDraw = False
+608.6849 	EXP 	fixation_2: autoDraw = True
+609.1852 	EXP 	target: autoDraw = True
+609.6069 	DATA 	Keypress: left
+609.6243 	EXP 	New trial (rep=4, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+609.6359 	EXP 	fixation_1: autoDraw = False
+609.6359 	EXP 	fixation_2: autoDraw = False
+609.6359 	EXP 	cue: autoDraw = False
+609.6359 	EXP 	target: autoDraw = False
+609.6359 	EXP 	cue: ori = 180.0
+609.6359 	EXP 	target: pos = array([0.5, 0. ])
+609.6359 	EXP 	fixation_1: autoDraw = True
+610.1354 	EXP 	fixation_1: autoDraw = False
+610.1522 	EXP 	cue: autoDraw = True
+610.8357 	EXP 	cue: autoDraw = False
+610.8523 	EXP 	fixation_2: autoDraw = True
+611.3526 	EXP 	target: autoDraw = True
+611.7909 	DATA 	Keypress: right
+611.8086 	EXP 	New trial (rep=4, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+611.8202 	EXP 	fixation_1: autoDraw = False
+611.8202 	EXP 	fixation_2: autoDraw = False
+611.8202 	EXP 	cue: autoDraw = False
+611.8202 	EXP 	target: autoDraw = False
+611.8202 	EXP 	cue: ori = 0.0
+611.8202 	EXP 	target: pos = array([-0.5,  0. ])
+611.8202 	EXP 	fixation_1: autoDraw = True
+612.3196 	EXP 	fixation_1: autoDraw = False
+612.3361 	EXP 	cue: autoDraw = True
+613.0197 	EXP 	cue: autoDraw = False
+613.0363 	EXP 	fixation_2: autoDraw = True
+613.5366 	EXP 	target: autoDraw = True
+613.8929 	EXP 	New trial (rep=4, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+613.8959 	DATA 	Keypress: left
+613.9049 	EXP 	fixation_1: autoDraw = False
+613.9049 	EXP 	fixation_2: autoDraw = False
+613.9049 	EXP 	cue: autoDraw = False
+613.9049 	EXP 	target: autoDraw = False
+613.9049 	EXP 	cue: ori = 180.0
+613.9049 	EXP 	target: pos = array([0.5, 0. ])
+613.9049 	EXP 	fixation_1: autoDraw = True
+614.4037 	EXP 	fixation_1: autoDraw = False
+614.4202 	EXP 	cue: autoDraw = True
+615.1038 	EXP 	cue: autoDraw = False
+615.1204 	EXP 	fixation_2: autoDraw = True
+615.6205 	EXP 	target: autoDraw = True
+615.9429 	EXP 	New trial (rep=4, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+615.9458 	DATA 	Keypress: right
+615.9547 	EXP 	fixation_1: autoDraw = False
+615.9547 	EXP 	fixation_2: autoDraw = False
+615.9547 	EXP 	cue: autoDraw = False
+615.9547 	EXP 	target: autoDraw = False
+615.9547 	EXP 	cue: ori = 0.0
+615.9547 	EXP 	target: pos = array([0.5, 0. ])
+615.9547 	EXP 	fixation_1: autoDraw = True
+616.4541 	EXP 	fixation_1: autoDraw = False
+616.4707 	EXP 	cue: autoDraw = True
+617.1544 	EXP 	cue: autoDraw = False
+617.1711 	EXP 	fixation_2: autoDraw = True
+617.6712 	EXP 	target: autoDraw = True
+618.1547 	EXP 	target: autoDraw = False
+618.1603 	EXP 	New trial (rep=4, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+618.1634 	DATA 	Keypress: right
+618.1722 	EXP 	fixation_1: autoDraw = False
+618.1722 	EXP 	fixation_2: autoDraw = False
+618.1722 	EXP 	cue: autoDraw = False
+618.1722 	EXP 	target: autoDraw = False
+618.1722 	EXP 	cue: ori = 180.0
+618.1722 	EXP 	target: pos = array([0.5, 0. ])
+618.1722 	EXP 	fixation_1: autoDraw = True
+618.6717 	EXP 	fixation_1: autoDraw = False
+618.6881 	EXP 	cue: autoDraw = True
+619.3716 	EXP 	cue: autoDraw = False
+619.3884 	EXP 	fixation_2: autoDraw = True
+619.8887 	EXP 	target: autoDraw = True
+620.2945 	EXP 	New trial (rep=4, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+620.2965 	DATA 	Keypress: right
+620.3053 	EXP 	fixation_1: autoDraw = False
+620.3053 	EXP 	fixation_2: autoDraw = False
+620.3053 	EXP 	cue: autoDraw = False
+620.3053 	EXP 	target: autoDraw = False
+620.3053 	EXP 	cue: ori = 0.0
+620.3053 	EXP 	target: pos = array([-0.5,  0. ])
+620.3053 	EXP 	fixation_1: autoDraw = True
+620.8053 	EXP 	fixation_1: autoDraw = False
+620.8222 	EXP 	cue: autoDraw = True
+621.5056 	EXP 	cue: autoDraw = False
+621.5223 	EXP 	fixation_2: autoDraw = True
+622.0226 	EXP 	target: autoDraw = True
+622.4287 	EXP 	New trial (rep=4, index=7): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+622.4316 	DATA 	Keypress: left
+622.4406 	EXP 	fixation_1: autoDraw = False
+622.4406 	EXP 	fixation_2: autoDraw = False
+622.4406 	EXP 	cue: autoDraw = False
+622.4406 	EXP 	target: autoDraw = False
+622.4406 	EXP 	cue: ori = 0.0
+622.4406 	EXP 	target: pos = array([-0.5,  0. ])
+622.4406 	EXP 	fixation_1: autoDraw = True
+622.9396 	EXP 	fixation_1: autoDraw = False
+622.9560 	EXP 	cue: autoDraw = True
+623.6398 	EXP 	cue: autoDraw = False
+623.6562 	EXP 	fixation_2: autoDraw = True
+624.1563 	EXP 	target: autoDraw = True
+624.5439 	DATA 	Keypress: left
+624.5623 	EXP 	New trial (rep=5, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+624.5742 	EXP 	fixation_1: autoDraw = False
+624.5742 	EXP 	fixation_2: autoDraw = False
+624.5742 	EXP 	cue: autoDraw = False
+624.5742 	EXP 	target: autoDraw = False
+624.5742 	EXP 	cue: ori = 0.0
+624.5742 	EXP 	target: pos = array([0.5, 0. ])
+624.5742 	EXP 	fixation_1: autoDraw = True
+625.0737 	EXP 	fixation_1: autoDraw = False
+625.0902 	EXP 	cue: autoDraw = True
+625.7737 	EXP 	cue: autoDraw = False
+625.7905 	EXP 	fixation_2: autoDraw = True
+626.2906 	EXP 	target: autoDraw = True
+626.7461 	EXP 	New trial (rep=5, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+626.7482 	DATA 	Keypress: right
+626.7572 	EXP 	fixation_1: autoDraw = False
+626.7572 	EXP 	fixation_2: autoDraw = False
+626.7572 	EXP 	cue: autoDraw = False
+626.7572 	EXP 	target: autoDraw = False
+626.7572 	EXP 	cue: ori = 0.0
+626.7572 	EXP 	target: pos = array([-0.5,  0. ])
+626.7572 	EXP 	fixation_1: autoDraw = True
+627.2574 	EXP 	fixation_1: autoDraw = False
+627.2742 	EXP 	cue: autoDraw = True
+627.9576 	EXP 	cue: autoDraw = False
+627.9743 	EXP 	fixation_2: autoDraw = True
+628.4744 	EXP 	target: autoDraw = True
+628.7968 	EXP 	New trial (rep=5, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+628.8000 	DATA 	Keypress: left
+628.8087 	EXP 	fixation_1: autoDraw = False
+628.8087 	EXP 	fixation_2: autoDraw = False
+628.8087 	EXP 	cue: autoDraw = False
+628.8087 	EXP 	target: autoDraw = False
+628.8087 	EXP 	cue: ori = 0.0
+628.8087 	EXP 	target: pos = array([-0.5,  0. ])
+628.8087 	EXP 	fixation_1: autoDraw = True
+629.3081 	EXP 	fixation_1: autoDraw = False
+629.3246 	EXP 	cue: autoDraw = True
+630.0082 	EXP 	cue: autoDraw = False
+630.0249 	EXP 	fixation_2: autoDraw = True
+630.5251 	EXP 	target: autoDraw = True
+630.9977 	EXP 	New trial (rep=5, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+631.0009 	DATA 	Keypress: left
+631.0096 	EXP 	target: autoDraw = False
+631.0096 	EXP 	fixation_1: autoDraw = False
+631.0096 	EXP 	fixation_2: autoDraw = False
+631.0096 	EXP 	cue: autoDraw = False
+631.0096 	EXP 	target: autoDraw = False
+631.0096 	EXP 	cue: ori = 180.0
+631.0096 	EXP 	target: pos = array([-0.5,  0. ])
+631.0096 	EXP 	fixation_1: autoDraw = True
+631.5089 	EXP 	fixation_1: autoDraw = False
+631.5253 	EXP 	cue: autoDraw = True
+632.2091 	EXP 	cue: autoDraw = False
+632.2257 	EXP 	fixation_2: autoDraw = True
+632.7258 	EXP 	target: autoDraw = True
+632.8639 	DATA 	Keypress: right
+632.8815 	EXP 	New trial (rep=5, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+632.8931 	EXP 	fixation_1: autoDraw = False
+632.8931 	EXP 	fixation_2: autoDraw = False
+632.8931 	EXP 	cue: autoDraw = False
+632.8931 	EXP 	target: autoDraw = False
+632.8931 	EXP 	cue: ori = 180.0
+632.8931 	EXP 	target: pos = array([0.5, 0. ])
+632.8931 	EXP 	fixation_1: autoDraw = True
+633.3928 	EXP 	fixation_1: autoDraw = False
+633.4094 	EXP 	cue: autoDraw = True
+634.0930 	EXP 	cue: autoDraw = False
+634.1097 	EXP 	fixation_2: autoDraw = True
+634.6097 	EXP 	target: autoDraw = True
+635.0153 	EXP 	New trial (rep=5, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+635.0185 	DATA 	Keypress: right
+635.0273 	EXP 	fixation_1: autoDraw = False
+635.0273 	EXP 	fixation_2: autoDraw = False
+635.0273 	EXP 	cue: autoDraw = False
+635.0273 	EXP 	target: autoDraw = False
+635.0273 	EXP 	cue: ori = 180.0
+635.0273 	EXP 	target: pos = array([0.5, 0. ])
+635.0273 	EXP 	fixation_1: autoDraw = True
+635.5266 	EXP 	fixation_1: autoDraw = False
+635.5435 	EXP 	cue: autoDraw = True
+636.2268 	EXP 	cue: autoDraw = False
+636.2437 	EXP 	fixation_2: autoDraw = True
+636.7439 	EXP 	target: autoDraw = True
+637.1497 	EXP 	New trial (rep=5, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+637.1526 	DATA 	Keypress: right
+637.1614 	EXP 	fixation_1: autoDraw = False
+637.1614 	EXP 	fixation_2: autoDraw = False
+637.1614 	EXP 	cue: autoDraw = False
+637.1614 	EXP 	target: autoDraw = False
+637.1614 	EXP 	cue: ori = 0.0
+637.1614 	EXP 	target: pos = array([-0.5,  0. ])
+637.1614 	EXP 	fixation_1: autoDraw = True
+637.6608 	EXP 	fixation_1: autoDraw = False
+637.6773 	EXP 	cue: autoDraw = True
+638.3608 	EXP 	cue: autoDraw = False
+638.3774 	EXP 	fixation_2: autoDraw = True
+638.8776 	EXP 	target: autoDraw = True
+639.3004 	EXP 	New trial (rep=5, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+639.3033 	DATA 	Keypress: left
+639.3123 	EXP 	fixation_1: autoDraw = False
+639.3123 	EXP 	fixation_2: autoDraw = False
+639.3123 	EXP 	cue: autoDraw = False
+639.3123 	EXP 	target: autoDraw = False
+639.3123 	EXP 	cue: ori = 180.0
+639.3123 	EXP 	target: pos = array([0.5, 0. ])
+639.3123 	EXP 	fixation_1: autoDraw = True
+639.8114 	EXP 	fixation_1: autoDraw = False
+639.8281 	EXP 	cue: autoDraw = True
+640.5116 	EXP 	cue: autoDraw = False
+640.5282 	EXP 	fixation_2: autoDraw = True
+641.0284 	EXP 	target: autoDraw = True
+641.5120 	EXP 	target: autoDraw = False
+641.6324 	DATA 	Keypress: right
+641.6508 	EXP 	New trial (rep=6, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+641.6623 	EXP 	fixation_1: autoDraw = False
+641.6623 	EXP 	fixation_2: autoDraw = False
+641.6623 	EXP 	cue: autoDraw = False
+641.6623 	EXP 	target: autoDraw = False
+641.6623 	EXP 	cue: ori = 0.0
+641.6623 	EXP 	target: pos = array([-0.5,  0. ])
+641.6623 	EXP 	fixation_1: autoDraw = True
+642.1621 	EXP 	fixation_1: autoDraw = False
+642.1789 	EXP 	cue: autoDraw = True
+642.8622 	EXP 	cue: autoDraw = False
+642.8790 	EXP 	fixation_2: autoDraw = True
+643.3791 	EXP 	target: autoDraw = True
+643.8627 	EXP 	target: autoDraw = False
+643.9509 	DATA 	Keypress: left
+643.9684 	EXP 	New trial (rep=6, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+643.9800 	EXP 	fixation_1: autoDraw = False
+643.9800 	EXP 	fixation_2: autoDraw = False
+643.9800 	EXP 	cue: autoDraw = False
+643.9800 	EXP 	target: autoDraw = False
+643.9800 	EXP 	cue: ori = 180.0
+643.9800 	EXP 	target: pos = array([-0.5,  0. ])
+643.9800 	EXP 	fixation_1: autoDraw = True
+644.4796 	EXP 	fixation_1: autoDraw = False
+644.4960 	EXP 	cue: autoDraw = True
+645.1798 	EXP 	cue: autoDraw = False
+645.1963 	EXP 	fixation_2: autoDraw = True
+645.6964 	EXP 	target: autoDraw = True
+646.1693 	EXP 	New trial (rep=6, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+646.1723 	DATA 	Keypress: left
+646.1812 	EXP 	target: autoDraw = False
+646.1812 	EXP 	fixation_1: autoDraw = False
+646.1812 	EXP 	fixation_2: autoDraw = False
+646.1812 	EXP 	cue: autoDraw = False
+646.1812 	EXP 	target: autoDraw = False
+646.1812 	EXP 	cue: ori = 0.0
+646.1812 	EXP 	target: pos = array([-0.5,  0. ])
+646.1812 	EXP 	fixation_1: autoDraw = True
+646.6801 	EXP 	fixation_1: autoDraw = False
+646.6967 	EXP 	cue: autoDraw = True
+647.3803 	EXP 	cue: autoDraw = False
+647.3970 	EXP 	fixation_2: autoDraw = True
+647.8971 	EXP 	target: autoDraw = True
+648.1355 	DATA 	Keypress: left
+648.1530 	EXP 	New trial (rep=6, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+648.1646 	EXP 	fixation_1: autoDraw = False
+648.1646 	EXP 	fixation_2: autoDraw = False
+648.1646 	EXP 	cue: autoDraw = False
+648.1646 	EXP 	target: autoDraw = False
+648.1646 	EXP 	cue: ori = 180.0
+648.1646 	EXP 	target: pos = array([0.5, 0. ])
+648.1646 	EXP 	fixation_1: autoDraw = True
+648.6641 	EXP 	fixation_1: autoDraw = False
+648.6808 	EXP 	cue: autoDraw = True
+649.3643 	EXP 	cue: autoDraw = False
+649.3810 	EXP 	fixation_2: autoDraw = True
+649.8814 	EXP 	target: autoDraw = True
+650.1868 	EXP 	New trial (rep=6, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+650.1900 	DATA 	Keypress: right
+650.1989 	EXP 	fixation_1: autoDraw = False
+650.1989 	EXP 	fixation_2: autoDraw = False
+650.1989 	EXP 	cue: autoDraw = False
+650.1989 	EXP 	target: autoDraw = False
+650.1989 	EXP 	cue: ori = 180.0
+650.1989 	EXP 	target: pos = array([0.5, 0. ])
+650.1989 	EXP 	fixation_1: autoDraw = True
+650.6981 	EXP 	fixation_1: autoDraw = False
+650.7146 	EXP 	cue: autoDraw = True
+651.3983 	EXP 	cue: autoDraw = False
+651.4148 	EXP 	fixation_2: autoDraw = True
+651.9150 	EXP 	target: autoDraw = True
+652.3984 	EXP 	target: autoDraw = False
+652.4218 	EXP 	New trial (rep=6, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+652.4242 	DATA 	Keypress: right
+652.4329 	EXP 	fixation_1: autoDraw = False
+652.4329 	EXP 	fixation_2: autoDraw = False
+652.4329 	EXP 	cue: autoDraw = False
+652.4329 	EXP 	target: autoDraw = False
+652.4329 	EXP 	cue: ori = 0.0
+652.4329 	EXP 	target: pos = array([0.5, 0. ])
+652.4329 	EXP 	fixation_1: autoDraw = True
+652.9321 	EXP 	fixation_1: autoDraw = False
+652.9488 	EXP 	cue: autoDraw = True
+653.6323 	EXP 	cue: autoDraw = False
+653.6489 	EXP 	fixation_2: autoDraw = True
+654.1493 	EXP 	target: autoDraw = True
+654.6327 	EXP 	target: autoDraw = False
+654.6385 	EXP 	New trial (rep=6, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+654.6415 	DATA 	Keypress: right
+654.6503 	EXP 	fixation_1: autoDraw = False
+654.6503 	EXP 	fixation_2: autoDraw = False
+654.6503 	EXP 	cue: autoDraw = False
+654.6503 	EXP 	target: autoDraw = False
+654.6503 	EXP 	cue: ori = 180.0
+654.6503 	EXP 	target: pos = array([0.5, 0. ])
+654.6503 	EXP 	fixation_1: autoDraw = True
+655.1495 	EXP 	fixation_1: autoDraw = False
+655.1660 	EXP 	cue: autoDraw = True
+655.8496 	EXP 	cue: autoDraw = False
+655.8662 	EXP 	fixation_2: autoDraw = True
+656.3663 	EXP 	target: autoDraw = True
+656.7894 	EXP 	New trial (rep=6, index=7): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+656.7924 	DATA 	Keypress: right
+656.8012 	EXP 	fixation_1: autoDraw = False
+656.8012 	EXP 	fixation_2: autoDraw = False
+656.8012 	EXP 	cue: autoDraw = False
+656.8012 	EXP 	target: autoDraw = False
+656.8012 	EXP 	cue: ori = 0.0
+656.8012 	EXP 	target: pos = array([-0.5,  0. ])
+656.8012 	EXP 	fixation_1: autoDraw = True
+657.3001 	EXP 	fixation_1: autoDraw = False
+657.3166 	EXP 	cue: autoDraw = True
+658.0003 	EXP 	cue: autoDraw = False
+658.0169 	EXP 	fixation_2: autoDraw = True
+658.5172 	EXP 	target: autoDraw = True
+658.9062 	EXP 	New trial (rep=7, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+658.9094 	DATA 	Keypress: left
+658.9184 	EXP 	fixation_1: autoDraw = False
+658.9184 	EXP 	fixation_2: autoDraw = False
+658.9184 	EXP 	cue: autoDraw = False
+658.9184 	EXP 	target: autoDraw = False
+658.9184 	EXP 	cue: ori = 180.0
+658.9184 	EXP 	target: pos = array([-0.5,  0. ])
+658.9184 	EXP 	fixation_1: autoDraw = True
+659.4174 	EXP 	fixation_1: autoDraw = False
+659.4341 	EXP 	cue: autoDraw = True
+660.1175 	EXP 	cue: autoDraw = False
+660.1343 	EXP 	fixation_2: autoDraw = True
+660.6343 	EXP 	target: autoDraw = True
+661.0226 	DATA 	Keypress: left
+661.0402 	EXP 	New trial (rep=7, index=1): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+661.0518 	EXP 	fixation_1: autoDraw = False
+661.0518 	EXP 	fixation_2: autoDraw = False
+661.0518 	EXP 	cue: autoDraw = False
+661.0518 	EXP 	target: autoDraw = False
+661.0518 	EXP 	cue: ori = 0.0
+661.0518 	EXP 	target: pos = array([0.5, 0. ])
+661.0518 	EXP 	fixation_1: autoDraw = True
+661.5515 	EXP 	fixation_1: autoDraw = False
+661.5681 	EXP 	cue: autoDraw = True
+662.2517 	EXP 	cue: autoDraw = False
+662.2682 	EXP 	fixation_2: autoDraw = True
+662.7684 	EXP 	target: autoDraw = True
+663.1577 	EXP 	New trial (rep=7, index=2): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+663.1607 	DATA 	Keypress: right
+663.1696 	EXP 	fixation_1: autoDraw = False
+663.1696 	EXP 	fixation_2: autoDraw = False
+663.1696 	EXP 	cue: autoDraw = False
+663.1696 	EXP 	target: autoDraw = False
+663.1696 	EXP 	cue: ori = 180.0
+663.1696 	EXP 	target: pos = array([0.5, 0. ])
+663.1696 	EXP 	fixation_1: autoDraw = True
+663.6687 	EXP 	fixation_1: autoDraw = False
+663.6853 	EXP 	cue: autoDraw = True
+664.3690 	EXP 	cue: autoDraw = False
+664.3854 	EXP 	fixation_2: autoDraw = True
+664.8858 	EXP 	target: autoDraw = True
+665.1918 	EXP 	New trial (rep=7, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+665.1948 	DATA 	Keypress: right
+665.2035 	EXP 	fixation_1: autoDraw = False
+665.2035 	EXP 	fixation_2: autoDraw = False
+665.2035 	EXP 	cue: autoDraw = False
+665.2035 	EXP 	target: autoDraw = False
+665.2035 	EXP 	cue: ori = 0.0
+665.2035 	EXP 	target: pos = array([-0.5,  0. ])
+665.2035 	EXP 	fixation_1: autoDraw = True
+665.7032 	EXP 	fixation_1: autoDraw = False
+665.7195 	EXP 	cue: autoDraw = True
+666.4030 	EXP 	cue: autoDraw = False
+666.4194 	EXP 	fixation_2: autoDraw = True
+666.9198 	EXP 	target: autoDraw = True
+667.3094 	EXP 	New trial (rep=7, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+667.3123 	DATA 	Keypress: left
+667.3210 	EXP 	fixation_1: autoDraw = False
+667.3210 	EXP 	fixation_2: autoDraw = False
+667.3210 	EXP 	cue: autoDraw = False
+667.3210 	EXP 	target: autoDraw = False
+667.3210 	EXP 	cue: ori = 0.0
+667.3210 	EXP 	target: pos = array([-0.5,  0. ])
+667.3210 	EXP 	fixation_1: autoDraw = True
+667.8201 	EXP 	fixation_1: autoDraw = False
+667.8366 	EXP 	cue: autoDraw = True
+668.5201 	EXP 	cue: autoDraw = False
+668.5368 	EXP 	fixation_2: autoDraw = True
+669.0371 	EXP 	target: autoDraw = True
+669.4598 	EXP 	New trial (rep=7, index=5): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+669.4626 	DATA 	Keypress: left
+669.4712 	EXP 	fixation_1: autoDraw = False
+669.4712 	EXP 	fixation_2: autoDraw = False
+669.4712 	EXP 	cue: autoDraw = False
+669.4712 	EXP 	target: autoDraw = False
+669.4712 	EXP 	cue: ori = 0.0
+669.4712 	EXP 	target: pos = array([-0.5,  0. ])
+669.4712 	EXP 	fixation_1: autoDraw = True
+669.9707 	EXP 	fixation_1: autoDraw = False
+669.9872 	EXP 	cue: autoDraw = True
+670.6709 	EXP 	cue: autoDraw = False
+670.6874 	EXP 	fixation_2: autoDraw = True
+671.1879 	EXP 	target: autoDraw = True
+671.5761 	DATA 	Keypress: left
+671.5934 	EXP 	New trial (rep=7, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+671.6049 	EXP 	fixation_1: autoDraw = False
+671.6049 	EXP 	fixation_2: autoDraw = False
+671.6049 	EXP 	cue: autoDraw = False
+671.6049 	EXP 	target: autoDraw = False
+671.6049 	EXP 	cue: ori = 180.0
+671.6049 	EXP 	target: pos = array([0.5, 0. ])
+671.6049 	EXP 	fixation_1: autoDraw = True
+672.1046 	EXP 	fixation_1: autoDraw = False
+672.1213 	EXP 	cue: autoDraw = True
+672.8049 	EXP 	cue: autoDraw = False
+672.8214 	EXP 	fixation_2: autoDraw = True
+673.3218 	EXP 	target: autoDraw = True
+673.7612 	EXP 	New trial (rep=7, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+673.7639 	DATA 	Keypress: right
+673.7729 	EXP 	fixation_1: autoDraw = False
+673.7729 	EXP 	fixation_2: autoDraw = False
+673.7729 	EXP 	cue: autoDraw = False
+673.7729 	EXP 	target: autoDraw = False
+673.7729 	EXP 	cue: ori = 180.0
+673.7729 	EXP 	target: pos = array([0.5, 0. ])
+673.7729 	EXP 	fixation_1: autoDraw = True
+674.2719 	EXP 	fixation_1: autoDraw = False
+674.2886 	EXP 	cue: autoDraw = True
+674.9722 	EXP 	cue: autoDraw = False
+674.9889 	EXP 	fixation_2: autoDraw = True
+675.4889 	EXP 	target: autoDraw = True
+675.9429 	DATA 	Keypress: right
+675.9616 	EXP 	New trial (rep=8, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+675.9730 	EXP 	target: autoDraw = False
+675.9730 	EXP 	fixation_1: autoDraw = False
+675.9730 	EXP 	fixation_2: autoDraw = False
+675.9730 	EXP 	cue: autoDraw = False
+675.9730 	EXP 	target: autoDraw = False
+675.9730 	EXP 	cue: ori = 0.0
+675.9730 	EXP 	target: pos = array([-0.5,  0. ])
+675.9730 	EXP 	fixation_1: autoDraw = True
+676.4728 	EXP 	fixation_1: autoDraw = False
+676.4892 	EXP 	cue: autoDraw = True
+677.1731 	EXP 	cue: autoDraw = False
+677.1896 	EXP 	fixation_2: autoDraw = True
+677.6898 	EXP 	target: autoDraw = True
+678.0457 	EXP 	New trial (rep=8, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+678.0489 	DATA 	Keypress: left
+678.0577 	EXP 	fixation_1: autoDraw = False
+678.0577 	EXP 	fixation_2: autoDraw = False
+678.0577 	EXP 	cue: autoDraw = False
+678.0577 	EXP 	target: autoDraw = False
+678.0577 	EXP 	cue: ori = 0.0
+678.0577 	EXP 	target: pos = array([-0.5,  0. ])
+678.0577 	EXP 	fixation_1: autoDraw = True
+678.5566 	EXP 	fixation_1: autoDraw = False
+678.5734 	EXP 	cue: autoDraw = True
+679.2568 	EXP 	cue: autoDraw = False
+679.2737 	EXP 	fixation_2: autoDraw = True
+679.7737 	EXP 	target: autoDraw = True
+680.1963 	EXP 	New trial (rep=8, index=2): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+680.1996 	DATA 	Keypress: left
+680.2086 	EXP 	fixation_1: autoDraw = False
+680.2086 	EXP 	fixation_2: autoDraw = False
+680.2086 	EXP 	cue: autoDraw = False
+680.2086 	EXP 	target: autoDraw = False
+680.2086 	EXP 	cue: ori = 0.0
+680.2086 	EXP 	target: pos = array([0.5, 0. ])
+680.2086 	EXP 	fixation_1: autoDraw = True
+680.7079 	EXP 	fixation_1: autoDraw = False
+680.7240 	EXP 	cue: autoDraw = True
+681.4075 	EXP 	cue: autoDraw = False
+681.4244 	EXP 	fixation_2: autoDraw = True
+681.9243 	EXP 	target: autoDraw = True
+682.3124 	DATA 	Keypress: right
+682.3303 	EXP 	New trial (rep=8, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+682.3417 	EXP 	fixation_1: autoDraw = False
+682.3417 	EXP 	fixation_2: autoDraw = False
+682.3417 	EXP 	cue: autoDraw = False
+682.3417 	EXP 	target: autoDraw = False
+682.3417 	EXP 	cue: ori = 180.0
+682.3417 	EXP 	target: pos = array([-0.5,  0. ])
+682.3417 	EXP 	fixation_1: autoDraw = True
+682.8414 	EXP 	fixation_1: autoDraw = False
+682.8580 	EXP 	cue: autoDraw = True
+683.5417 	EXP 	cue: autoDraw = False
+683.5582 	EXP 	fixation_2: autoDraw = True
+684.0584 	EXP 	target: autoDraw = True
+684.4145 	EXP 	New trial (rep=8, index=4): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+684.4175 	DATA 	Keypress: left
+684.4263 	EXP 	fixation_1: autoDraw = False
+684.4263 	EXP 	fixation_2: autoDraw = False
+684.4263 	EXP 	cue: autoDraw = False
+684.4263 	EXP 	target: autoDraw = False
+684.4263 	EXP 	cue: ori = 0.0
+684.4263 	EXP 	target: pos = array([-0.5,  0. ])
+684.4263 	EXP 	fixation_1: autoDraw = True
+684.9253 	EXP 	fixation_1: autoDraw = False
+684.9419 	EXP 	cue: autoDraw = True
+685.6254 	EXP 	cue: autoDraw = False
+685.6424 	EXP 	fixation_2: autoDraw = True
+686.1425 	EXP 	target: autoDraw = True
+686.5148 	EXP 	New trial (rep=8, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+686.5178 	DATA 	Keypress: left
+686.5267 	EXP 	fixation_1: autoDraw = False
+686.5267 	EXP 	fixation_2: autoDraw = False
+686.5267 	EXP 	cue: autoDraw = False
+686.5267 	EXP 	target: autoDraw = False
+686.5267 	EXP 	cue: ori = 180.0
+686.5267 	EXP 	target: pos = array([0.5, 0. ])
+686.5267 	EXP 	fixation_1: autoDraw = True
+687.0258 	EXP 	fixation_1: autoDraw = False
+687.0428 	EXP 	cue: autoDraw = True
+687.7261 	EXP 	cue: autoDraw = False
+687.7429 	EXP 	fixation_2: autoDraw = True
+688.2432 	EXP 	target: autoDraw = True
+688.7263 	EXP 	target: autoDraw = False
+688.8825 	EXP 	New trial (rep=8, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+688.8855 	DATA 	Keypress: right
+688.8945 	EXP 	fixation_1: autoDraw = False
+688.8945 	EXP 	fixation_2: autoDraw = False
+688.8945 	EXP 	cue: autoDraw = False
+688.8945 	EXP 	target: autoDraw = False
+688.8945 	EXP 	cue: ori = 180.0
+688.8945 	EXP 	target: pos = array([0.5, 0. ])
+688.8945 	EXP 	fixation_1: autoDraw = True
+689.3935 	EXP 	fixation_1: autoDraw = False
+689.4101 	EXP 	cue: autoDraw = True
+690.0936 	EXP 	cue: autoDraw = False
+690.1103 	EXP 	fixation_2: autoDraw = True
+690.6106 	EXP 	target: autoDraw = True
+691.0496 	EXP 	New trial (rep=8, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+691.0525 	DATA 	Keypress: right
+691.0614 	EXP 	fixation_1: autoDraw = False
+691.0614 	EXP 	fixation_2: autoDraw = False
+691.0614 	EXP 	cue: autoDraw = False
+691.0614 	EXP 	target: autoDraw = False
+691.0614 	EXP 	cue: ori = 180.0
+691.0614 	EXP 	target: pos = array([0.5, 0. ])
+691.0614 	EXP 	fixation_1: autoDraw = True
+691.5608 	EXP 	fixation_1: autoDraw = False
+691.5772 	EXP 	cue: autoDraw = True
+692.2614 	EXP 	cue: autoDraw = False
+692.2774 	EXP 	fixation_2: autoDraw = True
+692.7778 	EXP 	target: autoDraw = True
+693.2615 	EXP 	target: autoDraw = False
+693.5506 	EXP 	New trial (rep=9, index=0): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+693.5536 	DATA 	Keypress: right
+693.5625 	EXP 	fixation_1: autoDraw = False
+693.5625 	EXP 	fixation_2: autoDraw = False
+693.5625 	EXP 	cue: autoDraw = False
+693.5625 	EXP 	target: autoDraw = False
+693.5625 	EXP 	cue: ori = 180.0
+693.5625 	EXP 	target: pos = array([0.5, 0. ])
+693.5625 	EXP 	fixation_1: autoDraw = True
+694.0615 	EXP 	fixation_1: autoDraw = False
+694.0781 	EXP 	cue: autoDraw = True
+694.7621 	EXP 	cue: autoDraw = False
+694.7783 	EXP 	fixation_2: autoDraw = True
+695.2787 	EXP 	target: autoDraw = True
+695.7178 	EXP 	New trial (rep=9, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+695.7207 	DATA 	Keypress: right
+695.7297 	EXP 	fixation_1: autoDraw = False
+695.7297 	EXP 	fixation_2: autoDraw = False
+695.7297 	EXP 	cue: autoDraw = False
+695.7297 	EXP 	target: autoDraw = False
+695.7297 	EXP 	cue: ori = 0.0
+695.7297 	EXP 	target: pos = array([-0.5,  0. ])
+695.7297 	EXP 	fixation_1: autoDraw = True
+696.2288 	EXP 	fixation_1: autoDraw = False
+696.2454 	EXP 	cue: autoDraw = True
+696.9290 	EXP 	cue: autoDraw = False
+696.9456 	EXP 	fixation_2: autoDraw = True
+697.4459 	EXP 	target: autoDraw = True
+697.8846 	EXP 	New trial (rep=9, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+697.8878 	DATA 	Keypress: left
+697.8967 	EXP 	fixation_1: autoDraw = False
+697.8967 	EXP 	fixation_2: autoDraw = False
+697.8967 	EXP 	cue: autoDraw = False
+697.8967 	EXP 	target: autoDraw = False
+697.8967 	EXP 	cue: ori = 0.0
+697.8967 	EXP 	target: pos = array([-0.5,  0. ])
+697.8967 	EXP 	fixation_1: autoDraw = True
+698.3960 	EXP 	fixation_1: autoDraw = False
+698.4129 	EXP 	cue: autoDraw = True
+699.0962 	EXP 	cue: autoDraw = False
+699.1130 	EXP 	fixation_2: autoDraw = True
+699.6131 	EXP 	target: autoDraw = True
+700.0966 	EXP 	target: autoDraw = False
+700.2356 	EXP 	New trial (rep=9, index=3): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+700.2388 	DATA 	Keypress: left
+700.2476 	EXP 	fixation_1: autoDraw = False
+700.2476 	EXP 	fixation_2: autoDraw = False
+700.2476 	EXP 	cue: autoDraw = False
+700.2476 	EXP 	target: autoDraw = False
+700.2476 	EXP 	cue: ori = 0.0
+700.2476 	EXP 	target: pos = array([-0.5,  0. ])
+700.2476 	EXP 	fixation_1: autoDraw = True
+700.7468 	EXP 	fixation_1: autoDraw = False
+700.7640 	EXP 	cue: autoDraw = True
+701.4469 	EXP 	cue: autoDraw = False
+701.4638 	EXP 	fixation_2: autoDraw = True
+701.9640 	EXP 	target: autoDraw = True
+702.3355 	DATA 	Keypress: left
+702.3533 	EXP 	New trial (rep=9, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+702.3650 	EXP 	fixation_1: autoDraw = False
+702.3650 	EXP 	fixation_2: autoDraw = False
+702.3650 	EXP 	cue: autoDraw = False
+702.3650 	EXP 	target: autoDraw = False
+702.3650 	EXP 	cue: ori = 180.0
+702.3650 	EXP 	target: pos = array([0.5, 0. ])
+702.3650 	EXP 	fixation_1: autoDraw = True
+702.8642 	EXP 	fixation_1: autoDraw = False
+702.8808 	EXP 	cue: autoDraw = True
+703.5646 	EXP 	cue: autoDraw = False
+703.5811 	EXP 	fixation_2: autoDraw = True
+704.0812 	EXP 	target: autoDraw = True
+704.3188 	DATA 	Keypress: right
+704.3371 	EXP 	New trial (rep=9, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+704.3488 	EXP 	fixation_1: autoDraw = False
+704.3488 	EXP 	fixation_2: autoDraw = False
+704.3488 	EXP 	cue: autoDraw = False
+704.3488 	EXP 	target: autoDraw = False
+704.3488 	EXP 	cue: ori = 0.0
+704.3488 	EXP 	target: pos = array([0.5, 0. ])
+704.3488 	EXP 	fixation_1: autoDraw = True
+704.8481 	EXP 	fixation_1: autoDraw = False
+704.8647 	EXP 	cue: autoDraw = True
+705.5485 	EXP 	cue: autoDraw = False
+705.5649 	EXP 	fixation_2: autoDraw = True
+706.0651 	EXP 	target: autoDraw = True
+706.5033 	DATA 	Keypress: right
+706.5209 	EXP 	New trial (rep=9, index=6): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+706.5326 	EXP 	fixation_1: autoDraw = False
+706.5326 	EXP 	fixation_2: autoDraw = False
+706.5326 	EXP 	cue: autoDraw = False
+706.5326 	EXP 	target: autoDraw = False
+706.5326 	EXP 	cue: ori = 180.0
+706.5326 	EXP 	target: pos = array([-0.5,  0. ])
+706.5326 	EXP 	fixation_1: autoDraw = True
+707.0323 	EXP 	fixation_1: autoDraw = False
+707.0488 	EXP 	cue: autoDraw = True
+707.7324 	EXP 	cue: autoDraw = False
+707.7490 	EXP 	fixation_2: autoDraw = True
+708.2493 	EXP 	target: autoDraw = True
+708.7328 	EXP 	target: autoDraw = False
+708.8052 	EXP 	New trial (rep=9, index=7): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+708.8082 	DATA 	Keypress: left
+708.8170 	EXP 	fixation_1: autoDraw = False
+708.8170 	EXP 	fixation_2: autoDraw = False
+708.8170 	EXP 	cue: autoDraw = False
+708.8170 	EXP 	target: autoDraw = False
+708.8170 	EXP 	cue: ori = 180.0
+708.8170 	EXP 	target: pos = array([0.5, 0. ])
+708.8170 	EXP 	fixation_1: autoDraw = True
+709.3161 	EXP 	fixation_1: autoDraw = False
+709.3329 	EXP 	cue: autoDraw = True
+710.0162 	EXP 	cue: autoDraw = False
+710.0330 	EXP 	fixation_2: autoDraw = True
+710.5332 	EXP 	target: autoDraw = True
+710.9392 	EXP 	New trial (rep=10, index=0): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+710.9421 	DATA 	Keypress: right
+710.9510 	EXP 	fixation_1: autoDraw = False
+710.9510 	EXP 	fixation_2: autoDraw = False
+710.9510 	EXP 	cue: autoDraw = False
+710.9510 	EXP 	target: autoDraw = False
+710.9510 	EXP 	cue: ori = 0.0
+710.9510 	EXP 	target: pos = array([-0.5,  0. ])
+710.9510 	EXP 	fixation_1: autoDraw = True
+711.4502 	EXP 	fixation_1: autoDraw = False
+711.4669 	EXP 	cue: autoDraw = True
+712.1504 	EXP 	cue: autoDraw = False
+712.1670 	EXP 	fixation_2: autoDraw = True
+712.6671 	EXP 	target: autoDraw = True
+712.9566 	EXP 	New trial (rep=10, index=1): OrderedDict([('targetX', -0.5), ('cueOri', 180), ('congr', 0), ('corrAns', 'left'), ('pin_cue', 2), ('pin_target', 3)])
+712.9596 	DATA 	Keypress: left
+712.9684 	EXP 	fixation_1: autoDraw = False
+712.9684 	EXP 	fixation_2: autoDraw = False
+712.9684 	EXP 	cue: autoDraw = False
+712.9684 	EXP 	target: autoDraw = False
+712.9684 	EXP 	cue: ori = 180.0
+712.9684 	EXP 	target: pos = array([-0.5,  0. ])
+712.9684 	EXP 	fixation_1: autoDraw = True
+713.4674 	EXP 	fixation_1: autoDraw = False
+713.4842 	EXP 	cue: autoDraw = True
+714.1675 	EXP 	cue: autoDraw = False
+714.1843 	EXP 	fixation_2: autoDraw = True
+714.6845 	EXP 	target: autoDraw = True
+715.1572 	EXP 	New trial (rep=10, index=2): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+715.1604 	DATA 	Keypress: left
+715.1693 	EXP 	target: autoDraw = False
+715.1693 	EXP 	fixation_1: autoDraw = False
+715.1693 	EXP 	fixation_2: autoDraw = False
+715.1693 	EXP 	cue: autoDraw = False
+715.1693 	EXP 	target: autoDraw = False
+715.1693 	EXP 	cue: ori = 0.0
+715.1693 	EXP 	target: pos = array([-0.5,  0. ])
+715.1693 	EXP 	fixation_1: autoDraw = True
+715.6681 	EXP 	fixation_1: autoDraw = False
+715.6848 	EXP 	cue: autoDraw = True
+716.3683 	EXP 	cue: autoDraw = False
+716.3850 	EXP 	fixation_2: autoDraw = True
+716.8851 	EXP 	target: autoDraw = True
+717.2910 	EXP 	New trial (rep=10, index=3): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+717.2940 	DATA 	Keypress: left
+717.3028 	EXP 	fixation_1: autoDraw = False
+717.3028 	EXP 	fixation_2: autoDraw = False
+717.3028 	EXP 	cue: autoDraw = False
+717.3028 	EXP 	target: autoDraw = False
+717.3028 	EXP 	cue: ori = 180.0
+717.3028 	EXP 	target: pos = array([0.5, 0. ])
+717.3028 	EXP 	fixation_1: autoDraw = True
+717.8024 	EXP 	fixation_1: autoDraw = False
+717.8188 	EXP 	cue: autoDraw = True
+718.5024 	EXP 	cue: autoDraw = False
+718.5190 	EXP 	fixation_2: autoDraw = True
+719.0192 	EXP 	target: autoDraw = True
+719.2748 	EXP 	New trial (rep=10, index=4): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+719.2780 	DATA 	Keypress: right
+719.2868 	EXP 	fixation_1: autoDraw = False
+719.2868 	EXP 	fixation_2: autoDraw = False
+719.2868 	EXP 	cue: autoDraw = False
+719.2868 	EXP 	target: autoDraw = False
+719.2868 	EXP 	cue: ori = 180.0
+719.2868 	EXP 	target: pos = array([0.5, 0. ])
+719.2868 	EXP 	fixation_1: autoDraw = True
+719.7861 	EXP 	fixation_1: autoDraw = False
+719.8029 	EXP 	cue: autoDraw = True
+720.4864 	EXP 	cue: autoDraw = False
+720.5031 	EXP 	fixation_2: autoDraw = True
+721.0033 	EXP 	target: autoDraw = True
+721.4866 	EXP 	target: autoDraw = False
+721.4922 	EXP 	New trial (rep=10, index=5): OrderedDict([('targetX', 0.5), ('cueOri', 180), ('congr', 1), ('corrAns', 'right'), ('pin_cue', 2), ('pin_target', 4)])
+721.4952 	DATA 	Keypress: right
+721.5040 	EXP 	fixation_1: autoDraw = False
+721.5040 	EXP 	fixation_2: autoDraw = False
+721.5040 	EXP 	cue: autoDraw = False
+721.5040 	EXP 	target: autoDraw = False
+721.5040 	EXP 	cue: ori = 180.0
+721.5040 	EXP 	target: pos = array([0.5, 0. ])
+721.5040 	EXP 	fixation_1: autoDraw = True
+722.0036 	EXP 	fixation_1: autoDraw = False
+722.0202 	EXP 	cue: autoDraw = True
+722.7037 	EXP 	cue: autoDraw = False
+722.7206 	EXP 	fixation_2: autoDraw = True
+723.2205 	EXP 	target: autoDraw = True
+723.7040 	EXP 	target: autoDraw = False
+723.8931 	EXP 	New trial (rep=10, index=6): OrderedDict([('targetX', 0.5), ('cueOri', 0), ('congr', 0), ('corrAns', 'right'), ('pin_cue', 1), ('pin_target', 4)])
+723.8961 	DATA 	Keypress: right
+723.9051 	EXP 	fixation_1: autoDraw = False
+723.9051 	EXP 	fixation_2: autoDraw = False
+723.9051 	EXP 	cue: autoDraw = False
+723.9051 	EXP 	target: autoDraw = False
+723.9051 	EXP 	cue: ori = 0.0
+723.9051 	EXP 	target: pos = array([0.5, 0. ])
+723.9051 	EXP 	fixation_1: autoDraw = True
+724.4043 	EXP 	fixation_1: autoDraw = False
+724.4209 	EXP 	cue: autoDraw = True
+725.1042 	EXP 	cue: autoDraw = False
+725.1212 	EXP 	fixation_2: autoDraw = True
+725.6213 	EXP 	target: autoDraw = True
+726.1046 	EXP 	target: autoDraw = False
+726.1271 	EXP 	New trial (rep=10, index=7): OrderedDict([('targetX', -0.5), ('cueOri', 0), ('congr', 1), ('corrAns', 'left'), ('pin_cue', 1), ('pin_target', 3)])
+726.1302 	DATA 	Keypress: right
+726.1390 	EXP 	fixation_1: autoDraw = False
+726.1390 	EXP 	fixation_2: autoDraw = False
+726.1390 	EXP 	cue: autoDraw = False
+726.1390 	EXP 	target: autoDraw = False
+726.1390 	EXP 	cue: ori = 0.0
+726.1390 	EXP 	target: pos = array([-0.5,  0. ])
+726.1390 	EXP 	fixation_1: autoDraw = True
+726.6383 	EXP 	fixation_1: autoDraw = False
+726.6549 	EXP 	cue: autoDraw = True
+727.3385 	EXP 	cue: autoDraw = False
+727.3550 	EXP 	fixation_2: autoDraw = True
+727.8551 	EXP 	target: autoDraw = True
+728.3133 	DATA 	Keypress: left
+728.3225 	EXP 	fixation_1: autoDraw = False
+728.3225 	EXP 	fixation_2: autoDraw = False
+728.3225 	EXP 	cue: autoDraw = False
+728.3225 	EXP 	target: autoDraw = False
+728.3225 	EXP 	break_text: autoDraw = True
+782.7583 	DATA 	Keypress: escape
+783.0479 	EXP 	window1: mouseVisible = True

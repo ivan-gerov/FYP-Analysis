@@ -1,0 +1,12 @@
+﻿Timestamp,participant_no,gender,age,ethnic_origin,hours_music_per_day,music_during_study,top_three_genres,inst_voc_pref,fast_mod_tempo_pref,play_instrument,lofi_likeness_scale,familiar_with_lofi
+2020/01/10 2:38:54 pm GMT,par_1,Female,19,Asian or Asian British,1-2 hours,Seldom,Pop;Rap/ Hip Hop/ RnB;Ambient,Instrumental,Moderate-tempo,no,5,No
+2020/01/29 1:50:24 pm GMT,par_2,Male,21,Mixed,1-2 hours,Some of the time,Classical;Rap/ Hip Hop/ RnB;Jazz,Instrumental,No preferance,no,8,Yes
+2020/01/30 12:48:07 pm GMT,par_3,Female,19,White,3-4 hours,Some of the time,Classical;Pop;Rock;Blues,No preferance,Moderate-tempo,No,7,No
+2020/01/31 2:58:24 pm GMT,par_4,Female,21,Mixed,3-4 hours,Some of the time,Classical;Pop;Ambient,Instrumental,Moderate-tempo,Vocals - 6 years,6,Yes
+2020/02/05 1:03:08 pm GMT,par_5,Male,19,Asian or Asian British,3-4 hours,Most of the time,Pop;Rap/ Hip Hop/ RnB;Electronica/ House/ Techno,Vocals,Moderate-tempo,"yes, 2 years",2,No
+2020/02/06 1:55:34 pm GMT,par_6,Female,18,White,1-2 hours,Most of the time,Classical;Country;Pop,No preferance,Moderate-tempo,no,6,No
+2020/02/07 4:03:52 pm GMT,par_7,Male,20,Asian or Asian British,1-2 hours,Some of the time,Pop;Rap/ Hip Hop/ RnB;Ambient,No preferance,Moderate-tempo,no,5,No
+2020/02/10 1:00:21 pm GMT,par_8,Female,18,White,1-2 hours,Some of the time,Pop;Rock;Rap/ Hip Hop/ RnB,Instrumental,No preferance,"yes, 8-9 years",4,Yes
+2020/02/12 10:55:08 am GMT,par_9,Female,22,Black or Black British,3-4 hours,Seldom,Classical,Instrumental,Moderate-tempo,No,3,No
+2020/02/13 1:44:15 pm GMT,par_10,Female,21,Asian or Asian British,3-4 hours,Most of the time,Pop;Rap/ Hip Hop/ RnB;Electronica/ House/ Techno,Vocals,Moderate-tempo,no,2,No
+2020/02/14 12:49:19 pm GMT,par_11,Female,20,Asian or Asian British,More than 4 hours,Seldom,Classical,Vocals,Moderate-tempo,No,5,No
