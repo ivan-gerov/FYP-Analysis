@@ -1,7 +1,9 @@
-function IG_EEG_proc(pathname,filename)
+function [alpha_contra,alpha_ipsi,tlock_all]=IG_EEG_processing(pathname,filename,userej)
 % Processing for Ivan Gerov's FYP EEG using FieldTrip (2019-2020)
 % INPUT:  pathname e.g. ='C:\Users\zumerj\Documents\FYP\2019_2020\Ivan\par_1_new'
 %         filename e.g. ='lofi_new.fif'
+%         userej = flag if use previously created files of rejected trials (=1)
+%                  or reject from scratch (=0)
 %
 % Download FieldTrip: either here http://www.fieldtriptoolbox.org/download
 % or Github:  http://www.fieldtriptoolbox.org/development/git
@@ -13,35 +15,70 @@ ft_defaults
 
 % Change this to be path
 cd(pathname)
-cfg=[];
-cfg.dataset=filename;
-eeg=ft_preprocessing(cfg);
-
-trial_rcue(1:length(eeg.trial))=0;
-trial_lcue(1:length(eeg.trial))=0;
-trial_rtarg(1:length(eeg.trial))=0;
-trial_ltarg(1:length(eeg.trial))=0;
-for tt=1:length(eeg.trial)
-  if isempty(find(diff(eeg.trial{tt}(3,:))==1)) && ~isempty(find(diff(eeg.trial{tt}(3,:))==2))
-    trial_rcue(tt)=1;
-  elseif isempty(find(diff(eeg.trial{tt}(3,:))==2)) && ~isempty(find(diff(eeg.trial{tt}(3,:))==1))
-    trial_lcue(tt)=1;
-  end
-  if isempty(find(diff(eeg.trial{tt}(3,:))==3)) && ~isempty(find(diff(eeg.trial{tt}(3,:))==4))
-    trial_rtarg(tt)=1;
-  elseif isempty(find(diff(eeg.trial{tt}(3,:))==4)) && ~isempty(find(diff(eeg.trial{tt}(3,:))==3))
-    trial_ltarg(tt)=1;
-  end
-end
-
-%  Artifact rejection
-cfg=[];
-cfg.method='summary';
-cfg.channel={'PO3' 'PO4'};
-eeg_rej = ft_rejectvisual(cfg, eeg);  % variance under 650
-
 [aa,bb,cc]=fileparts(filename);
-save([bb '_data_rejected.mat'],'eeg_rej')
+
+if userej==0
+  cfg=[];
+  cfg.dataset=filename;
+  eeg=ft_preprocessing(cfg);
+  
+  trial_rcue(1:length(eeg.trial))=0;
+  trial_lcue(1:length(eeg.trial))=0;
+  trial_rtarg(1:length(eeg.trial))=0;
+  trial_ltarg(1:length(eeg.trial))=0;
+  for tt=1:length(eeg.trial)
+    if isempty(find(diff(eeg.trial{tt}(3,:))==1)) && ~isempty(find(diff(eeg.trial{tt}(3,:))==2))
+      trial_rcue(tt)=1;
+    elseif isempty(find(diff(eeg.trial{tt}(3,:))==2)) && ~isempty(find(diff(eeg.trial{tt}(3,:))==1))
+      trial_lcue(tt)=1;
+    end
+    if isempty(find(diff(eeg.trial{tt}(3,:))==3)) && ~isempty(find(diff(eeg.trial{tt}(3,:))==4))
+      trial_rtarg(tt)=1;
+    elseif isempty(find(diff(eeg.trial{tt}(3,:))==4)) && ~isempty(find(diff(eeg.trial{tt}(3,:))==3))
+      trial_ltarg(tt)=1;
+    end
+  end
+  
+  %  Artifact rejection
+  cfg=[];
+  cfg.method='summary';
+  cfg.channel={'PO3' 'PO4'};
+  eeg_rej = ft_rejectvisual(cfg, eeg);  % variance under 1000?
+  
+  % diff_ind=diff(eeg_rej.sampleinfo(:,1))/476;
+  % trej_init=find(diff_ind>1);
+  % numrej=diff_ind(find(diff_ind>1))-1;
+  % trlrej=[];
+  % for ee=1:length(numrej)
+  %   if numrej(ee)>1
+  %     trej_init((ee+1):end)=trej_init((ee+1):end)+numrej(ee);
+  %     trlrej=[trlrej trej_init(ee):trej_init(ee)+numrej(ee)-1];
+  %   else
+  %     trlrej=[trlrej trej_init(ee)+ee-1];
+  %   end
+  % end
+  % trlrej=trlrej+1;
+  % disp(['trials rejected  ' num2str(trlrej)])
+  % % tmp_trlrej=find(diff(eeg_rej.sampleinfo(:,1))>476);
+  % % trlrej=tmp_trlrej'+[1:length(tmp_trlrej)];
+  
+  % this removes rejected trials
+  % trialkeep=setdiff(1:length(trial_lcue),trlrej);
+  if isfield(eeg_rej.cfg,'removed')
+    trialkeep=setdiff(1:length(trial_lcue),eeg_rej.cfg.removed);
+  else
+    trialkeep=1:length(trial_lcue);
+  end
+  trial_lcue =trial_lcue(trialkeep);
+  trial_rcue =trial_rcue(trialkeep);
+  trial_ltarg=trial_ltarg(trialkeep);
+  trial_rtarg=trial_rtarg(trialkeep);
+  
+  save([bb '_data_rejected.mat'],'eeg_rej')
+  
+elseif userej==1  %actually this option is broken 
+  load([bb '_data_rejected.mat'])
+end
 
 % If you wish to pick up from here
 % load([bb '_data_rejected.mat'])
@@ -49,6 +86,8 @@ save([bb '_data_rejected.mat'],'eeg_rej')
 cfg=[];
 cfg.lpfilter='yes';
 cfg.lpfreq=25;
+% cfg.baselinewindow=[0.8 1.2];
+% cfg.demean='yes';
 filt_eeg=ft_preprocessing(cfg,eeg_rej);
 
 cueR_targR=sum([trial_rcue; trial_rtarg])==2;
@@ -73,11 +112,12 @@ data_cueL_targL=ft_selectdata(cfg,filt_eeg)
 
 cfg=[];
 cfg.latency=[1.2 1.6]; % The first 400 ms after target onset
-tlock_cueL_targL=ft_timelockanalysis(cfg,data_cueL_targL);
-tlock_cueL_targR=ft_timelockanalysis(cfg,data_cueL_targR);
-tlock_cueR_targL=ft_timelockanalysis(cfg,data_cueR_targL);
-tlock_cueR_targR=ft_timelockanalysis(cfg,data_cueR_targR);
+tlock_all.tlock_cueL_targL=ft_timelockanalysis(cfg,data_cueL_targL);
+tlock_all.tlock_cueL_targR=ft_timelockanalysis(cfg,data_cueL_targR);
+tlock_all.tlock_cueR_targL=ft_timelockanalysis(cfg,data_cueR_targL);
+tlock_all.tlock_cueR_targR=ft_timelockanalysis(cfg,data_cueR_targR);
 
+save([bb '_tlock.mat'],'tlock*')
 
 % We need to know when exactly to look for P1 and N1.... somewhat data dependent
 
@@ -116,7 +156,7 @@ alpha_avg_cueR=ft_selectdata(cfg,alpha_cueR);
 alpha_contra  =mean([alpha_avg_cueL.powspctrm(2) alpha_avg_cueR.powspctrm(1)]);
 alpha_ipsi    =mean([alpha_avg_cueL.powspctrm(1) alpha_avg_cueR.powspctrm(2)]);
 
-save([bb '_alpha.mat'],'alpha*')
-save([bb '_alpha_ascii.csv'],'alpha*','-ascii','-tabs')
+save([bb '_alpha.mat'],'alpha_contra','alpha_ipsi')
+save([bb '_alpha_ascii.csv'],'alpha_contra','alpha_ipsi','-ascii','-tabs')
 
 
