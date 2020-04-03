@@ -92,6 +92,8 @@ This is a project data folder comprising of participant raw data, processed data
 
 # 4. Credits <a id="credits"></a>
 [[back to top]](#toc)
-* **Dr Johanna Zumer** - Project Supervisor - for helping with theoretical basis of the project, for guidance with methodological direction and contributing with Matlab FieldTrip EEG data processing and analysis pipelines.
+
 * **Ivan Gerov** - Project Lead - data collection, Behavioural and EEG data processing and statistical analysis, developing of Posner attentional task with PsychoPy.
+* **Dr. Johanna Zumer** - Project Supervisor - for helping with theoretical basis of the project, for guidance with methodological direction and contributing with Matlab FieldTrip EEG data processing and analysis pipelines, advice and help with project report writing.
+* **Prof. Amanda Wood** - Project Supervisor - for advice and help with project report writing.
 
