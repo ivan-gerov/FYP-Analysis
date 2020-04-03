@@ -10,7 +10,7 @@ This is a project data folder comprising of participant raw data, processed data
 4. [Credits](#credits)
 
 # 1. Project Structure <a id="par_data"> </a>
-<a href="toc">back to top</a>
+[[back to top]](#toc)
 
  The Project folder comprises of three data folders (**data, posner_analysis and eeg_data**), a **scripts** folder and **sounds** for the audio stimuli.:
 *  **root/data** - folder with raw EEG and Behavioural data for each participant divided into three parts (each part consisting of 3 blocks on the attentional task, total of 9 blocks per participant), with the following data structure: 
@@ -76,7 +76,7 @@ This is a project data folder comprising of participant raw data, processed data
     ```
 
 # 2. Installation <a id="install"></a>
-<a href="toc">back to top</a> 
+[[back to top]](#toc)
 1. Ensure you first have Python 3.7.3 installed on your computer.
 2. Create a new folder for the project. That will be the root project folder.
 3. In the folder open a command line terminal and create a virtual environment for the correct packaging of the libraries by writing `python -m venv env` in the terminal.
@@ -85,13 +85,13 @@ This is a project data folder comprising of participant raw data, processed data
     * Using the **pip** python package manager to install the dependancies by invoking `pip install -r requirements.txt` in the terminal.
 
 # 3. Opening the data processing pipelines <a id="usage"> </a>
-<a href="toc">back to top</a>
+[[back to top]](#toc)
 1. Open the command line terminal in the root folder of the project.
 2. Open Jupyter by calling `jupyter notebook` in the terminal.
 3. Browse to any of the **.ipynb** files and open them with Jupyter.
 
 # 4. Credits <a id="credits"></a>
-<a href="toc">back to top</a> 
+[[back to top]](#toc)
 * **Dr Johanna Zumer** - Project Supervisor - for helping with theoretical basis of the project, for guidance with methodological direction and contributing with Matlab FieldTrip EEG data processing and analysis pipelines.
 * **Ivan Gerov** - Project Lead - data collection, Behavioural and EEG data processing and statistical analysis, developing of Posner attentional task with PsychoPy.
 
