@@ -1,3 +1,0 @@
-Behavioural Two-way repeated measures ANOVA 
-* Factor 1 (cueValidity) - 1 = Valid, 2 = Invalid
-* Factor 2 (SoundCondition) - 1 = Silence, 2 = White, 3 = LoFi
